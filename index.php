@@ -1,1 +1,1 @@
-<?php header( 'Location: /Temp/index.html') ;  ?>
+<?php header( 'Location: /Construction.html') ;  ?>
