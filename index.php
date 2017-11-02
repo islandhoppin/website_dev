@@ -2,7 +2,7 @@
  
 require 'vendor/autoload.php';
  
-use PostgreSQLTutorial\Connection as Connection;
+use IslandHoppinPostgreSQL\Connection as Connection;
  
 try {
     Connection::get()->connect();
