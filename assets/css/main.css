@@ -2095,18 +2095,33 @@
 		}
 
 /* Header */
-
+@font-face {
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+  	font-weight: 400;
+  	src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v7/clhLqOv7MXn459PTh0gXYKkG_nMAIv3PPZbC2XDns-o.woff2) format('woff2');
+  	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  }
+  
+ #crop {
+ 	top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ }
+	
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
+		background-image: url("../../images/header.jpg");
 		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
+
 
 		#header:before {
 			content: '';
@@ -2201,6 +2216,7 @@
 	body.homepage.is-loading #header:after {
 		opacity: 1;
 	}
+
 
 /* Nav */
 
