@@ -1,6 +1,6 @@
 <?php
  
-namespace IslandHoppinPostgreSQL;
+namespace IslandHoppinPostgreSQL; 
  
 /**
  * Represent the Connection

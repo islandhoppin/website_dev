@@ -1,14 +1,1 @@
-<?php
- 
-require 'vendor/autoload.php';
- 
-use IslandHoppinPostgreSQL\Connection as Connection;
- 
-try {
-    Connection::get()->connect();
-    echo 'A connection to the PostgreSQL database sever has been established successfully.';
-} catch (\PDOException $e) {
-    echo $e->getMessage();
-}
-
-?>
+<?php header( 'Location: /Construction.html') ;  ?>
