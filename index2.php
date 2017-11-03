@@ -5,7 +5,7 @@ $user = $dbopts["user"];
 $password = $dbopts["pass"];
 $host = $dbopts["host"];
 $port = $dbopts["port"];
-$dbname = $dbopts["dbname"];
+$dbname = ltrim($dbopts["path"],'/');
 $conn = ("host=$host port=$port dbname=$dbname user=$user password=$password sslmode=require");
 try{
 	// create a PostgreSQL database connection
