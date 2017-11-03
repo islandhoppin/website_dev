@@ -15,7 +15,7 @@
    
     <div class="content" >
 	<fieldset>
-	<form action = "submittut.php" method = "post">
+	<form action = "submitTut.php" method = "post">
 		<h2>News Header:</h2>
           <input type="text" name="Header">
         <br>
