@@ -11,6 +11,7 @@ try{
 	// create a PostgreSQL database connection
 	echo $conn;
 	$dbconn = new PDO($conn);
+	$dbconn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
  
 	// display a message if connected to the PostgreSQL successfully
 	if($dbconn){
@@ -21,5 +22,7 @@ try{
 	echo $e->getMessage();
 }
 
-
+$query = "SELECT * FROM test_table";
+$result = $dbconn->query($query);
+echo $result;
 ?>
