@@ -6,10 +6,10 @@ $password = $dbopts["user"];
 $host = $dbopts["host"];
 $port = $dbopts["port"];
 $dbname = $dbopts["port"];
-
+$conn = ("host=$host port=$port dbname=$dbname user=$user password=$password sslmode=require");
 try{
 	// create a PostgreSQL database connection
-	$dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password sslmode=require");
+	$dbconn = new PDO($conn);
  
 	// display a message if connected to the PostgreSQL successfully
 	if($dbconn){
