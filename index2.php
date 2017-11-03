@@ -2,10 +2,10 @@
 $dbopts = parse_url(getenv('DATABASE_URL'));
 $driver = 'pgsql';
 $user = $dbopts["user"];
-$password = $dbopts["user"];
+$password = $dbopts["pass"];
 $host = $dbopts["host"];
 $port = $dbopts["port"];
-$dbname = $dbopts["port"];
+$dbname = $dbopts["dbname"];
 $conn = ("host=$host port=$port dbname=$dbname user=$user password=$password sslmode=require");
 try{
 	// create a PostgreSQL database connection
