@@ -287,7 +287,7 @@
 							<h2>Sample Menu</h2>
 						</header>
 						<div class="row">
-							<article class="4u 12u(mobile) special">
+							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Breakfast</a></h3>
@@ -302,7 +302,7 @@
 									<li>&mdash; Individual egg soufflés with feta cheese, spinach, tomatoes and oregano</li>
 								</ul>
 							</article>
-							<article class="4u 12u(mobile) special">
+							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Lunch</a></h3>
@@ -317,7 +317,7 @@
 									<li>&mdash; Caribbean jerk burgers with pineapple relish and spicy coleslaw</li>
 								</ul>
 							</article>
-							<article class="4u 12u(mobile) special">
+							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Dinner</a></h3>
@@ -335,7 +335,7 @@
 						</div>
 						<hr />
 						<div class="row">
-							<article class="4u 12u(mobile) special">
+							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Appetizers</a></h3>
@@ -350,7 +350,7 @@
 									<li>&mdash; Homemade falafel with cucumber yoghurt sauce</li>
 								</ul>
 							</article>
-							<article class="4u 12u(mobile) special">
+							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Desserts</a></h3>
@@ -365,7 +365,7 @@
 									<li>&mdash; Bananas foster beignets with café brulot crème anglaise</li>
 								</ul>
 							</article>
-							<article class="4u 12u(mobile) special">
+							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Drinks</a></h3>
