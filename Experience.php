@@ -8,7 +8,6 @@
     $sqltut->execute() ;
 ?>
 
-<!DOCTYPE HTML>
 <!--
 	Helios by Pixelarity
 	pixelarity.com | hello@pixelarity.com
