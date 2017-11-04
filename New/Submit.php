@@ -1,7 +1,7 @@
 <?php
     $passphrase = getenv('SET_PASSPHRASE');
     $compare = $_POST["passphrase"];
-    if ($compare !== $passphrase){
+    if ($compare != $passphrase){
         echo "Incorrect Passphrase";
         header( 'Location: /Admin.html') ;
     }
