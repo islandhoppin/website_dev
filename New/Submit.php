@@ -85,7 +85,7 @@
 								<hr class="first" />
 								<section>
 									<header>
-										<h3><a href="#">Learn how to submit Customer Testimonials</a></h3>
+										<h3>Learn how to submit Customer Testimonials</h3>
 									</header>
 									<p>
 										<b>Header:</b> This will display on the top bar of the photo once clicked.<br />
@@ -166,7 +166,7 @@
 								<hr class="first" />
 								<section>
 									<header>
-										<h3><a href="#">Learn how to submit News Events</a></h3>
+										<h3>Learn how to submit News Events</h3>
 									</header>
 									<p>
 										<b>Header:</b> This will display below the image.<br />
