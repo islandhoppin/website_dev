@@ -195,10 +195,9 @@
 				<div class="wrapper style1">
 					<section id="features" class="container special">
 						<header>
-							<h2>On Deck News</h2>
+							<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">On Deck News</h2>
 							<p>Stay up to date with everything that happening aboard Island Hoppin'.</p>
 						</header>
-							<div class="row">
 							<?php $i=0;
 							while( $row = $sqlnew->fetch()) : 
 								$i++; 
@@ -211,10 +210,10 @@
 									</header>
 									<p><?php echo $row['update']; ?></p>
 								</article>
-							<?php if ($i % 3 == 0) {echo "</div>";}
+							<?php if ($i % 3 == 0) {echo "</div> <hr />";}
 							endwhile;
 							if ($i % 3 != 0) {echo "</div>";}?>
-							</div>
+
 					</section>
 
 				</div>
