@@ -6,6 +6,6 @@ require 'connection.inc.php';
 $query = "Delete from $table where $id = $idnum";
 echo $query;
 $dbconn->query($query);
-header( 'Location: /Admin.php') ;
+header( 'Location: /Admin.html') ;
 
 ?>

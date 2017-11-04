@@ -1,3 +1,13 @@
+<?php
+    // First connect to the database via your connection insert file
+    require 'connection.inc.php'; 
+    
+    // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
+    $sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut") ; 
+    // Execute the query, if there were variables, they could be bound within the brackets
+    $sqltut->execute() ;
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Helios by Pixelarity
@@ -22,7 +32,17 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="apple-touch-icon" href="images/favicon.png" />
 		<link rel="shortcut icon" href="images/favicon.png" />
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		<script src="src/js/jquery.swipebox.js"></script>
+		<link rel="stylesheet" href="src/css/swipebox.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script type="text/javascript">
+			;( function( $ ) {
+			
+				$( '.swipebox' ).swipebox();
+			
+			} )( jQuery );
+		</script>
 	</head>
 	
 	<body class="right-sidebar">
@@ -366,6 +386,21 @@
 									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
 								</p>
 							</article>
+						</div>
+						<hr />
+						<div id="photos">
+							<!-- Interior Photos -->
+							<!-- Motion Photos -->
+							<section  class="carousel">
+								<div class="reel">
+								<?php while( $row1 = $sqltut->fetch()) : ?>
+									<article>
+										<a href="<?php echo $row1['image']; ?>" class="swipebox" title="<?php echo $row1['header']; ?> - Date:<?php echo $row1['blank_1']; ?>">
+											<img class="image featured" src="<?php echo $row1['image']; ?>" alt="<?php echo $row1['update']; ?>">
+										</a>
+									</article>
+								<?php endwhile ?>
+							</section>
 						</div>
 					</div>
 
