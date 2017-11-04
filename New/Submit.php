@@ -237,7 +237,7 @@
 										
 										<div class="row">
 											<article class="3u 12u(mobile) special">
-												<a href="#" class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="images/logo.png" alt="" /></a>
+												<a href="#" class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="/images/logo.png" alt="" /></a>
 											</article>
 											<article class="6u 12u(mobile) special">
 											<header>
@@ -251,7 +251,7 @@
 											</ul>
 											</article>
 											<article class="3u 12u(mobile) special fadeshow1">
-												<a href="#" class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="images/logo.png" alt="" /></a>
+												<a href="#" class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="/images/logo.png" alt="" /></a>
 											</article>
 										</div>
 									</section>
