@@ -11,7 +11,6 @@ if ($verifyCode == $onPage){
     require 'connection.inc.php'; 
     $query = "INSERT INTO customertut (header, update, image, blank_1) VALUES ('$header', '$update', '$image', '$today')";
     $dbconn->query($query);
-    header( 'Location: /Admin.html') ;
 }
-
+header( 'Location: /Admin.html') ;
 ?>
