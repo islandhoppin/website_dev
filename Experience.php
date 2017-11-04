@@ -396,7 +396,7 @@
 								<?php while( $row1 = $sqltut->fetch()) : ?>
 									<article>
 										<a href="<?php echo $row1['image']; ?>" class="swipebox" title="<?php echo $row1['header']; ?> - Date:<?php echo $row1['blank_1']; ?>">
-											<img class="image featured" style="width:100px; height:auto;" src="<?php echo $row1['image']; ?>" alt="<?php echo $row1['update']; ?>">
+											<img class="image featured" style="width:250px; height:auto;" src="<?php echo $row1['image']; ?>" alt="<?php echo $row1['update']; ?>">
 										</a>
 									</article>
 								<?php endwhile ?>
