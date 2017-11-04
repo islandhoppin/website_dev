@@ -72,7 +72,7 @@
 									<ul>
 										<li><a href="Experience.php#itinerary">Sample Itinerary</a></li>
 										<li><a href="Experience.php#explore">Explore</a></li><!--Recommend activites -->
-										<li><a href="Experience.php#menu">Sample Menu &hellip;</a></li>
+										<li><a href="Experience.php#menu">Sample Menu</a></li>
 										<li><a href="Experience.php#testemonials">Testemonials</a></li>
 									</ul>
 								</li>
@@ -199,7 +199,6 @@
 							<p>Stay up to date with everything that happening aboard Island Hoppin'.</p>
 						</header>
 						<div class="row">
-							<article class="12u 12u(mobile) special">
 							<?php while( $row = $sqlnew->fetch()) : ?>
 								<article class="4u 12u(mobile) special">
 									<a href="<?php echo $row['image']; ?>" class="image featured"><img src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" /></a>
@@ -210,8 +209,6 @@
 									<p><?php echo $row['update']; ?></p>
 								</article>
 							<?php endwhile ?>
-							<hr />
-							</article>
 						</div>
 					</section>
 

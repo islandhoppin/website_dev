@@ -85,17 +85,7 @@
 									<ul>
 										<li><a href="#itinerary">Sample Itinerary</a></li>
 										<li><a href="#explore">Explore</a></li><!--Recommend activites -->
-										<li>
-											<a href="#menu">Sample Menu &hellip;</a>
-											<ul>
-												<li><a href="#breakfast">Breakfast</a></li>
-												<li><a href="#lunch">Lunch</a></li>
-												<li><a href="#appetizers">Appetizers</a></li>
-												<li><a href="#dinner">Dinner</a></li>
-												<li><a href="#dessert">Dessert</a></li>
-												<li><a href="#drinks">Drinks</a></li>
-											</ul>
-										</li>
+										<li><a href="#menu">Sample Menu</a></li>
 										<li><a href="#testemonials">Testemonials</a></li>
 									</ul>
 								</li>
@@ -120,7 +110,7 @@
 					
 					<div class="container">
 						<div class="row 200%">
-							<div class="8u 12u(mobile)" id="content">
+							<div class="8u 12u(mobile)" id="content itinerary">
 								<article id="main">
 									<header>
 										<h2><a href="#">Sample Itinerary</a></h2>
@@ -236,7 +226,7 @@
 									</section>
 								</article>
 							</div>
-							<div class="4u 12u(mobile)" id="sidebar">
+							<div class="4u 12u(mobile)" id="sidebar explore">
 								<hr class="first" />
 								<section>
 									<header>
@@ -321,7 +311,7 @@
 							</div>
 						</div>
 						<hr />
-						<div class="row">
+						<div class="row" id="menu">
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
@@ -387,9 +377,11 @@
 							</article>
 						</div>
 						<hr />
-						<div id="photos">
-							<!-- Interior Photos -->
+						<div id="testemonials">
 							<!-- Motion Photos -->
+							<header>
+								<h2><a href="#">Sailor Testemonials</a></h2>
+							</header>
 							<section  class="carousel">
 								<div class="reel">
 								<?php while( $row1 = $sqltut->fetch()) : ?>
