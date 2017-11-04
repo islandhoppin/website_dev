@@ -3,7 +3,7 @@
     require 'New/connection.inc.php'; 
     
     // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
-    $sqlnew = $dbconn->prepare("Select news_id, header, update, image, blank_1 From newsupdates ORDER BY news_id DESC LIMIT 8") ; 
+    $sqlnew = $dbconn->prepare("Select news_id, header, update, image, blank_1 From newsupdates ORDER BY news_id DESC LIMIT 9") ; 
     // Execute the query, if there were variables, they could be bound within the brackets
     $sqlnew->execute() ;
 ?>
@@ -198,9 +198,12 @@
 							<h2>On Deck News</h2>
 							<p>Stay up to date with everything that happening aboard Island Hoppin'.</p>
 						</header>
-						<div class="row">
-							<?php while( $row = $sqlnew->fetch()) : ?>
-								<article class="6u 12u(mobile) special">
+							<div class="row">
+							<?php $i=0;
+							while( $row = $sqlnew->fetch()) : 
+								$i++; 
+								if($i % 3 == 1){echo '<div class="row">';}?>
+								<article class="4u 12u(mobile) special">
 									<a href="<?php echo $row['image']; ?>" class="image featured"><img src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" /></a>
 									<header>
 										<h3><a href="#"><?php echo $row['header']; ?></a></h3>
@@ -208,8 +211,10 @@
 									</header>
 									<p><?php echo $row['update']; ?></p>
 								</article>
-							<?php endwhile ?>
-						</div>
+							<?php if ($i % 3 == 0) {echo "</div>";}
+							endwhile;
+							if ($i % 3 != 0) {echo "</div>";}?>
+							</div>
 					</section>
 
 				</div>
