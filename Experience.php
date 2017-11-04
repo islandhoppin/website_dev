@@ -1,12 +1,4 @@
-<?php
-    // First connect to the database via your connection insert file
-    require 'New/connection.inc.php'; 
-    
-    // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
-    $sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut") ; 
-    // Execute the query, if there were variables, they could be bound within the brackets
-    $sqltut->execute() ;
-?>
+
 <!DOCTYPE HTML>
 <!--
 	Helios by Pixelarity
@@ -300,30 +292,45 @@
 								<header>
 									<h3><a href="#">Breakfast</a></h3>
 								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
+								<ul>
+									<li>&mdash; Homemade buttermilk pancake stack served with bacon, dusted with icing sugar and a fresh berry sauce </li>
+									<li>&mdash; Traditional Italian sausage frittata</li>
+									<li>&mdash; Classic eggs benedict with black forest ham, homemade hollandaise sauce and wilted spinach</li>
+									<li>&mdash; Full Irish: Authentic potato bread served with bacon, sausages, fried eggs and oven roasted vine tomatoes</li>
+									<li>&mdash; Caribbean French toast served with fried bananas, toasted coconut and drizzled with local Virgin Islands honey</li>
+									<li>&mdash; Smoked salmon, cream cheese and dill bagels</li>
+									<li>&mdash; Individual egg soufflés with feta cheese, spinach, tomatoes and oregano</li>
+								</ul>
 							</article>
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Lunch</a></h3>
 								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
+								<ul>
+									<li>&mdash; Moules marinere with freshly baked granary bread</li>
+									<li>&mdash; Citrus glazed salmon on a bed of seasonal greens</li>
+									<li>&mdash; Chicken pad thai tossed with beansprouts, fresh cilantro and roasted peanuts </li>
+									<li>&mdash; Seared scallops and crispy prosciutto with roasted tomatoes and smashed white beans </li>
+									<li>&mdash; Grilled swordfish, green beans and spicy tomato salsa</li>
+									<li>&mdash; Sweet okra shrimp curry with plantain puree</li>
+									<li>&mdash; Caribbean jerk burgers with pineapple relish and spicy coleslaw</li>
+								</ul>
 							</article>
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Dinner</a></h3>
 								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
+								<ul>
+									<li>&mdash; Pork escalope Holstein with fried duck egg, buckwheat tomato salad, anchovies topped with parsley and capper beurre noisette</li>
+									<li>&mdash; Braised lamb breast, boulangere potatoes, green beans and griddled courgettes</li>
+									<li>&mdash; Honey glazed ham knuckle with buttered new potatoes, parsley sauce, sautéed cabbage and sweet piccalli</li>
+									<li>&mdash; Confit duck ravioli with sage and hazelnut butter</li>
+									<li>&mdash; Marsala pork tenderloin with roasted asparagus and sweet potato puree</li>
+									<li>&mdash; Beef tenderloin with café paris butter, homemade fries, roasted tomatoes and portobella mushroom </li>
+									<li>&mdash; Mahi mahi fillet with saffron risotto and a mango cilantro sauce</li>
+								</ul>
 							</article>
 						</div>
 						<hr />
@@ -333,50 +340,50 @@
 								<header>
 									<h3><a href="#">Appetizers</a></h3>
 								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
+								<ul>
+									<li>&mdash; Tomato and burrata bruschetta</li>
+									<li>&mdash; Oven baked brie with sautéed cinnamon walnuts</li>
+									<li>&mdash; Asian infused tuna on toasted bread</li>
+									<li>&mdash; Charcuterie platter with an assortment of international cheeses, crackers and olives </li>
+									<li>&mdash; Conch fritters with a chilli lime dipping sauce</li>
+									<li>&mdash; Tuna salad puff pastry bites</li>
+									<li>&mdash; Homemade falafel with cucumber yoghurt sauce</li>
+								</ul>
 							</article>
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Desserts</a></h3>
 								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
+								<ul>
+									<li>&mdash; Ginger crème brulee</li>
+									<li>&mdash; Panna cotta with orange baked and glazed figs served along side tuille biscuits </li>
+									<li>&mdash; Chocolate fondant pudding with raspberry and champagne sorbet</li>
+									<li>&mdash; Irish cream Tiramisu</li>
+									<li>&mdash; Homemade profiteroles filled with crème diplomat and coated in dark chocolate sauce </li>
+									<li>&mdash; Fluffy lemon pudding with limoncello cream</li>
+									<li>&mdash; Bananas foster beignets with café brulot crème anglaise</li>
+								</ul>
 							</article>
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Drinks</a></h3>
 								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
+								<ul>
+									<li>&mdash; Passengers Recieve an Island Hoppin' Water Bottle for Filter Water</li>
+									<li>&mdash; Painkillers (An Island Specialty)</li>
+									<li>&mdash; An assortment of Beer</li>
+									<li>&mdash; Select Wine</li>
+									<li>&mdash; An assortment of Liquor (Rum is Popular)</li>
+									<li>&mdash; Soda</li>
+									<li>&mdash; Juice available on request</li>
+									<li>&mdash; Requested Beverages (based on island availabity)</li>
+								</ul>
 							</article>
 						</div>
-						<hr />
-						<div id="testemonials">
-							<!-- Motion Photos -->
-							<header style="text-align:center;">
-								<h2>Sailor Testemonials</h2>
-							</header>
-							<section  class="carousel">
-								<div class="reel">
-								<?php while( $row1 = $sqltut->fetch()) : ?>
-									<article>
-										<a href="<?php echo $row1['image']; ?>" class="swipebox" title="<?php echo $row1['header']; ?> - Date: <?php echo $row1['blank_1']; ?>">
-											<img class="image featured" style="width:290px; height:auto; margin-top:30px" src="<?php echo $row1['image']; ?>" alt="<?php echo $row1['update']; ?>">
-										</a>
-									</article>
-								<?php endwhile ?>
-							</section>
-						</div>
 					</div>
+
 				</div>
 
 			<!-- Footer -->
