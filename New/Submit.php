@@ -200,8 +200,8 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'><form action="/New/delete.php" method="post">
                                                     <input type="hidden" name="id" value="news_id">
-                                                    <input type="hidden" name="idnum" value=<?php echo $row1['news_id']; ?>>
-                                                    <input type="hidden" name="table" value="customertut">
+                                                    <input type="hidden" name="idnum" value=<?php echo $row2['news_id']; ?>>
+                                                    <input type="hidden" name="table" value="newsupdates">
                                                   <button type="submit" value="Submit">Delete</button>
                                                 </form></td>
                                         </tr>
