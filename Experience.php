@@ -61,7 +61,7 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.html">Home</a></li>
+								<li><a href="Home.php">Home</a></li>
 								<li>
 									<a href="Boat.html">The Boat</a>
 									<ul>
@@ -82,7 +82,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="Experience.html" style="font-weight:bold;">The Experience</a>
+									<a href="Experience.php" style="font-weight:bold;">The Experience</a>
 									<ul>
 										<li><a href="#itinerary">Sample Itinerary</a></li>
 										<li><a href="#explore">Explore</a></li><!--Recommend activites -->
