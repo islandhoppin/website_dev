@@ -287,10 +287,11 @@
 							<h2>Sample Menu</h2>
 						</header>
 						<div class="row">
+							<div class="row">
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
-									<h3><a href="#">Breakfast</a></h3>
+									<h3>Breakfast</h3>
 								</header>
 								<ul>
 									<li>&mdash; Homemade buttermilk pancake stack served with bacon, dusted with icing sugar and a fresh berry sauce </li>
@@ -305,7 +306,7 @@
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 								<header>
-									<h3><a href="#">Lunch</a></h3>
+									<h3>Lunch</h3>
 								</header>
 								<ul>
 									<li>&mdash; Moules marinere with freshly baked granary bread</li>
@@ -317,10 +318,12 @@
 									<li>&mdash; Caribbean jerk burgers with pineapple relish and spicy coleslaw</li>
 								</ul>
 							</article>
+							</div>
+							<div class="row">
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 								<header>
-									<h3><a href="#">Dinner</a></h3>
+									<h3>Dinner</h3>
 								</header>
 								<ul>
 									<li>&mdash; Pork escalope Holstein with fried duck egg, buckwheat tomato salad, anchovies topped with parsley and capper beurre noisette</li>
@@ -338,7 +341,7 @@
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
-									<h3><a href="#">Appetizers</a></h3>
+									<h3>Appetizers</h3>
 								</header>
 								<ul>
 									<li>&mdash; Tomato and burrata bruschetta</li>
@@ -350,10 +353,12 @@
 									<li>&mdash; Homemade falafel with cucumber yoghurt sauce</li>
 								</ul>
 							</article>
+							</div>
+							<div class="row">
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 								<header>
-									<h3><a href="#">Desserts</a></h3>
+									<h3>Desserts</h3>
 								</header>
 								<ul>
 									<li>&mdash; Ginger crème brulee</li>
@@ -368,7 +373,7 @@
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 								<header>
-									<h3><a href="#">Drinks</a></h3>
+									<h3>Drinks</h3>
 								</header>
 								<ul>
 									<li>&mdash; Passengers Recieve an Island Hoppin' Water Bottle for Filter Water</li>
@@ -381,6 +386,7 @@
 									<li>&mdash; Requested Beverages (based on island availabity)</li>
 								</ul>
 							</article>
+							</div>
 						</div>
 					</div>
 
