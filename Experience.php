@@ -7,7 +7,7 @@
     // Execute the query, if there were variables, they could be bound within the brackets
     $sqltut->execute() ;
 ?>
-
+<!DOCTYPE HTML>
 <!--
 	Helios by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -43,7 +43,6 @@
 			} )( jQuery );
 		</script>
 	</head>
-	
 	<body class="right-sidebar">
 		<div id="page-wrapper">
 
@@ -52,7 +51,9 @@
 
 					<!-- Inner -->
 						<div class="inner">
-							<h1 id="logo" style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; ">Island Hoppin'</h1>
+							<header>
+								<h1 id="logo" style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; ">Island Hoppin'</h1>
+							</header>
 						</div>
 
 					<!-- Nav -->
@@ -82,7 +83,7 @@
 									<a href="Experience.php" style="font-weight:bold;">The Experience</a>
 									<ul>
 										<li><a href="#itinerary">Sample Itinerary</a></li>
-										<li><a href="#explore">Explore</a></li><!--Recommend activites -->
+										<li><a href="#explore">Explore</a></li>
 										<li><a href="#menu">Sample Menu</a></li>
 										<li><a href="#testemonials">Testemonials</a></li>
 									</ul>
@@ -98,22 +99,23 @@
 								</li>
 							</ul>
 						</nav>
+
 				</div>
 
 			<!-- Main -->
-			
 				<div class="wrapper style1">
-					<div class="container" id="itinerary">
-						<div class="row 200%">
+
+					<div class="container">
+						<div class="row 200%" id="itinerary">
 							<div class="8u 12u(mobile)" id="content">
 								<article id="main">
-									<header >
+									<header>
 										<h2><a href="#">Sample Itinerary</a></h2>
 										<p>
 											The world is your playground, enjoy it aboard Island Hoppin'!
 										</p>
 									</header>
-									<a href="#" class="image featured"><img src="images/Experience/map.png" alt="" /></a>
+									<img class="image featured" src="images/Experience/map.png" alt="" />
 									<p>
 										This is your special trip, and you should be able to pick where you want to go. So our crew will work with you to 
 										design your itinerary to fit all the wonderful places to see
@@ -125,9 +127,7 @@
 										<p>
 											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
 											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-											fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-											egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+											feugiat. 
 										</p>
 										<p>
 											Eleifend auctor turpis magnis sed porta nisl pretium. Aenean suspendisse nulla eget sed etiam parturient
@@ -142,9 +142,7 @@
 										<p>
 											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
 											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-											fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-											egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
 										</p>
 									</section>
 									<section>
@@ -154,9 +152,7 @@
 										<p>
 											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
 											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-											fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-											egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
 										</p>
 									</section>
 									<section>
@@ -166,9 +162,7 @@
 										<p>
 											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
 											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-											fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-											egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
 										</p>
 									</section>
 									<section>
@@ -178,9 +172,7 @@
 										<p>
 											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
 											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-											fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-											egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
 										</p>
 									</section>
 									<section>
@@ -190,9 +182,7 @@
 										<p>
 											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
 											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-											fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-											egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
 										</p>
 									</section>
 									<section>
@@ -202,9 +192,7 @@
 										<p>
 											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
 											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-											fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-											egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
 										</p>
 									</section>
 									<section>
@@ -214,10 +202,7 @@
 										<p>
 											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
 											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-											fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-											egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
-										</p>
+											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
 									</section>
 								</article>
 							</div>
@@ -392,7 +377,6 @@
 							</section>
 						</div>
 					</div>
-
 				</div>
 
 			<!-- Footer -->
@@ -437,7 +421,6 @@
 						</div>
 					</div>
 				</div>
-
 		</div>
 
 		<!-- Scripts -->

@@ -7,7 +7,7 @@
     // Execute the query, if there were variables, they could be bound within the brackets
     $sqlnew->execute() ;
 ?>
-
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
