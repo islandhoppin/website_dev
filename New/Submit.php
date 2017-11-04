@@ -97,7 +97,7 @@
 										<br /><b>All testimonials will be shown in the photo carousel, the order will favor the most recent first.</b>
 									</p> 
 									<footer>
-										<a href="/images/videos/test.mov" class="button" target="_blank">Download Video</a>
+										<a href="https://drive.google.com/open?id=0B3sdhzU2CCBJSGJsOVRsMFA2Nnc" class="button" target="_blank">Download Video</a>
 									</footer>
 								</section>
 							</div>
@@ -178,7 +178,7 @@
 										<br /><b>The current query supports the 9 most recent posts, placing them in the order of most recent on top.</b>
 									</p>
 									<footer>
-										<a href="/images/videos/test.mov" class="button" target="_blank">Download Video</a>
+										<a href="https://drive.google.com/open?id=0B3sdhzU2CCBJSGJsOVRsMFA2Nnc" class="button" target="_blank">Download Video</a>
 									</footer>
 								</section>
 							</div>
