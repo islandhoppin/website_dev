@@ -52,9 +52,7 @@
 
 					<!-- Inner -->
 						<div class="inner">
-							<header>
 								<h1 id="logo" style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; ">Island Hoppin'</h1>
-							</header>
 						</div>
 
 					<!-- Nav -->
