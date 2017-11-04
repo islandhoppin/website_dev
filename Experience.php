@@ -98,17 +98,16 @@
 								</li>
 							</ul>
 						</nav>
-
 				</div>
 
 			<!-- Main -->
 			
 				<div class="wrapper style1">
-					<div class="container">
+					<div class="container" id="itinerary">
 						<div class="row 200%">
 							<div class="8u 12u(mobile)" id="content">
 								<article id="main">
-									<header id="itinerary">
+									<header >
 										<h2><a href="#">Sample Itinerary</a></h2>
 										<p>
 											The world is your playground, enjoy it aboard Island Hoppin'!
@@ -226,7 +225,7 @@
 								<hr class="first" />
 								<section id="explore">
 									<header>
-										<h3><a href="#">Accumsan sed penatibus</a></h3>
+										<h3>Explore the Carribean</h3>
 									</header>
 									<p>
 										Dolor sed fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
@@ -307,8 +306,10 @@
 							</div>
 						</div>
 						<hr />
+						<header style="text-align:center;">
+							<h2>Sample Menu</h2>
+						</header>
 						<div class="row" id="menu">
-								<h2 style="text-align:center;">Sample Menu</h2>
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
