@@ -3,7 +3,7 @@
     require 'New/connection.inc.php'; 
     
     // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
-    $sqlnew = $dbconn->prepare("Select news_id, header, update, image, blank_1 From newsupdates ORDER BY news_id DESC LIMIT 9") ; 
+    $sqlnew = $dbconn->prepare("Select news_id, header, update, image, blank_1 From newsupdates ORDER BY news_id DESC LIMIT 8") ; 
     // Execute the query, if there were variables, they could be bound within the brackets
     $sqlnew->execute() ;
 ?>
@@ -200,7 +200,7 @@
 						</header>
 						<div class="row">
 							<?php while( $row = $sqlnew->fetch()) : ?>
-								<article class="4u 12u(mobile) special">
+								<article class="6u 12u(mobile) special">
 									<a href="<?php echo $row['image']; ?>" class="image featured"><img src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" /></a>
 									<header>
 										<h3><a href="#"><?php echo $row['header']; ?></a></h3>

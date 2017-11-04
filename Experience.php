@@ -305,11 +305,11 @@
 								</section>
 							</div>
 						</div>
-						<hr />
+						<hr id="menu"/>
 						<header style="text-align:center;">
 							<h2>Sample Menu</h2>
 						</header>
-						<div class="row" id="menu">
+						<div>
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
