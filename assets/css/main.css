@@ -188,6 +188,10 @@
 		.container {
 			width: 100% !important;
 		}
+		/* Added */
+		.fadeshow1 { 
+    		display: none; 
+  		}
 
 	}
 
@@ -214,6 +218,10 @@
 		.container {
 			width: 100% !important;
 		}
+		/* Added */
+		.fadeshow1 { 
+    		display: none; 
+  		}
 
 	}
 

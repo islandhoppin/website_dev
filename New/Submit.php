@@ -226,20 +226,34 @@
 				</div>
 
 			<!-- Footer -->
-			</div>
 				<div id="footer">
 					<div class="container">
+						<hr />
 						<div class="row">
 							<div class="12u">
 
 								<!-- Contact -->
 									<section class="contact">
-										<header>
-										<ul class="icons">
-											<li><a href="https://www.facebook.com/IslandHoppinCharters/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-											<li><a href="https://www.instagram.com/islandhoppincharters/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="mailto:IslandHoppinCharters@gmail.com" class="icon fa-envelope-o"><span class="label">Email Us</span></a></li>
-										</ul>
+										
+										<div class="row">
+											<article class="3u 12u(mobile) special">
+												<a href="#" class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="images/logo.png" alt="" /></a>
+											</article>
+											<article class="6u 12u(mobile) special">
+											<header>
+												<h3>Like what you see?</h3>
+											</header>
+											<p>Check out some of our social media pages.</p>
+											<ul class="icons">
+												<li><a href="https://www.facebook.com/IslandHoppinCharters/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="https://www.instagram.com/islandhoppincharters/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="mailto:IslandHoppinCharters@gmail.com" class="icon fa-envelope-o"><span class="label">Email Us</span></a></li>
+											</ul>
+											</article>
+											<article class="3u 12u(mobile) special fadeshow1">
+												<a href="#" class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="images/logo.png" alt="" /></a>
+											</article>
+										</div>
 									</section>
 
 								<!-- Copyright -->
@@ -248,7 +262,6 @@
 											<li>&copy; Island Hoppin' 2017. All rights reserved.</li>
 										</ul>
 									</div>
-
 							</div>
 
 						</div>
