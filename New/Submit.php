@@ -95,7 +95,7 @@
 										the image into the site. No additional alteration of the url is need for content delivery. <a href="https://drive.google.com/drive/folders/0B3sdhzU2CCBJVUxlS1VQd3lnYlE" target="_blank">Drive Link</a>
 										<br /><b>Proofread! No changing the database insert, only deleting the entry and recreating the post.</b>
 										<br /><b>All testimonials will be shown in the photo carousel, the order will favor the most recent first.</b>
-									</p>
+									</p> 
 									<footer>
 										<a href="/images/videos/test.mov" class="button" target="_blank">Download Video</a>
 									</footer>
