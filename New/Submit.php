@@ -1,4 +1,11 @@
 <?php
+    $passphrase = parse_url(getenv('SET_PASSPHRASE'));
+    $compare = $_POST["passphrase"];
+    if ($compare !== $passphrase){
+        echo "Incorrect Passphrase";
+        header( 'Location: Admin.html') ;
+    }
+    
     // First connect to the database via your connection insert file
     require 'connection.inc.php'; 
     
