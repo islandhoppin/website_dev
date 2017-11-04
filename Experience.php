@@ -52,7 +52,7 @@
 
 					<!-- Inner -->
 						<div class="inner">
-								<h1 id="logo" style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; ">Island Hoppin'</h1>
+							<h1 id="logo" style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; ">Island Hoppin'</h1>
 						</div>
 
 					<!-- Nav -->
@@ -104,14 +104,11 @@
 			<!-- Main -->
 			
 				<div class="wrapper style1">
-					
-					
 					<div class="container">
 						<div class="row 200%">
-							<div id="itinerary">
 							<div class="8u 12u(mobile)" id="content">
 								<article id="main">
-									<header>
+									<header id="itinerary">
 										<h2><a href="#">Sample Itinerary</a></h2>
 										<p>
 											The world is your playground, enjoy it aboard Island Hoppin'!
@@ -225,11 +222,9 @@
 									</section>
 								</article>
 							</div>
-							</div>
-							<div id="explore">
-							<div class="4u 12u(mobile)" id="sidebar explore">
+							<div class="4u 12u(mobile)" id="sidebar">
 								<hr class="first" />
-								<section>
+								<section id="explore">
 									<header>
 										<h3><a href="#">Accumsan sed penatibus</a></h3>
 									</header>
@@ -310,13 +305,10 @@
 									</footer>
 								</section>
 							</div>
-							</div>
 						</div>
 						<hr />
 						<div class="row" id="menu">
-							<header style="text-align:center;">
-								<h2>Sample Menu</h2>
-							</header>
+								<h2 style="text-align:center;">Sample Menu</h2>
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
