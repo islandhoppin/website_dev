@@ -88,12 +88,12 @@
 										<h3><a href="#">Learn how to submit Customer Testimonials</a></h3>
 									</header>
 									<p>
-										Header: This will display on the top bar of the photo once clicked.<br />
-										Update Text: This will the text of the actual testominal. It will not be displayed as it will be in the image.
+										<b>Header:</b> This will display on the top bar of the photo once clicked.<br />
+										<b>Update Text:</b> This will the text of the actual testominal. It will not be displayed as it will be in the image.
 										The text will instead be used in the Alt tag (for an increase in search results from google)<br />
-										Google URL: This process is shown in the video button below. The script will alter the url to embed the 
+										<b>Google URL:</b> This process is shown in the video button below. The script will alter the url to embed the 
 										the image into the site. No additional alteration of the url is need for content delivery. 
-										<b>Proofread! No changing the database insert, only deleting the entry and recreating the post</b>
+										<br /><b>Proofread! No changing the database insert, only deleting the entry and recreating the post</b>
 									</p>
 									<footer>
 										<a href="/images/videos/test.mov" class="button" target="_blank">Download Video</a>
@@ -168,12 +168,12 @@
 										<h3><a href="#">Learn how to submit News Events</a></h3>
 									</header>
 									<p>
-										Header: This will display below the image.<br />
-										Date: Today's date will automatically be inserted into the site, Changing the date is not currently support. <br />
-										Update Text: This will the text of the news event. <br />
-										Google URL: This process is shown in the video button below. The script will alter the url to embed the 
+										<b>Header:</b> This will display below the image.<br />
+										<b>Date:</b> Today's date will automatically be inserted into the site, Changing the date is not currently support. <br />
+										<b>Update Text:</b> This will the text of the news event. <br />
+										<b>Google URL:</b> This process is shown in the video button below. The script will alter the url to embed the 
 										the image into the site. No additional alteration of the url is need for content delivery. 
-										<b>Proofread! No changing the database insert, only deleting the entry and recreating the post</b>
+										<br /><b>Proofread! No changing the database insert, only deleting the entry and recreating the post</b>
 									</p>
 									<footer>
 										<a href="/images/videos/test.mov" class="button" target="_blank">Download Video</a>
