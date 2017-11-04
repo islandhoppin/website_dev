@@ -1,4 +1,14 @@
 <?php 
+$verifyCode = getenv('SET_VERIFY');
+$onPage = $_POST["INTERNAL"];
+    if ($onPage == ""){
+        header( 'Location: /Admin.html') ;
+    }
+    if ($onPage != $verifyCode){
+        echo "Sorry Buddy";
+        header( 'Location: /Admin.html') ;
+    }
+    
 $header = $_POST["Header"];
 $image = $_POST["url"];
 $image = str_replace("open","uc",$image);

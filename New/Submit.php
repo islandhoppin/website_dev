@@ -8,6 +8,7 @@
         echo "Incorrect Passphrase";
         header( 'Location: /Admin.html') ;
     }
+    $verifyCode = getenv('SET_VERIFY');
     
     // First connect to the database via your connection insert file
     require 'connection.inc.php'; 
@@ -73,6 +74,7 @@
                                         <header style="margin-top:25px;"><h3>Google Url</h3></header>
                                         <input type="text" name="url">
                                         <br />
+                                        <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                         <input type="submit" value="Submit">
                                     </form>
 									</section>
@@ -149,6 +151,7 @@
                                         <header style="margin-top:25px;"><h3>Google Url</h3></header>
                                         <input type="text" name="url">
                                         <br />
+                                        <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                         <input type="submit" value="Submit">
                                     </form>
 									</section>

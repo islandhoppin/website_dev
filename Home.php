@@ -47,7 +47,7 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.php" style="font-weight:bold;">Home</a></li>
+								<li><a href="Home.php" style="font-weight:bold;">Home</a></li>
 								<li>
 									<a href="Boat.html">The Boat</a>
 									<ul>
@@ -196,7 +196,7 @@
 					<section id="features" class="container special">
 						<header>
 							<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">On Deck News</h2>
-							<p>Stay up to date with everything that happening aboard Island Hoppin'.</p>
+							<p>Stay up to date with everything happening aboard Island Hoppin'.</p>
 						</header>
 							<?php $i=0;
 							while( $row = $sqlnew->fetch()) : 
