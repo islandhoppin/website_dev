@@ -395,7 +395,7 @@
 								<div class="reel">
 								<?php while( $row1 = $sqltut->fetch()) : ?>
 									<article>
-										<a href="<?php echo $row1['image']; ?>" class="swipebox" title="<?php echo $row1['header']; ?> - Date:<?php echo $row1['blank_1']; ?>">
+										<a href="<?php echo $row1['image']; ?>" class="swipebox" title="<?php echo $row1['header']; ?> - Date: <?php echo $row1['blank_1']; ?>">
 											<img class="image featured" style="width:290px; height:auto; margin-top:30px" src="<?php echo $row1['image']; ?>" alt="<?php echo $row1['update']; ?>">
 										</a>
 									</article>
