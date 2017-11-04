@@ -1,6 +1,6 @@
 <?php
     // First connect to the database via your connection insert file
-    require '/New/connection.inc.php'; 
+    require 'New/connection.inc.php'; 
     
     // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
     $sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut") ; 
