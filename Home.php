@@ -199,6 +199,7 @@
 							<p>Stay up to date with everything that happening aboard Island Hoppin'.</p>
 						</header>
 						<div class="row">
+							<article class="12u 12u(mobile) special">
 							<?php while( $row = $sqlnew->fetch()) : ?>
 								<article class="4u 12u(mobile) special">
 									<a href="<?php echo $row['image']; ?>" class="image featured"><img src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" /></a>
@@ -209,6 +210,8 @@
 									<p><?php echo $row['update']; ?></p>
 								</article>
 							<?php endwhile ?>
+							<hr />
+							</article>
 						</div>
 					</section>
 
