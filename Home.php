@@ -205,7 +205,7 @@
 								<article class="4u 12u(mobile) special">
 									<a href="<?php echo $row['image']; ?>" class="image featured"><img src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" /></a>
 									<header>
-										<h3><a href="#"><?php echo $row['header']; ?></a></h3>
+										<h3 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;"><?php echo $row['header']; ?></h3>
 										<h3><i><?php echo $row['blank_1']; ?></i></h3>
 									</header>
 									<p><?php echo $row['update']; ?></p>
