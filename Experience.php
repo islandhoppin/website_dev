@@ -110,7 +110,8 @@
 					
 					<div class="container">
 						<div class="row 200%">
-							<div class="8u 12u(mobile)" id="content itinerary">
+							<div id="itinerary">
+							<div class="8u 12u(mobile)" id="content">
 								<article id="main">
 									<header>
 										<h2><a href="#">Sample Itinerary</a></h2>
@@ -226,6 +227,8 @@
 									</section>
 								</article>
 							</div>
+							</div>
+							<div id="explore">
 							<div class="4u 12u(mobile)" id="sidebar explore">
 								<hr class="first" />
 								<section>
@@ -309,9 +312,13 @@
 									</footer>
 								</section>
 							</div>
+							</div>
 						</div>
 						<hr />
 						<div class="row" id="menu">
+							<header style="text-align:center;">
+								<h2>Sample Menu</h2>
+							</header>
 							<article class="4u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
@@ -379,8 +386,8 @@
 						<hr />
 						<div id="testemonials">
 							<!-- Motion Photos -->
-							<header>
-								<h2><a href="#">Sailor Testemonials</a></h2>
+							<header style="text-align:center;">
+								<h2>Sailor Testemonials</h2>
 							</header>
 							<section  class="carousel">
 								<div class="reel">
