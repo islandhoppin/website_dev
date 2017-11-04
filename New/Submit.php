@@ -92,7 +92,7 @@
 										<b>Update Text:</b> This will the text of the actual testominal. It will not be displayed as it will be in the image.
 										The text will instead be used in the Alt tag (for an increase in search results from google)<br />
 										<b>Google URL:</b> This process is shown in the video button below. The script will alter the url to embed the 
-										the image into the site. No additional alteration of the url is need for content delivery. 
+										the image into the site. No additional alteration of the url is need for content delivery. <a href="https://drive.google.com/drive/folders/0B3sdhzU2CCBJVUxlS1VQd3lnYlE" target="_blank">Drive Link</a>
 										<br /><b>Proofread! No changing the database insert, only deleting the entry and recreating the post.</b>
 										<br /><b>All testimonials will be shown in the photo carousel, the order will favor the most recent first.</b>
 									</p>
@@ -173,7 +173,7 @@
 										<b>Date:</b> Today's date will automatically be inserted into the site, Changing the date is not currently support. <br />
 										<b>Update Text:</b> This will the text of the news event. <br />
 										<b>Google URL:</b> This process is shown in the video button below. The script will alter the url to embed the 
-										the image into the site. No additional alteration of the url is need for content delivery. 
+										the image into the site. No additional alteration of the url is need for content delivery. <a href="https://drive.google.com/drive/folders/0B3sdhzU2CCBJVUxlS1VQd3lnYlE" target="_blank">Drive Link</a>
 										<br /><b>Proofread! No changing the database insert, only deleting the entry and recreating the post.</b>
 										<br /><b>The current query supports the 9 most recent posts, placing them in the order of most recent on top.</b>
 									</p>
