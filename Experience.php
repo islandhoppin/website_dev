@@ -323,8 +323,8 @@
 									<li>&mdash; Caribbean jerk burgers with pineapple relish and spicy coleslaw</li>
 								</ul>
 							</article>
-							<hr />
 							</div>
+							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
@@ -356,8 +356,8 @@
 									<li>&mdash; Homemade falafel with cucumber yoghurt sauce</li>
 								</ul>
 							</article>
-							<hr />
 							</div>
+							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
