@@ -222,58 +222,61 @@
 								<hr />
 								<section>
 									<header>
-										<h3><a href="#">Sed lorem etiam consequat</a></h3>
+										<h3>Points of Interest?</h3>
 									</header>
 									<p>
-										Tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+										The Carribean has so much to offer that we can't show you everything here... BUT no one said we 
+										wouldn't show you some of our favorite places.
 									</p>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+											<a href="https://en.wikipedia.org/wiki/The_Baths" class="image fit"><img src="images/Experience/The-Baths.png" alt="The Baths" /></a>
 										</div>
 										<div class="8u">
-											<h4>Nibh sed cubilia</h4>
+											<h4>The Baths</h4>
 											<p>
-												Amet nullam fringilla nibh nulla convallis tique ante proin.
+												Located on Virgin Gorda, B.V.I.; The Baths satistfy the inner explorer in all of us. 
+												The Baths was formed by granite that eroded into piles of boulders on the beach.
+												The boulders form natural tidal pools, tunnels, arches, and scenic grottoes that are open to the sea.
 											</p>
 										</div>
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+											<a href="https://en.wikipedia.org/wiki/Tortola" class="image fit"><img src="images/Experience/cane-garden-bay.jpg" alt="Cane Garden Bay" /></a>
 										</div>
 										<div class="8u">
-											<h4>Proin sed adipiscing</h4>
+											<h4>Cane Garden Bay</h4>
 											<p>
-												Amet nullam fringilla nibh nulla convallis tique ante proin.
+												Located on the main island of Tortola, B.V.I.; this beach is known for the views, food, and night life.
 											</p>
 										</div>
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
+											<a href="https://en.wikipedia.org/wiki/Anegada" class="image fit"><img src="images/Experience/anegada-flamingo.jpg" alt="Anegada Island" /></a>
 										</div>
 										<div class="8u">
-											<h4>Lorem feugiat magna</h4>
+											<h4>Anegada Island</h4>
 											<p>
-												Amet nullam fringilla nibh nulla convallis tique ante proin.
+												Located <del>15 miles</del> 24 KM from Virgin Gorda, B.V.I.; 
 											</p>
 										</div>
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
+											<a href="http://www.soggydollar.com/" class="image fit"><img src="images/Experience/Soggy-Dollar-Bar.jpg" alt="Soggy Dollar Bar" /></a>
 										</div>
 										<div class="8u">
-											<h4>Sed tempus fringilla</h4>
+											<h4>The Soggy Dollar Bar</h4>
 											<p>
-												Amet nullam fringilla nibh nulla convallis tique ante proin.
+												Located on Jost Van Dyke, B.V.I (White Bay); The Soggy Dollar Bars offers a unique experience of 
 											</p>
 										</div>
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
+											<a href="#" class="image fit"><img src="images/Experience/" alt="" /></a>
 										</div>
 										<div class="8u">
 											<h4>Malesuada fermentum</h4>
@@ -282,9 +285,6 @@
 											</p>
 										</div>
 									</div>
-									<footer>
-										<a href="#" class="button">Magna Adipiscing</a>
-									</footer>
 								</section>
 							</div>
 						</div>
