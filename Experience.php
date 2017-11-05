@@ -1,9 +1,9 @@
 <?php     
-require 'New/connection.inc.php'; 
+	require 'New/connection.inc.php'; 
       // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
- $sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut ORDER BY news_id DESC") ; 
+	$sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut ORDER BY news_id DESC") ; 
       // Execute the query, if there were variables, they could be bound within the brackets
-      $sqlnew->execute() ;
+    $sqltut->execute() ;
 ?>
 <!DOCTYPE HTML>
 <!--
