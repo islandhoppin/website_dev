@@ -1,4 +1,10 @@
-
+<?php     
+require 'New/connection.inc.php'; 
+      // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
+ $sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut ORDER BY news_id DESC") ; 
+      // Execute the query, if there were variables, they could be bound within the brackets
+      $sqlnew->execute() ;
+?>
 <!DOCTYPE HTML>
 <!--
 	Helios by Pixelarity
@@ -286,7 +292,6 @@
 						<header style="text-align:center;">
 							<h2>Sample Menu</h2>
 						</header>
-						<div class="row">
 							<div class="row">
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
@@ -318,6 +323,7 @@
 									<li>&mdash; Caribbean jerk burgers with pineapple relish and spicy coleslaw</li>
 								</ul>
 							</article>
+							<hr />
 							</div>
 							<div class="row">
 							<article class="6u 12u(mobile) special">
@@ -335,9 +341,6 @@
 									<li>&mdash; Mahi mahi fillet with saffron risotto and a mango cilantro sauce</li>
 								</ul>
 							</article>
-						</div>
-						<hr />
-						<div class="row">
 							<article class="6u 12u(mobile) special">
 								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
 								<header>
@@ -353,6 +356,7 @@
 									<li>&mdash; Homemade falafel with cucumber yoghurt sauce</li>
 								</ul>
 							</article>
+							<hr />
 							</div>
 							<div class="row">
 							<article class="6u 12u(mobile) special">
@@ -387,7 +391,23 @@
 								</ul>
 							</article>
 							</div>
-						</div>
+							<hr />
+							<div id="testemonials">
+								<!-- Motion Photos -->
+								<header style="text-align:center;">
+									<h2>Sailor Testemonials</h2>
+								</header>
+								<section  class="carousel">
+									<div class="reel">
+									<?php while( $row1 = $sqltut->fetch()) : ?>
+										<article>
+											<a href="<?php echo $row1['image']; ?>" class="swipebox" title="<?php echo $row1['header']; ?> - Date: <?php echo $row1['blank_1']; ?>">
+												<img class="image featured" style="width:290px; height:auto; margin-top:30px" src="<?php echo $row1['image']; ?>" alt="<?php echo $row1['update']; ?>">
+											</a>
+										</article>
+									<?php endwhile ?>
+								</section>
+							</div>
 					</div>
 
 				</div>
