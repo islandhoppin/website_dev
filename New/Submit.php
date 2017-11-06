@@ -61,6 +61,9 @@
 								<p>
 									<a href="http://islandhoppincharters.com">Go to the Home Screen</a>
 								</p>
+								<p>
+									<a href="https://drive.google.com/open?id=1guFdmenk0EPc_-d9Da0rgYvmzXTiimy83XimO3hkJI8">Change Request Form</a>
+								</p>
 							</header>
 							<div class="8u 12u(mobile)" id="content" style="margin-top:-50px;">
 								<article id="main">
