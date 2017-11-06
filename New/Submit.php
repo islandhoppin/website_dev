@@ -102,7 +102,7 @@
 								</section>
 							</div>
 						</div>				
-						<hr />
+						
 						<div class="row 200%">
 				        <div class="11u 12u(mobile) important(mobile)" id="content">
 				                <article id="main">
@@ -183,7 +183,7 @@
 								</section>
 							</div>
 						</div>
-						<hr />
+						
 						<div class="row 200%">
 				        <div class="11u 12u(mobile) important(mobile)" id="content">
 				                <article id="main">
