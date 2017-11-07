@@ -7,7 +7,7 @@
     if ($onPage == $verifyCode){
         $id = $_POST["news_id"];
         $table = $_POST["Table"];
-        $Header = $_POST["Header"];
+        $Header1 = $_POST["Header"];
         $Update = $_POST["Update"];
         $Image = $_POST["Image"];
         $Date = $_POST["Blank_1"];
@@ -61,7 +61,7 @@
 									<header><h2>Edit Data Fields</h2></header>
                                     <form action = "submitTut.php" method = "post">
         		                        <header><h3>Header</h3></header>
-                                        <input type="text" name="Header" value="<? php echo $Header;?>">
+                                        <input type="text" name="Header" value="<? php echo $Header1;?>">
                                         <header style="margin-top:25px;"><h3>Update Text</h3></header>
                                         <textarea type="text" name="update"  rows="6" cols="30" value="<? php echo $Update;?>"></textarea>
                                         <header style="margin-top:25px;"><h3>Google Url</h3></header>
