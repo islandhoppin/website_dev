@@ -132,7 +132,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
                                             	<form action="/New/Update.php" method="post">
-                                                    <input type="hidden" name="news_id" value=<?php echo $row1['news_id']; ?>>
+                                                    <input type="hidden" name="news_id" value="<?php echo $row1['news_id']; ?>">
                                                     <input type="hidden" name="Table" value="customertut">
                                                     <input type="hidden" name="Header" value="<?php echo $row1['header']; ?>">
                                                     <input type="hidden" name="Update" value="<?php echo $row1['update']; ?>">
@@ -225,7 +225,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
                                             	<form action="/New/Update.php" method="post">
-                                                    <input type="hidden" name="news_id" value=<?php echo $row2['news_id']; ?>>
+                                                    <input type="hidden" name="news_id" value="<?php echo $row2['news_id']; ?>">
                                                     <input type="hidden" name="Table" value="newsupdates">
                                                     <input type="hidden" name="Header" value="<?php echo $row2['header']; ?>">
                                                     <input type="hidden" name="Update" value="<?php echo $row2['update']; ?>">
