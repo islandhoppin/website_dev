@@ -86,7 +86,8 @@
 								<section>
 									
 									<header>
-										<h3><a href="https://drive.google.com/open?id=1guFdmenk0EPc_-d9Da0rgYvmzXTiimy83XimO3hkJI8">Change Request Form</a></h3>
+										<h3 style="text-align:center;"><a href="https://drive.google.com/open?id=1guFdmenk0EPc_-d9Da0rgYvmzXTiimy83XimO3hkJI8">Change Request Form</a></h3>
+										<hr />
 										<h3>Learn how to submit Customer Testimonials</h3>
 									</header>
 									<p>
@@ -95,7 +96,7 @@
 										The text will instead be used in the Alt tag (for an increase in search results from google)<br />
 										<b>Google URL:</b> This process is shown in the video button below. The script will alter the url to embed the 
 										the image into the site. No additional alteration of the url is need for content delivery. <a href="https://drive.google.com/drive/folders/0B3sdhzU2CCBJVUxlS1VQd3lnYlE" target="_blank">Drive Link</a>
-										<br /><b>Proofread! No changing the database insert, only deleting the entry and recreating the post.</b>
+
 										<br /><b>All testimonials will be shown in the photo carousel, the order will favor the most recent first.</b>
 									</p> 
 									<footer>

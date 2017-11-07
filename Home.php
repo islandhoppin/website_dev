@@ -208,7 +208,7 @@
 										<h3><?php echo $row['header']; ?></h3>
 										<h3><i><?php echo $row['blank_1']; ?></i></h3>
 									</header>
-									<p><?php echo $row['update']; ?></p>
+									<p align="left"><?php echo $row['update']; ?></p>
 								</article>
 							<?php if ($i % 3 == 0) {echo "</div> <hr />";}
 							endwhile;
