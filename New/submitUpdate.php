@@ -13,7 +13,7 @@ if ($verifyCode == $onPage){
     $update = pg_escape_string($update1);
     $today = pg_escape_string($today1);
     require 'connection.inc.php'; 
-    $query = "UPDATE $table SET header = $header, update = $update, image = $image, blank_1 = $today WHERE news_id = $key";
+    $query = "UPDATE $table SET header = '$header', update = '$update', image = '$image', blank_1 = '$today' WHERE news_id = $key";
     $dbconn->query($query);
 }
 header( 'Location: /Admin.html') ;
