@@ -15,8 +15,8 @@
     
     // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
 
-    $sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut") ; 
-    $sqlnew = $dbconn->prepare("Select news_id, header, update, image, blank_1 From newsupdates") ; 
+    $sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut ORDER BY news_id ASC") ; 
+    $sqlnew = $dbconn->prepare("Select news_id, header, update, image, blank_1 From newsupdates ORDER BY news_id ASC") ; 
     // Execute the query, if there were variables, they could be bound within the brackets
     $sqltut->execute() ;
     $sqlnew->execute() ;
