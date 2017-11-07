@@ -15,6 +15,7 @@ if ($verifyCode == $onPage){
     $today = pg_escape_string($today1);
     require 'connection.inc.php'; 
     $query = "UPDATE $table SET header = '$header', update = '$update', image = '$image', blank_1 = '$today' WHERE news_id = $key";
+    echo $query;
     $dbconn->query($query);
 }
 header( 'Location: /Admin.html') ;
