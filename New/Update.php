@@ -63,13 +63,13 @@
         		                        <header><h3>Header</h3></header>
                                         <input type="text" name="Header" value = "<?php echo $Header;?>">
                                         <header style="margin-top:25px;"><h3>Update Text</h3></header>
-                                        <textarea type="text" name="update"  rows="6" cols="30" placeholder = "<?php echo $Update;?>"></textarea>
+                                        <textarea type="text" name="update"  rows="6" cols="30">"<?php echo $Update;?>"</textarea>
                                         <header style="margin-top:25px;"><h3>Google Url</h3></header> 
                                         <input type="text" name="url" value = "<?php echo $Image;?>">
                                         <header style="margin-top:25px;"><h3>Date</h3></header>
                                         <input type="text" name="date" value = "<?php echo $Date;?>">
                                         <br />
-                                        <input type="hidden" name="key" value = <?php echo $id;?>>
+                                        <input type="hidden" name="key" value = "<?php echo $id;?>">
                                         <input type="hidden" name="table" value = "<?php echo $table;?>">
                                         <input type="hidden" name="INTERNAL" value = "<?php echo $verifyCode;?>">
                                         <input type="submit" value="Submit">
