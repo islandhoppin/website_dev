@@ -146,6 +146,7 @@
                                                     <input type="hidden" name="id" value="news_id">
                                                     <input type="hidden" name="idnum" value="<?php echo $row1['news_id']; ?>">
                                                     <input type="hidden" name="table" value="customertut">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px; margin-bottom:5px; color:red;">Delete</button>
                                                 </form>
                                                 </td>
@@ -238,6 +239,7 @@
                                                     <input type="hidden" name="id" value="news_id">
                                                     <input type="hidden" name="idnum" value=<?php echo $row2['news_id']; ?>>
                                                     <input type="hidden" name="table" value="newsupdates">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px; margin-bottom:5px; color:red;">Delete</button>
                                                 </form></td>
                                         </tr>
