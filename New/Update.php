@@ -10,7 +10,7 @@
         $Header = $_POST["Header"];
         $Update = $_POST["Update"];
         $Image = $_POST["Image"];
-        $Date = $_POST["Blank_1"];
+        $Date = $_POST["date"];
         
     }
 ?>
