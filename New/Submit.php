@@ -139,13 +139,13 @@
                                                     <input type="hidden" name="Image" value="<?php echo $row1['image']; ?>">
                                                     <input type="hidden" name="Blank_1" value="<?php echo $row1['blank_1']; ?>">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
-                                                  <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
+                                                  <button type="submit" value="Submit" >Edit</button>
                                                 </form>
                                             	<form action="/New/delete.php" method="post">
                                                     <input type="hidden" name="id" value="news_id">
                                                     <input type="hidden" name="idnum" value=<?php echo $row1['news_id']; ?>>
                                                     <input type="hidden" name="table" value="customertut">
-                                                  <button type="submit" value="Submit">Delete</button>
+                                                  <button type="submit" value="Submit"Style="margin-top:5px; color:red;">Delete</button>
                                                 </form>
                                                 </td>
                                         </tr>
