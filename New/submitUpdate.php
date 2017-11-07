@@ -7,6 +7,7 @@ if ($verifyCode == $onPage){
     $key = $_POST["news_id"];
     $header1 = $_POST["Header"];
     $image = $_POST["url"];
+    $today1 = $_POST["Blank_1"];
     $image = str_replace("open","uc",$image);
     $update1 = $_POST["update"];
     $header = pg_escape_string($header1);
