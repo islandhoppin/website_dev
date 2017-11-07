@@ -59,7 +59,7 @@
 								<article id="main">
 									<section>
 									<header><h2>Edit Data Fields</h2></header>
-                                    <form action = "submitTut.php" method = "post">
+                                    <form action = "submitUpdate.php" method = "post">
         		                        <header><h3>Header</h3></header>
                                         <input type="text" name="Header" value = "<?php echo $Header;?>">
                                         <header style="margin-top:25px;"><h3>Update Text</h3></header>
