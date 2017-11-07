@@ -139,11 +139,11 @@
                                                 </form>
                                                 <form action="/New/Update.php" method="post">
                                                     <input type="hidden" name="news_id" value=<?php echo $row1['news_id']; ?>>
-                                                    <input type="hidden" name="table" value="customertut">
+                                                    <input type="hidden" name="Table" value="customertut">
                                                     <input type="hidden" name="Header" value="<?php echo $row1['header']; ?>">
                                                     <input type="hidden" name="Update" value="<?php echo $row1['update']; ?>">
                                                     <input type="hidden" name="Image" value="<?php echo $row1['image']; ?>">
-                                                    <input type="hidden" name="Blank_1" value="<?php echo $row1['Blank_1']; ?>">
+                                                    <input type="hidden" name="Blank_1" value="<?php echo $row1['blank_1']; ?>">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit">Edit</button>
                                                 </form></td>
