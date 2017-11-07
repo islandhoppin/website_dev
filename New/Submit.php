@@ -185,11 +185,10 @@
 									</header>
 									<p>
 										<b>Header:</b> This will display below the image.<br />
-										<b>Date:</b> Today's date will automatically be inserted into the site, Changing the date is not currently support. <br />
+										<b>Date:</b> Today's date will automatically be inserted into the site, Changing the date is support by editing the row after submission. <br />
 										<b>Update Text:</b> This will the text of the news event. <br />
 										<b>Google URL:</b> This process is shown in the video button below. The script will alter the url to embed the 
 										the image into the site. No additional alteration of the url is need for content delivery. <a href="https://drive.google.com/drive/folders/0B3sdhzU2CCBJVUxlS1VQd3lnYlE" target="_blank">Drive Link</a>
-										<br /><b>Proofread! No changing the database insert, only deleting the entry and recreating the post.</b>
 										<br /><b>The current query supports the 9 most recent posts, placing them in the order of most recent on top.</b>
 									</p>
 									<footer>
