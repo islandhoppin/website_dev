@@ -7,7 +7,7 @@
     if ($onPage == $verifyCode){
         $id = $_POST["news_id"];
         $table = $_POST["Table"];
-        $Header1 = $_POST["Header"];
+        $Header = $_POST["Header"];
         $Update = $_POST["Update"];
         $Image = $_POST["Image"];
         $Date = $_POST["Blank_1"];
@@ -61,17 +61,17 @@
 									<header><h2>Edit Data Fields</h2></header>
                                     <form action = "submitTut.php" method = "post">
         		                        <header><h3>Header</h3></header>
-                                        <input type="text" name="Header" value="<? php echo $Header1;?>">
+                                        <input type="text" name="Header" value = <?php echo $Header;?>>
                                         <header style="margin-top:25px;"><h3>Update Text</h3></header>
-                                        <textarea type="text" name="update"  rows="6" cols="30" value="<? php echo $Update;?>"></textarea>
-                                        <header style="margin-top:25px;"><h3>Google Url</h3></header>
-                                        <input type="text" name="url" value = "<? php echo $Image;?>">
+                                        <textarea type="text" name="update"  rows="6" cols="30" value = <? php echo $Update;?>></textarea>
+                                        <header style="margin-top:25px;"><h3>Google Url</h3></header> 
+                                        <input type="text" name="url" value = <? php echo $Image;?>>
                                         <header style="margin-top:25px;"><h3>Date</h3></header>
-                                        <input type="text" name="$today1" value = "<? php echo $Image;?>">
+                                        <input type="text" name="$today1" value = <? php echo $Image;?>>
                                         <br />
-                                        <input type="hidden" name="key" value="<?php echo $id;?>">
-                                        <input type="hidden" name="table" value="<?php echo $table;?>">
-                                        <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                        <input type="hidden" name="key" value = <?php echo $id;?>>
+                                        <input type="hidden" name="table" value = <?php echo $table;?>>
+                                        <input type="hidden" name="INTERNAL" value = <?php echo $verifyCode;?>>
                                         <input type="submit" value="Submit">
                                     </form>
 									</section>
