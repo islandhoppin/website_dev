@@ -69,7 +69,7 @@
                                         <header style="margin-top:25px;"><h3>Date</h3></header>
                                         <input type="text" name="date" value = "<?php echo $Date;?>">
                                         <br />
-                                        <input type="hidden" name="key" value = "<?php echo $id;?>">
+                                        <input type="hidden" name="id" value = "<?php echo $id;?>">
                                         <input type="hidden" name="table" value = "<?php echo $table;?>">
                                         <input type="hidden" name="INTERNAL" value = "<?php echo $verifyCode;?>">
                                         <input type="submit" value="Submit">
