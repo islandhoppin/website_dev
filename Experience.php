@@ -208,16 +208,14 @@
 								<hr class="first" />
 								<section id="explore">
 									<header>
-										<h3>Explore the Carribean</h3>
+										<h3>Explore the Caribbean</h3>
 									</header>
 									<p>
-										Dolor sed fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-										porttitor phasellus tempus cubilia ultrices tempor sagittis  tellus ante diam nec penatibus dolor cras
-										magna tempus feugiat veroeros.
+										Explore the best of what the Caribbean has to offer!
 									</p>
-									<footer>
+									<!--<footer>
 										<a href="#" class="button">Learn More</a>
-									</footer>
+									</footer>-->
 								</section>
 								<hr />
 								<section>
@@ -225,7 +223,7 @@
 										<h3>Points of Interest?</h3>
 									</header>
 									<p>
-										The Carribean has so much to offer that we can't show you everything here... BUT no one said we 
+										The Caribbean has so much to offer that we can't show you everything here... BUT no one said we 
 										wouldn't show you some of our favorite places.
 									</p>
 									<div class="row 50%">
@@ -259,7 +257,8 @@
 										<div class="8u">
 											<h4>Anegada Island</h4>
 											<p>
-												Located <del>15 miles</del> 24 KM from Virgin Gorda, B.V.I.; 
+												Located <del>15 miles</del> 24 KM from Virgin Gorda, B.V.I.; the island is home to 285 villagers and is known for miles of white sand beaches 
+												and the largest barrier coral reef in the Caribbean, and the fourth largest on earth. 
 											</p>
 										</div>
 									</div>
@@ -276,15 +275,60 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/Experience/" alt="" /></a>
+											<a href="https://travel.usnews.com/British_Virgin_Islands/Things_To_Do/Smugglers_Cove_Tortola_61148/" class="image fit"><img src="images/Experience/Smugglers-cove.jpg" alt="Smuggler's Cove" /></a>
 										</div>
 										<div class="8u">
-											<h4>Malesuada fermentum</h4>
+											<h4>Smuggler's Cove</h4>
+											<p>
+												Enjoyed the shady palm trees and calm blue water located on Tortola, B.V.I..
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="http://divebvi.com/rms-rhone/" class="image fit"><img src="images/Experience/RMS-Rhone.jpg" alt="Wreck of the RMS Rhone" /></a>
+										</div>
+										<div class="8u">
+											<h4>The Wreck of the RMS Rhone</h4>
 											<p>
 												Amet nullam fringilla nibh nulla convallis tique ante proin.
 											</p>
 										</div>
 									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="https://en.wikipedia.org/wiki/Cooper_Island_(British_Virgin_Islands)" class="image fit"><img src="images/Experience/cooper-island.jpg" alt="Cooper Island" /></a>
+										</div>
+										<div class="8u">
+											<h4>Cooper Island</h4>
+											<p>
+												A small island of the British Virgin Islands, offers amenities such a restaurant, rum bar, coffee shop, solar powered brewery, and gift shop.
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="#" class="image fit"><img src="images/Experience/" alt="" /></a>
+										</div>
+										<div class="8u">
+											<h4>Example place</h4>
+											<p>
+												Another place
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="#" class="image fit"><img src="images/Experience/" alt="" /></a>
+										</div>
+										<div class="8u">
+											<h4>Example place</h4>
+											<p>
+												Another place
+											</p>
+										</div>
+									</div>
+									
 								</section>
 							</div>
 						</div>
