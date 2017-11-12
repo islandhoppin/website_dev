@@ -155,35 +155,36 @@
 						</article>
 
 						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="Experience.php#explore" class="image featured"><img src="images/Experience/anegada-flamingo.jpg" alt="Explore on Island Hoppin'" /></a>
 							<header>
-								<h3><a href="#"></a></h3>
+								<h3>Explore the Caribbean</h3>
 							</header>
-							<p></p>
+							<p>Explore what the world has to offer aboard Island Hoppin'.</p>
 						</article>
 
 						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="http://www.chartercaribe.com/contact/" class="image featured"><img src="images/charter-carib-logo-web.jpg" alt="Book Island Hoppin' now!" /></a>
 							<header>
-								<h3><a href="#"></a></h3>
+								<h3>Book Now with Charter Caribe!</h3>
 							</header>
-							<p></p>
+							<p>For the best prices and deals on Island Hoppin', Book Now with Charter Caribe!</p>
 						</article>
 
 						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<!-- UPDATE the URL with recent Youtube Link-->
+							<a href="https://youtu.be/lsTfcH9HZb8" class="image featured"><img src="images/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
 							<header>
-								<h3><a href="#"></a></h3>
+								<h3>Starring: Island Hoppin'</h3>
 							</header>
-							<p></p>
+							<p>Check out the complete Island Hoppin' walk-through online now!</p>
 						</article>
 
 						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="Experience.php#itinerary" class="image featured"><img src="images/Experience/Map.jpg" alt="Island Hoppin Travel Guide" /></a>
 							<header>
-								<h3><a href="#"></a></h3>
+								<h3>Sample Itinerary</h3>
 							</header>
-							<p></p>
+							<p>Explore a sample itinerary of your future trip!</p>
 						</article>
 
 					</div>
