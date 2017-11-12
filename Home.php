@@ -180,7 +180,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#itinerary" class="image featured"><img src="images/Experience/Map.jpg" alt="Island Hoppin Travel Guide" /></a>
+							<a href="Experience.php#itinerary" class="image featured"><img src="images/Experience/map.jpg" alt="Island Hoppin Travel Guide" /></a>
 							<header>
 								<h3>Sample Itinerary</h3>
 							</header>
