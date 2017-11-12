@@ -139,7 +139,7 @@
 						</article>
 
 						<article>
-							<a href="Book.php#availability" class="image featured"><img src="images/IHop Gray logo.png" style ="max-width:205px; margin-left:30px;" alt="Island Hoppin' Availability" /></a>
+							<a href="Book.php#availability" class="image featured"><img src="images/IHop Gray logo.png" style ="max-width:200px; margin-left:50px; margin-top:5px;" alt="Island Hoppin' Availability" /></a>
 							<header>
 								<h3>Check the Booking Availability</h3>
 							</header>
