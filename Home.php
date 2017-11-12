@@ -77,12 +77,12 @@
 									</ul>
 								</li>
 								<li>
-									<a href="Book.html">Booking</a>
+									<a href="Book.php">Booking</a>
 									<ul>
-										<li><a href="Book.html#rates">Rates</a></li>
-										<li><a href="Book.html#specials">Specials</a></li>
-										<li><a href="Book.html#availability">Availability</a></li>
-										<li><a href="Book.html#contact">Contact Us</a></li>
+										<li><a href="Book.php#rates">Rates</a></li>
+										<li><a href="Book.php#specials">Specials</a></li>
+										<li><a href="Book.php#availability">Availability</a></li>
+										<li><a href="Book.php#contact">Contact Us</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -115,7 +115,7 @@
 						</article>
 
 						<article>
-							<a href="Crew.html#meet" class="image featured"><img src="images/Crew/Jamie&Susannah-tall.jpg" alt="" /></a>
+							<a href="Crew.html#meet" class="image featured"><img src="images/Crew/Jamie&Susannah-tall.jpg" alt="Island Hoppin Crew" /></a>
 							<header>
 								<h3><a href="Crew.html#meet">Meet the Crew</a></h3>
 							</header>
@@ -123,7 +123,7 @@
 						</article>
 
 						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="Experience.php#menu" class="image featured"><img src="images/Experience/Lunch.jpg" alt="Island Hoppin' Grill" /></a>
 							<header>
 								<h3><a href="Experience.html#menu">Whats Cookin...</a></h3>
 							</header>
@@ -131,7 +131,7 @@
 						</article>
 
 						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="Boat.html#dive" class="image featured"><img src="images/Experience/RMS-Rhone.jpg" alt="Diving on Island Hoppin" /></a>
 							<header>
 								<h3><a href="Boat.html#dive">Experience Below</a></h3>
 							</header>
@@ -139,19 +139,19 @@
 						</article>
 
 						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="Book.php#availability" class="image featured"><img src="images/calendar.png" alt="Island Hoppin' Availability" /></a>
 							<header>
-								<h3><a href="#"></a></h3>
+								<h3>Check the Booking Availability</h3>
 							</header>
 							<p></p>
 						</article>
 
 						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="Boat.html#floor" class="image featured"><img src="images/Boat/floor-plan.jpg" alt="Island Hoppin' Floor Plan" /></a>
 							<header>
-								<h3><a href="#"></a></h3>
+								<h3>Check the Deck...</h3>
 							</header>
-							<p></p>
+							<p>Island Hoppin' offers 4 luxurious staterooms with bathrooms and much more.</p>
 						</article>
 
 						<article>

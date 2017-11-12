@@ -87,12 +87,12 @@
 									</ul>
 								</li>
 								<li>
-									<a href="Book.html">Booking</a>
+									<a href="Book.php">Booking</a>
 									<ul>
-										<li><a href="Book.html#rates">Rates</a></li>
-										<li><a href="Book.html#specials">Specials</a></li>
-										<li><a href="Book.html#availability">Availability</a></li>
-										<li><a href="Book.html#contact">Contact Us</a></li>
+										<li><a href="Book.php#rates">Rates</a></li>
+										<li><a href="Book.php#specials">Specials</a></li>
+										<li><a href="Book.php#availability">Availability</a></li>
+										<li><a href="Book.php#contact">Contact Us</a></li>
 									</ul>
 								</li>
 							</ul>

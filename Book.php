@@ -71,7 +71,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="Book.html" style="font-weight:bold;">Booking</a>
+									<a href="Book.php" style="font-weight:bold;">Booking</a>
 									<ul>
 										<li><a href="#rates">Rates</a></li>
 										<li><a href="#specials">Specials</a></li>
