@@ -85,7 +85,7 @@
                                           <option value="No">No</option>
                                         </select>
                                         <br />
-                                        <input type="hidden" name="price_id" value = "<?php echo $id;?>">
+                                        <input type="hidden" name="price_id" value = "<?php echo $price_id;?>">
                                         <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                         <input type="submit" value="Submit">
                                     </form>
