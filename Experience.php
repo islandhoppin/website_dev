@@ -83,7 +83,7 @@
 										<li><a href="#itinerary">Sample Itinerary</a></li>
 										<li><a href="#explore">Explore</a></li>
 										<li><a href="#menu">Sample Menu</a></li>
-										<li><a href="#testemonials">Testemonials</a></li>
+										<li><a href="#testimonials">Testimonials</a></li>
 									</ul>
 								</li>
 								<li>
@@ -228,7 +228,7 @@
 									</p>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/The_Baths" class="image fit"><img src="images/Experience/The-Baths.png" alt="The Baths" /></a>
+											<a href="https://en.wikipedia.org/wiki/The_Baths" target="_blank" class="image fit"><img src="images/Experience/The-Baths.png" alt="The Baths" /></a>
 										</div>
 										<div class="8u">
 											<h4>The Baths</h4>
@@ -241,7 +241,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Tortola" class="image fit"><img src="images/Experience/cane-garden-bay.jpg" alt="Cane Garden Bay" /></a>
+											<a href="https://en.wikipedia.org/wiki/Tortola" target="_blank" class="image fit"><img src="images/Experience/cane-garden-bay.jpg" alt="Cane Garden Bay" /></a>
 										</div>
 										<div class="8u">
 											<h4>Cane Garden Bay</h4>
@@ -252,7 +252,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Anegada" class="image fit"><img src="images/Experience/anegada-flamingo.jpg" alt="Anegada Island" /></a>
+											<a href="https://en.wikipedia.org/wiki/Anegada" target="_blank" class="image fit"><img src="images/Experience/anegada-flamingo.jpg" alt="Anegada Island" /></a>
 										</div>
 										<div class="8u">
 											<h4>Anegada Island</h4>
@@ -264,7 +264,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="http://www.soggydollar.com/" class="image fit"><img src="images/Experience/Soggy-Dollar-Bar.jpg" alt="Soggy Dollar Bar" /></a>
+											<a href="http://www.soggydollar.com/" target="_blank" class="image fit"><img src="images/Experience/Soggy-Dollar-Bar.jpg" alt="Soggy Dollar Bar" /></a>
 										</div>
 										<div class="8u">
 											<h4>The Soggy Dollar Bar</h4>
@@ -275,7 +275,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://travel.usnews.com/British_Virgin_Islands/Things_To_Do/Smugglers_Cove_Tortola_61148/" class="image fit"><img src="images/Experience/Smugglers-cove.jpg" alt="Smuggler's Cove" /></a>
+											<a href="https://travel.usnews.com/British_Virgin_Islands/Things_To_Do/Smugglers_Cove_Tortola_61148/" target="_blank" class="image fit"><img src="images/Experience/Smugglers-cove.jpg" alt="Smuggler's Cove" /></a>
 										</div>
 										<div class="8u">
 											<h4>Smuggler's Cove</h4>
@@ -286,7 +286,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="http://divebvi.com/rms-rhone/" class="image fit"><img src="images/Experience/RMS-Rhone.jpg" alt="Wreck of the RMS Rhone" /></a>
+											<a href="http://divebvi.com/rms-rhone/" target="_blank" class="image fit"><img src="images/Experience/RMS-Rhone.jpg" alt="Wreck of the RMS Rhone" /></a>
 										</div>
 										<div class="8u">
 											<h4>The Wreck of the RMS Rhone</h4>
@@ -297,7 +297,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Cooper_Island_(British_Virgin_Islands)" class="image fit"><img src="images/Experience/cooper-island.jpg" alt="Cooper Island" /></a>
+											<a href="https://en.wikipedia.org/wiki/Cooper_Island_(British_Virgin_Islands)" target="_blank" class="image fit"><img src="images/Experience/cooper-island.jpg" alt="Cooper Island" /></a>
 										</div>
 										<div class="8u">
 											<h4>Cooper Island</h4>
@@ -308,7 +308,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/Experience/" alt="" /></a>
+											<a href="#" target="_blank"class="image fit"><img src="images/Experience/" alt="" /></a>
 										</div>
 										<div class="8u">
 											<h4>Example place</h4>
@@ -319,7 +319,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/Experience/" alt="" /></a>
+											<a href="#" target="_blank" class="image fit"><img src="images/Experience/" alt="" /></a>
 										</div>
 										<div class="8u">
 											<h4>Example place</h4>
@@ -338,7 +338,7 @@
 						</header>
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+								<a href="" class="image featured"><img src="images/Experience/Break.jpg" alt="" /></a>
 								<header>
 									<h3>Breakfast</h3>
 								</header>
@@ -353,7 +353,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+								<a href="" class="image featured"><img src="images/Experience/Lunch.jpg" alt="" /></a>
 								<header>
 									<h3>Lunch</h3>
 								</header>
@@ -371,7 +371,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+								<a href="" class="image featured"><img src="images/Experience/Lunch.jpg" alt="" /></a>
 								<header>
 									<h3>Dinner</h3>
 								</header>
@@ -386,7 +386,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+								<a href="" class="image featured"><img src="images/Experience/Appetizer.jpg" alt="" /></a>
 								<header>
 									<h3>Appetizers</h3>
 								</header>
@@ -404,7 +404,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+								<a href="" class="image featured"><img src="images/Experience/Dessert.jpg" alt="" /></a>
 								<header>
 									<h3>Desserts</h3>
 								</header>
@@ -419,7 +419,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+								<a href="" class="image featured"><img src="images/Experience/Drinks.jpg" alt="" /></a>
 								<header>
 									<h3>Drinks</h3>
 								</header>
@@ -436,10 +436,10 @@
 							</article>
 							</div>
 							<hr />
-							<div id="testemonials">
+							<div id="testimonials">
 								<!-- Motion Photos -->
 								<header style="text-align:center;">
-									<h2>Sailor Testemonials</h2>
+									<h2>Sailor Testimonials</h2>
 								</header>
 								<section  class="carousel">
 									<div class="reel">
@@ -476,9 +476,9 @@
 											</header>
 											<p>Check out some of our social media pages.</p>
 											<ul class="icons">
-												<li><a href="https://www.facebook.com/IslandHoppinCharters/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="https://www.instagram.com/islandhoppincharters/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="mailto:IslandHoppinCharters@gmail.com" class="icon fa-envelope-o"><span class="label">Email Us</span></a></li>
+												<li><a href="https://www.facebook.com/IslandHoppinCharters/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="https://www.instagram.com/islandhoppincharters/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="mailto:IslandHoppinCharters@gmail.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email Us</span></a></li>
 											</ul>
 											</article>
 											<article class="3u 12u(mobile) special fadeshow1">
