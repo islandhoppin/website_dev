@@ -8,7 +8,7 @@
     $sqlnew->execute() ;
 ?>
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107335403-1"></script>
@@ -203,12 +203,12 @@
 								$i++; 
 								if($i % 3 == 1){echo '<div class="row">';}?>
 								<article class="4u 12u(mobile) special">
-									<a href="<?php echo $row['image']; ?>" class="image featured"><img src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" /></a>
+									<a href="<?php echo $row['image']; ?>" target="_blank" class="image featured"><img src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" /></a>
 									<header>
 										<h3><?php echo $row['header']; ?></h3>
 										<h3><i><?php echo $row['blank_1']; ?></i></h3>
 									</header>
-									<p align="left"><?php echo $row['update']; ?></p>
+									<p><?php echo $row['update']; ?></p>
 								</article>
 							<?php if ($i % 3 == 0) {echo "</div> <hr />";}
 							endwhile;

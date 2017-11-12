@@ -11,7 +11,7 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 -->
-<html>
+<html lang="en">
 	<head>
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107335403-1"></script>
@@ -439,7 +439,7 @@
 							<div id="testimonials">
 								<!-- Motion Photos -->
 								<header style="text-align:center;">
-									<h2>Sailor Testimonials</h2>
+									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Testimonials</h2>
 								</header>
 								<section  class="carousel">
 									<div class="reel">
