@@ -163,7 +163,7 @@
 						</article>
 
 						<article>
-							<a href="http://www.chartercaribe.com/contact/" class="image featured"><img src="images/charter-carib-logo-web.jpg" alt="Book Island Hoppin' now!" /></a>
+							<a href="http://www.chartercaribe.com/contact/"  target="_blank" class="image featured"><img src="images/charter-carib-logo-web.jpg" alt="Book Island Hoppin' now!" /></a>
 							<header>
 								<h3>Book Now with Charter Caribe!</h3>
 							</header>
@@ -172,7 +172,7 @@
 
 						<article>
 							<!-- UPDATE the URL with recent Youtube Link-->
-							<a href="https://youtu.be/lsTfcH9HZb8" class="image featured"><img src="images/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
+							<a href="https://youtu.be/lsTfcH9HZb8"  target="_blank" class="image featured"><img src="images/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
 							<header>
 								<h3>Starring: Island Hoppin'</h3>
 							</header>
@@ -180,7 +180,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#itinerary" class="image featured"><img src="images/Experience/map.jpg" alt="Island Hoppin Travel Guide" /></a>
+							<a href="Experience.php#itinerary" class="image featured"><img src="images/Experience/map.png" alt="Island Hoppin Travel Guide" /></a>
 							<header>
 								<h3>Sample Itinerary</h3>
 							</header>
