@@ -13,7 +13,7 @@ if ($verifyCode == $onPage){
     $eightpax = pg_escape_string($_POST["eightpax"]);
     $show = $_POST["show"];
     require 'connection.inc.php'; 
-    $query = "INSERT INTO priceSchedule (season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show) VALUES ('$header', '$twopax', '$threepax', '$fourpax', '$fivepax', '$sixpax', '$sevenpax', '$eightpax', '$show')";
+    $query = "INSERT INTO priceSchedule (season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show) VALUES ('$season', '$twopax', '$threepax', '$fourpax', '$fivepax', '$sixpax', '$sevenpax', '$eightpax', '$show')";
     $dbconn->query($query);
 }
 header( 'Location: /Admin.html') ;

@@ -13,6 +13,7 @@
 	    $sixpax = $_POST["sixpax"];
 	    $sevenpax = $_POST["sevenpax"];
 	    $eightpax = $_POST["eightpax"];
+	    $price_id = $_POST["price_id"];
         
     }
 ?>
