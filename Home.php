@@ -139,7 +139,7 @@
 						</article>
 
 						<article>
-							<a href="Book.php#availability" class="image featured"><img src="images/IHop Gray logo.png" alt="Island Hoppin' Availability" /></a>
+							<a href="Book.php#availability" class="image featured"><img src="images/IHop Gray logo.png" style ="max-height:80%" alt="Island Hoppin' Availability" /></a>
 							<header>
 								<h3>Check the Booking Availability</h3>
 							</header>
@@ -167,7 +167,7 @@
 							<header>
 								<h3>Book Now with Charter Caribe!</h3>
 							</header>
-							<p>For the best prices and deals on Island Hoppin', Book Now with Charter Caribe!</p>
+							<p>Click to Book with Charter Caribe!</p>
 						</article>
 
 						<article>
