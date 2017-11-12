@@ -14,7 +14,7 @@ if ($verifyCode == $onPage){
     $show = $_POST["show"];
     $price_id = $_POST["price_id"];
     require 'connection.inc.php'; 
-    $query = "UPDATE priceSchedule SET season = '$season', twopax = '$twopax', threepax = '$threepax', fourpax = '$fourpax', fivepax = '$fivepax', sixpax = '$sixpax', sevenpax = '$sevenpax', eightpax = '$eightpax', show '$show' WHERE price_id = $price_id";
+    $query = "UPDATE priceSchedule SET season = '$season', twopax = '$twopax', threepax = '$threepax', fourpax = '$fourpax', fivepax = '$fivepax', sixpax = '$sixpax', sevenpax = '$sevenpax', eightpax = '$eightpax', show = '$show' WHERE price_id = $price_id";
     echo $query;
     $dbconn->query($query);
 }
