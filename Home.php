@@ -143,7 +143,7 @@
 							<header>
 								<h3>Check the Booking Availability</h3>
 							</header>
-							<p></p>
+							<p>The availability is updated frequently to help you plan your perfect vacation.</p>
 						</article>
 
 						<article>
@@ -163,7 +163,7 @@
 						</article>
 
 						<article>
-							<a href="http://www.chartercaribe.com/contact/"  target="_blank" class="image featured"><img src="images/charter-carib-logo-web.jpg" alt="Book Island Hoppin' now!" /></a>
+							<a href="http://www.chartercaribe.com/contact/"  target="_blank" class="image featured"><img src="images/charter-caribe.jpg" alt="Book Island Hoppin' now!" /></a>
 							<header>
 								<h3>Book Now with Charter Caribe!</h3>
 							</header>
