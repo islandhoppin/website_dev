@@ -64,7 +64,7 @@
 									<header><h2>Edit Data Fields</h2></header>
 									<form action = "submitPriceUpdate.php" method = "post">
         		                        <header><h3>Season</h3></header>
-                                        <input type="text" name="season">
+                                        <input type="text" name="season"  value = "<?php echo $season;?>">
                                         <header style="margin-top:25px;"><h3>2 Passengers</h3></header>
                                         <input type="text" name="twopax" value = "<?php echo $twopax;?>">
                                         <header style="margin-top:25px;"><h3>3 Passengers</h3></header>
@@ -92,18 +92,6 @@
 									</section>
 									
 								</article>
-							</div>
-							<div class="4u 12u(mobile)" id="sidebar">
-								<hr class="first" />
-								<section>
-									
-									<header>
-									
-										<h3>Edit data</h3>
-										<hr />
-									</header>
-									
-								</section>
 							</div>
 						</div>				
 						<hr />

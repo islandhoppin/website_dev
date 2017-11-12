@@ -108,7 +108,7 @@
 							<div class="8u 12u(mobile)" id="content">
 								<article id="main">
 									<header>
-										<h2><a href="#">Sample Itinerary</a></h2>
+										<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif"><a href="#">Sample Itinerary</a></h2>
 										<p>
 											The world is your playground, enjoy it aboard Island Hoppin'!
 										</p>
@@ -334,7 +334,7 @@
 						</div>
 						<hr id="menu"/>
 						<header style="text-align:center;">
-							<h2>Sample Menu</h2>
+							<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sample Menu</h2>
 						</header>
 							<div class="row">
 							<article class="6u 12u(mobile) special">

@@ -102,7 +102,7 @@
 									</header>
 									<p>
 										<b>Season:</b> The season.<br />
-										<b>## Pax:</b>Each Row indicates the price per additional passenger. <br />
+										<b>## Pax:</b> Each Row indicates the price per additional passenger. <br />
 										<b>Show:</b> This Yes/No indicates whether the price schedule is visible on the page.
 
 									</p>
