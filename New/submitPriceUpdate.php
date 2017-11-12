@@ -1,7 +1,7 @@
 <?php 
 $verifyCode = getenv('SET_VERIFY');
 $onPage = $_POST["INTERNAL"];
-
+//Script to update existing price schedules
 if ($verifyCode == $onPage){
     $season = pg_escape_string($_POST["season"]);
     $twopax = pg_escape_string($_POST["twopax"]);

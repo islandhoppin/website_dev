@@ -88,8 +88,8 @@
 									<header>
 										<h3 style="text-align:center;"><a href="https://drive.google.com/open?id=1guFdmenk0EPc_-d9Da0rgYvmzXTiimy83XimO3hkJI8">Change Request Form</a></h3>
 										<form action="/New/price.php" method="post">
-                                            <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
-                                        	<a type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Change Price Schedule</a>
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                  <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Change Price Schedule</button>
                                         </form>
 										<hr />
 										<h3>Learn how to submit Customer Testimonials</h3>
