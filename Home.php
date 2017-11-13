@@ -139,7 +139,7 @@
 						</article>
 
 						<article>
-							<a href="Book.php#availability" class="image featured"><img src="images/IHop Gray logo.png" style ="max-width:200px; margin-left:50px; margin-top:5px;" alt="Island Hoppin' Availability" /></a>
+							<a href="Book.php#availability" class="image featured"><img src="images/IHop Gray logo.png" style ="max-width:200px; margin-left:65px; margin-top:5px;" alt="Island Hoppin' Availability" /></a>
 							<header>
 								<h3>Check the Booking Availability</h3>
 							</header>
@@ -171,8 +171,7 @@
 						</article>
 
 						<article>
-							<!-- UPDATE the URL with recent Youtube Link-->
-							<a href="https://youtu.be/lsTfcH9HZb8"  target="_blank" class="image featured"><img src="images/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
+							<a href="https://youtu.be/PStvnNB12rw"  target="_blank" class="image featured"><img src="images/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
 							<header>
 								<h3>Starring: Island Hoppin'</h3>
 							</header>
