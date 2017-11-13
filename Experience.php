@@ -81,7 +81,7 @@
 									<a href="Experience.php" style="font-weight:bold;">The Experience</a>
 									<ul>
 										<li><a href="#itinerary">Sample Itinerary</a></li>
-										<li><a href="#explore">Explore</a></li>
+										<li><a href="#explore">Points of Interest</a></li>
 										<li><a href="#menu">Sample Menu</a></li>
 										<li><a href="#testimonials">Testimonials</a></li>
 									</ul>
@@ -208,19 +208,7 @@
 								<hr class="first" />
 								<section id="explore">
 									<header>
-										<h3>Explore the Caribbean</h3>
-									</header>
-									<p>
-										Explore the best of what the Caribbean has to offer!
-									</p>
-									<!--<footer>
-										<a href="#" class="button">Learn More</a>
-									</footer>-->
-								</section>
-								<hr />
-								<section>
-									<header>
-										<h3>Points of Interest?</h3>
+										<h3 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Points of Interest</h3>
 									</header>
 									<p>
 										The Caribbean has so much to offer that we can't show you everything here... BUT no one said we 
@@ -338,9 +326,9 @@
 						</header>
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a href="" class="image featured"><img src="images/Experience/Break.jpg" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Break.jpg" alt="" /></a>
 								<header>
-									<h3>Breakfast</h3>
+									<h3 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Breakfast</h3>
 								</header>
 								<ul>
 									<li>&mdash; Homemade buttermilk pancake stack served with bacon, dusted with icing sugar and a fresh berry sauce </li>
@@ -353,9 +341,9 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a href="" class="image featured"><img src="images/Experience/Lunch.jpg" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Lunch.jpg" alt="" /></a>
 								<header>
-									<h3>Lunch</h3>
+									<h3 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Lunch</h3>
 								</header>
 								<ul>
 									<li>&mdash; Moules marinere with freshly baked granary bread</li>
