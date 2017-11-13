@@ -208,7 +208,7 @@
 								<hr class="first" />
 								<section id="explore">
 									<header>
-										<h3 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Points of Interest</h3>
+										<h3>Points of Interest</h3>
 									</header>
 									<p>
 										The Caribbean has so much to offer that we can't show you everything here... BUT no one said we 
