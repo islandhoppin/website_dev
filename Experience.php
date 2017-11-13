@@ -328,7 +328,7 @@
 							<article class="6u 12u(mobile) special">
 								<a class="image featured"><img src="images/Experience/Break.jpg" alt="" /></a>
 								<header>
-									<h3 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Breakfast</h3>
+									<h3>Breakfast</h3>
 								</header>
 								<ul>
 									<li>&mdash; Homemade buttermilk pancake stack served with bacon, dusted with icing sugar and a fresh berry sauce </li>
@@ -343,7 +343,7 @@
 							<article class="6u 12u(mobile) special">
 								<a class="image featured"><img src="images/Experience/Lunch.jpg" alt="" /></a>
 								<header>
-									<h3 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Lunch</h3>
+									<h3>Lunch</h3>
 								</header>
 								<ul>
 									<li>&mdash; Moules marinere with freshly baked granary bread</li>
@@ -359,7 +359,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a href="" class="image featured"><img src="images/Experience/Lunch.jpg" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Lunch.jpg" alt="" /></a>
 								<header>
 									<h3>Dinner</h3>
 								</header>
@@ -374,7 +374,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a href="" class="image featured"><img src="images/Experience/Appetizer.jpg" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Appetizer.jpg" alt="" /></a>
 								<header>
 									<h3>Appetizers</h3>
 								</header>
@@ -392,7 +392,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a href="" class="image featured"><img src="images/Experience/Dessert.jpg" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Dessert.jpg" alt="" /></a>
 								<header>
 									<h3>Desserts</h3>
 								</header>
@@ -407,7 +407,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a href="" class="image featured"><img src="images/Experience/Drinks.jpg" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Drinks.jpg" alt="" /></a>
 								<header>
 									<h3>Drinks</h3>
 								</header>
