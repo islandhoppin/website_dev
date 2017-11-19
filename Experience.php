@@ -123,14 +123,10 @@
 											<h3>Welcome Aboard (Sleep Aboard)</h3>
 										</header>
 										<p>
-											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. 
-										</p>
-										<p>
-											Eleifend auctor turpis magnis sed porta nisl pretium. Aenean suspendisse nulla eget sed etiam parturient
-											orci cursus nibh. Quisque eu nec neque felis laoreet diam morbi egestas. Dignissim cras rutrum consectetur
-											ut penatibus fermentum nibh erat malesuada varius.
+											Island Hoppin’ offers guest (on availability) to sleep aboard the boat the night before you set sail. 
+											The advantage of stepping aboard the day before allows everyone to get settled faster and start enjoying 
+											the vacation the moment you set foot on Island Hoppin’. The additional cost can be found on the booking page.
+
 										</p>
 									</section>
 									<section>
@@ -138,9 +134,12 @@
 											<h3>Day 1</h3>
 										</header>
 										<p>
-											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
+											Let’s set sail! The trip begins by boarding Island Hoppin’ in St. Thomas, US Virgin Islands.  
+											We start the day off by touring the boat, procedures, and of course drinks. 
+											We set sail to Frances Bay in St. John, U.S.V.I. for an afternoon of exploring and gorgeous views.  
+											Kayak, snorkel or master the stand-up paddleboards in the soothing bay.  
+											Dinner is served under the night sky while we prepare for tomorrow’s adventure. 
+
 										</p>
 									</section>
 									<section>
@@ -148,9 +147,18 @@
 											<h3>Day 2</h3>
 										</header>
 										<p>
-											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
+											After breakfast, Island Hoppin’ heads to the west of Tortola (Sopers Hole). 
+											Sopers Hole offers shops and a very local experience of the Islands. 
+											After lunch, we head to Norman Island. Before reaching the destination, 
+											the crew sets anchor for some diving and snorkeling action by the Caves. 
+											Norman Island is also referred to as “Treasure Island”, 
+											as legend has it that buried pirate treasure lays below. 
+											While glazing on the sun setting, you get to sip on your favorite 
+											drink and snack on a freshly prepared hors d’oeuvre.  
+											Dinner is served in the open air of the aft deck, or if you prefer, in the spacious salon. 
+											Ashore is the Pirates Pub Bar & Grill, nights gather a fun crowd and music keeps the night alive. 
+											Don’t worry about the noise though, nights dwindle down earlier on island time.  
+
 										</p>
 									</section>
 									<section>
@@ -158,9 +166,15 @@
 											<h3>Day 3</h3>
 										</header>
 										<p>
-											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
+											After a gourmet breakfast, we depart to the Indians for additional snorkeling and diving. 
+											The rocks protrude above the waterline; however, under the sea, the view is entirely different. 
+											The reef is full of life, and your crew will be there to help identify any that you need help with. 
+											After being served lunch, set sail to Cooper Island.   Cooper Island has a beautiful beach, 
+											with a plenty of exploring opportunities. The island is also home to a restaurant/brewery. 
+											The scenery is unique, and the snorkeling off the shore offers the best place to view sea turtles and spotted eagle rays.  
+											For divers, the famous “Wreck Alley” is located just meters away. The crew will prepare cocktails and hors d’oeuvres, 
+											followed by a delicious dinner.
+
 										</p>
 									</section>
 									<section>
@@ -168,9 +182,15 @@
 											<h3>Day 4</h3>
 										</header>
 										<p>
-											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
+											After a delicious breakfast, you depart Cooper Island for a short sail to Salt Island. 
+											The Wreck of the RMS Rhone is just below and gives divers an experience of a lifetime. 
+											Salt Island also offers salt ponds and a local village for handmade goods. 
+											Lunch is then served on the boat after the dive. (As diving ends once the first drink begins.) 
+											After lunch, we depart to Trellis Bay, home of the famous full moon parties. 
+											The location offers live music, stilt dancers, fire jugglers, and BBQ. (Monthly parties) 
+											If the trip falls on an off week, Trellis Bay still offers the Last Resort. (Nightlife).  
+											The crew will then prepare drinks and appetizers, followed by a delicious dinner.
+
 										</p>
 									</section>
 									<section>
@@ -178,9 +198,24 @@
 											<h3>Day 5</h3>
 										</header>
 										<p>
-											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
+											After breakfast, we depart Trellis Bay to the Baths. The Baths are incredible, with huge, 
+											house-sized boulders literally piled on top of each other. 
+											There are several paths through the boulders that lead to Devil's Bay, 
+											one of the most beautiful bays in the British Virgin Islands. 
+											There is a restaurant bar at the top of The Baths, 
+											where you can have an enjoyable lunch with an excellent view and a pool. 
+											The adventure offers rock climbing/exploring (there are ladders, platforms, and ropes to assist).  
+											After a few hours, lunch is served before heading to the North Sound of Virgin Gorda.  
+											<br />
+											North Sound, at the north end of Virgin Gorda (also known as the “Fat Virgin”), 
+											has several places to go ashore and explore. Saba Rock, 
+											where you can walk around the back side of the island in the Saba Rock Gardens. 
+											The landscaping is beautiful and surrounded entirely by conch shells. There are hammocks to relax in, 
+											a gift shop, a game room and you’re sure to see massive tarpon at the dock after sunset. 
+											The Bitter End is also great for night-time fun. 
+											Some of the best snorkeling is on the reef just north of the Bitter End. 
+											The crew is standing by to prepare your cocktails, hors d'oeuvres and dinner.
+
 										</p>
 									</section>
 									<section>
@@ -188,9 +223,13 @@
 											<h3>Day 6</h3>
 										</header>
 										<p>
-											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
+											After a delicious breakfast, it's a downwind sail to The Dogs. The Dogs are primarily a snorkel and 
+											dive stop as the life on the reef is surreal. Lunch is served on the deck, and as always, 
+											open ship's bar is available. After wrapping up lunch, we depart to Great Harbor (home to places such as Foxy’s, 
+											where the party never stops.) Next door to Great Harbor is White Bay, with The Soggy Dollar Bar. 
+											This is also an excellent choice for the night. Families with children will love the white sand beach. 
+											The crew is standing by to prepare cocktails, hors d’oeuvres, and dinner.
+ 
 										</p>
 									</section>
 									<section>
@@ -198,9 +237,23 @@
 											<h3>Day 7</h3>
 										</header>
 										<p>
-											Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-											at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-											feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. 
+											Depart Great Harbor for Sandy Cay or Green Turtle Cay – less than 1 nautical mile. After a delicious breakfast, 
+											we head to Sandy Cay or Green Turtle Cay. Both offer white, sandy, deserted islands with snorkeling, swimming and exploring. 
+											A short hike past hermit crabs and various lizards to the top of Sandy Cay should not be missed!  
+											Lunch is served on the deck, and the crew prepares to depart for Cane Garden Bay (CGB).   
+											CGB welcomes you to restaurants, bars, and water sports.  You can also often find a band playing at Myett's Garden Inn and Grille. 
+											Callwood's Rum Distillery is also located at Cane Garden Bay; if you would like to do some exploring in the oldest Rum Distillery on the islands. 
+											After a long day, your crew is standing by to prepare cocktails, hors d’oeuvres, and dinner.
+										</p>
+									</section>
+									<section>
+										<header>
+											<h3>Day 8</h3>
+										</header>
+										<p>
+											After the last breakfast, you depart for St. Thomas, B.V.I. (Home Port).   The trip may have come to an end, but there’s always next year.  
+											The crew will assist in disembarking Island Hoppin’. (Side Note: A tip of +20% is recommended for the crew as they work all day and night through your vacation to please) 
+										</p>
 									</section>
 								</article>
 							</div>
