@@ -379,7 +379,7 @@
 						</header>
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="images/Experience/Break.jpg" style="max-height:500px; width:auto; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Break.jpg" style="max-height:500px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Breakfast</h3>
 								</header>
@@ -394,7 +394,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="images/Experience/Lunch.jpg" style="max-height:500px; width:auto; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Lunch.jpg" style="max-height:500px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Lunch</h3>
 								</header>
@@ -412,7 +412,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="images/Experience/Lunch.jpg" style="max-height:500px; width:auto; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Lunch.jpg" style="max-height:500px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Dinner</h3>
 								</header>
@@ -427,7 +427,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="images/Experience/Appetizer.jpg" style="max-height:500px; width:auto; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Appetizer.jpg" style="max-height:500px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Appetizers</h3>
 								</header>
@@ -445,7 +445,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="images/Experience/Dessert.jpg" style="max-height:500px; width:auto; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Dessert.jpg" style="max-height:500px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Desserts</h3>
 								</header>
@@ -460,7 +460,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="images/Experience/Drinks.jpg" style="max-height:500px; width:auto; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Drinks.jpg" style="max-height:500px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Drinks</h3>
 								</header>
