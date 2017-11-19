@@ -412,7 +412,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="images/Experience/Lunch.jpg" style="max-height:200px;" alt="" /></a>
+								<a class="image featured"><img src="images/Experience/Lunch.jpg" style="max-height:500px; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Dinner</h3>
 								</header>
