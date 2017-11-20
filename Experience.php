@@ -384,45 +384,39 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" target="_blank" class="image fit"><img src="images/Experience/" alt="" /></a>
+											<a href="https://en.wikipedia.org/wiki/The_Indians" target="_blank" class="image fit"><img src="images/Experience/Indians" alt="The Indians BVI" /></a>
+										</div>
+										<div class="8u">
+											<h4>The Indians</h4>
+											<p>
+												The Indians are an uninhabited small archipelago of islets in the British Virgin Islands in the Caribbean. 
+												They were so named because from a distance they were thought to resemble a Native American's head dress. 
+												The Indians are also the second most popular dive site in the British Virgin Islands after the wreck of the RMS Rhone. 
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="https://en.wikipedia.org/wiki/Cruz_Bay,_U.S._Virgin_Islands" target="_blank" class="image fit"><img src="images/Experience/Cruz-Bay.jpg" alt="Cruz Bay" /></a>
 										</div>
 										<div class="8u">
 											<h4>Cruz Bay</h4>
 											<p>
-												Another place
+												Cruz Bay, located on the west coast of Saint John, U.S.V.I., is the island's largest commercial center and the location of the main port on Saint John. 
+												Cruz Bay is home to numerous shops and restaurants which are frequented by tourists and locals alike.
 											</p>
 										</div>
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" target="_blank" class="image fit"><img src="images/Experience/" alt="" /></a>
+											<a href="https://en.wikipedia.org/wiki/Saba_Rock" target="_blank" class="image fit"><img src="images/Experience/Saba-Rock.jpg" alt="Saba Rock" /></a>
 										</div>
 										<div class="8u">
 											<h4>Saba Rock</h4>
 											<p>
-												Another place
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="4u">
-											<a href="#" target="_blank" class="image fit"><img src="images/Experience/" alt="" /></a>
-										</div>
-										<div class="8u">
-											<h4>Example place</h4>
-											<p>
-												Another place
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="4u">
-											<a href="#" target="_blank" class="image fit"><img src="images/Experience/" alt="" /></a>
-										</div>
-										<div class="8u">
-											<h4>Example place</h4>
-											<p>
-												Another place
+												Saba Rock is a small island of the British Virgin Islands in the Caribbean, approximately an acre and a half in size. 
+												The island contains a small hotel, restaurant, bar, and gift shop. 
+												A dock is available for day visitors and a large mooring field accommodates yachts staying overnight. 
 											</p>
 										</div>
 									</div>
