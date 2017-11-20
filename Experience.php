@@ -327,12 +327,12 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="http://divebvi.com/rms-rhone/" target="_blank" class="image fit"><img src="images/Experience/RMS-Rhone.jpg" alt="Wreck of the RMS Rhone" /></a>
+											<a href="https://en.wikipedia.org/wiki/RMS_Rhone" target="_blank" class="image fit"><img src="images/Experience/RMS-Rhone.jpg" alt="Wreck of the RMS Rhone" /></a>
 										</div>
 										<div class="8u">
 											<h4>The Wreck of the RMS Rhone</h4>
 											<p>
-												Amet nullam fringilla nibh nulla convallis tique ante proin.
+												She was wrecked off the coast of Salt Island in the British Virgin Islands on 29 October 1867 in a hurricane. 
 											</p>
 										</div>
 									</div>
@@ -384,19 +384,6 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/The_Indians" target="_blank" class="image fit"><img src="images/Experience/Indians" alt="The Indians BVI" /></a>
-										</div>
-										<div class="8u">
-											<h4>The Indians</h4>
-											<p>
-												The Indians are an uninhabited small archipelago of islets in the British Virgin Islands in the Caribbean. 
-												They were so named because from a distance they were thought to resemble a Native American's head dress. 
-												The Indians are also the second most popular dive site in the British Virgin Islands after the wreck of the RMS Rhone. 
-											</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="4u">
 											<a href="https://en.wikipedia.org/wiki/Cruz_Bay,_U.S._Virgin_Islands" target="_blank" class="image fit"><img src="images/Experience/Cruz-Bay.jpg" alt="Cruz Bay" /></a>
 										</div>
 										<div class="8u">
@@ -407,26 +394,14 @@
 											</p>
 										</div>
 									</div>
-									<div class="row 50%">
-										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Saba_Rock" target="_blank" class="image fit"><img src="images/Experience/Saba-Rock.jpg" alt="Saba Rock" /></a>
-										</div>
-										<div class="8u">
-											<h4>Saba Rock</h4>
-											<p>
-												Saba Rock is a small island of the British Virgin Islands in the Caribbean, approximately an acre and a half in size. 
-												The island contains a small hotel, restaurant, bar, and gift shop. 
-												A dock is available for day visitors and a large mooring field accommodates yachts staying overnight. 
-											</p>
-										</div>
-									</div>
+									
 									
 								</section>
 							</div>
 						</div>
 						<hr id="menu"/>
 						<header style="text-align:center;">
-							<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; margin-bottom:20px;">Sample Menu</h2>
+							<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; margin-bottom: 30px;">Sample Menu</h2>
 						</header>
 							<div class="row">
 							<article class="6u 12u(mobile) special">
