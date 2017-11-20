@@ -245,7 +245,7 @@
 								</p>
 							</article>
 						</div>
-						<hr />
+						<hr id="availability"/>
 						<article id="main" class="special">
 							<header>
 								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Availability</h2>
@@ -256,7 +256,7 @@
 								</p>
 							</header>
 						</article>
-						<hr />
+						<hr id="contact"/>
 						<article id="main" class="special">
 							<header>
 								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Contact Us</h2>
