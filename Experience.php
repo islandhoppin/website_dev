@@ -349,7 +349,64 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="#" target="_blank"class="image fit"><img src="images/Experience/" alt="" /></a>
+											<a href="https://en.wikipedia.org/wiki/Norman_Island" target="_blank"class="image fit"><img src="images/Experience/Norman-Island.jpg" alt="Normal Island" /></a>
+										</div>
+										<div class="8u">
+											<h4>Norman Island</h4>
+											<p>
+												Norman Island is an island located at the southern tip of the British Virgin Islands archipelago. It is said that the island was named after a pirate who bought it or leased it at some point during the early 18th century,
+												although supporting evidence for this contention is difficult to find.
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="https://en.wikipedia.org/wiki/Peter_Island" target="_blank" class="image fit"><img src="images/Experience/Peter-Island.jpeg" alt="Peter Island" /></a>
+										</div>
+										<div class="8u">
+											<h4>Peter Island</h4>
+											<p>
+												Peter Island is the largest private island in the BVI and the fifth largest of the 60 islands, quays, and exposed reefs that comprise the BVI.
+												The island is predominately undeveloped but contains hiking and biking trails on which to discover the tropical flora and fauna indigenous to Peter Island. 
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="https://en.wikipedia.org/wiki/Sandy_Cay" target="_blank" class="image fit"><img src="images/Experience/sandy-cay.jpg" alt="Sandy Cay" /></a>
+										</div>
+										<div class="8u">
+											<h4>Sandy Cay</h4>
+											<p>
+												Sandy Cay is an uninhabited island of the British Virgin Islands in the Caribbean. It is located between Tortola and Jost Van Dyke. 
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="#" target="_blank" class="image fit"><img src="images/Experience/" alt="" /></a>
+										</div>
+										<div class="8u">
+											<h4>Cruz Bay</h4>
+											<p>
+												Another place
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="#" target="_blank" class="image fit"><img src="images/Experience/" alt="" /></a>
+										</div>
+										<div class="8u">
+											<h4>Saba Rock</h4>
+											<p>
+												Another place
+											</p>
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="4u">
+											<a href="#" target="_blank" class="image fit"><img src="images/Experience/" alt="" /></a>
 										</div>
 										<div class="8u">
 											<h4>Example place</h4>
@@ -375,7 +432,7 @@
 						</div>
 						<hr id="menu"/>
 						<header style="text-align:center;">
-							<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sample Menu</h2>
+							<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; margin-bottom:20px;">Sample Menu</h2>
 						</header>
 							<div class="row">
 							<article class="6u 12u(mobile) special">
