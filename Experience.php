@@ -108,7 +108,7 @@
 							<div class="8u 12u(mobile)" id="content">
 								<article id="main">
 									<header>
-										<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif"><a href="#">Sample Itinerary</a></h2>
+										<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sample Itinerary</h2>
 										<p>
 											The world is your playground, enjoy it aboard Island Hoppin'!
 										</p>

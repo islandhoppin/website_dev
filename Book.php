@@ -1,3 +1,10 @@
+<?php     
+	require 'New/connection.inc.php'; 
+      // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
+	$sqlprice = $dbconn->prepare("Select price_id, season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show From priceSchedule Where show = 'Yes' ORDER BY price_id ASC") ;
+      // Execute the query, if there were variables, they could be bound within the brackets
+    $sqlprice->execute() ;
+?>
 <!DOCTYPE HTML>
 <!--
 	Helios by Pixelarity
@@ -23,7 +30,7 @@
 		<link rel="apple-touch-icon" href="images/favicon.png" />
 		<link rel="shortcut icon" href="images/favicon.png" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		
+	
 	</head>
 	<body class="no-sidebar">
 		<div id="page-wrapper">
@@ -86,97 +93,187 @@
 
 			<!-- Main -->
 				<div class="wrapper style1">
-					<div id="crop">
-					<iframe src="https://share.garmin.com/RichardBlankenhorn" frameborder="0" marginwidth="400" marginheight="400" width="1010" height="760"></iframe>
-					</div>
-					<div>
-					<iframe src="https://www.viewyacht.com/islandhoppin/index.php/4#graphcaldiv" frameborder="0" marginwidth="0" marginheight="0" width="1010" height="760"></iframe>
-					</div>
-				<!--
-					<div class="container">
+					
+				
+					<div class="container" id="rates">
 						<article id="main" class="special">
 							<header>
-								<h2><a href="#">No Sidebar</a></h2>
+								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Weekly Rates</h2>
 								<p>
-									Morbi convallis lectus malesuada sed fermentum dolore amet
+									The table reflects the base rates of a weekly charter in the designated season. 
+									Rates are <b>All Inclusive</b>. <br />Taxes, re-location fees, and permits maybe extra and is encouraged to verify with the clearing house.
 								</p>
 							</header>
-							<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-							<p>
-								Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
-								posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-								lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
-								consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
-								interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
-								natoque aenean scelerisque vel lacinia mollis quam sodales congue.
-							</p>
+							<section>
+								<table cellpadding='3' style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
+                                    <thead>
+                                        <tr cellpadding='3' border=1 style='border-collapse:collapse;width:90%;border: 1px solid #000000;'>
+                                            
+                                            <th border=1 style='border: 1px solid #000000;'><b>Season</b></th>
+                                            <th border=1 style='border: 1px solid #000000;'><b>2 Pax</b></th>
+                                            <th border=1 style='border: 1px solid #000000;'><b>3 Pax</b></th>
+                                            <th border=1 style='border: 1px solid #000000;'><b>4 Pax</b></th>
+                                            <th border=1 style='border: 1px solid #000000;'><b>5 Pax</b></th>
+                                            <th border=1 style='border: 1px solid #000000;'><b>6 Pax</b></th>
+                                            <th border=1 style='border: 1px solid #000000;'><b>7 Pax</b></th>
+                                            <th border=1 style='border: 1px solid #000000;'><b>8 Pax</b></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!--Use a while loop to make a table row for every DB row-->
+                                        <?php while( $row1 = $sqlprice->fetch()) : ?>
+                                        <tr cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
+                                            <!--Each table column is echoed in to a td cell-->
+                                            <td border=1 style='border: 1px solid #000000; text-align:center;'><b><?php echo $row1['season']; ?></b></td>
+                                            <td border=1 style='border: 1px solid #000000; text-align:center; background-color:#D3D3D3;'><?php echo $row1['twopax']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000; text-align:center; background-color:#D3D3D3;'><?php echo $row1['threepax']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000; text-align:center; background-color:#D3D3D3;'><?php echo $row1['fourpax']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000; text-align:center; background-color:#D3D3D3;'><?php echo $row1['fivepax']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000; text-align:center; background-color:#D3D3D3;'><?php echo $row1['sixpax']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000; text-align:center; background-color:#D3D3D3;'><?php echo $row1['sevenpax']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000; text-align:center; background-color:#D3D3D3;'><?php echo $row1['eightpax']; ?></td>
+                                        </tr>
+                                        <?php endwhile ?>
+                                    </tbody>
+                                    </table>
+									<p style="text-align: center;">***All prices are in USD***</p>
+							</section>
+							<hr style="margin-top:-50px; margin-bottom:100px" />
+							<header>
+								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; padding-top:10px; text-align: center; font-size:2.2em;">Add-Ons</h2>
+							</header>
+							
 							<section>
 								<header>
-									<h3>Ultrices tempor sagittis nisl</h3>
+									<h3>Sleep Aboard</h3>
 								</header>
 								<p>
-									Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
-									at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-									feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-									fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus
-									egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+									We know flights can be hard to arrange, so to make sure you don't miss out on anytime on the water, we offer a sleep aboard on the night before your charter. 
+									The current rate is $1200 for the entire group and allows you can board the vessel an entire day early! 
+									<br />***Based on availability and boat readiness*** 
 								</p>
+								
+							</section>
+							<section>
+								<header>
+									<h3>Dive Package</h3>
+								</header>
 								<p>
-									Eleifend auctor turpis magnis sed porta nisl pretium. Aenean suspendisse nulla eget sed etiam parturient
-									orci cursus nibh. Quisque eu nec neque felis laoreet diam morbi egestas. Dignissim cras rutrum consectetur
-									ut penatibus fermentum nibh erat malesuada varius.
+									Dive Packages are currently being created, we will be updating soon with price updates. 
+									<br />***For safety reasons, cannot be combined with Captain Only Charters.***
 								</p>
 							</section>
 							<section>
 								<header>
-									<h3>Augue euismod feugiat tempus</h3>
+									<h3>Fees, Commissions, & Tips (Other)</h3>
 								</header>
 								<p>
-									Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis
-									feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit
-									ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante
-									egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
+									<b>Fees - </b>All fees are included in the price table above. (except Captain Only Charters) 
+									<br /><b>Commissions - </b>The Travel Agency charges a standard 15% commission.
+									<br /><b>Tips - </b>A standard 15-20% for crewed charters is not included, but strongly recommended! (They work for you!)
 								</p>
 							</section>
-							-->
-						<iframe src="https://calendar.google.com/calendar/embed?src=islandhoppincharters%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-							<!--			
+							<hr style="margin-top:-50px; margin-bottom:100px" />
+							<header>
+								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; padding-top:10px; text-align: center; font-size:2.2em;">Reductions</h2>
+							</header>
+							
+							<section>
+								<header>
+									<h3>Captain Only</h3>
+								</header>
+								<p>
+									The Captain Only Rate is $15,000 plus all additional expenses. 
+									<br /><b>Includes: </b>Captain, Linens/towels, Dishes, Flatware, Cooking Utensils/Cookware, & Toys
+									<br /><b>Not Included: </b>Fuel, Water, Customs/Immigrations, Food/Liquor/Ice, Mooring/Dock Fees, *Diving, Gratuity
+									<br /> ***Diving & Provisioning services can be arranged***
+								</p>
+							</section>
+							<section>
+								<header>
+									<h3>Half Board</h3>
+								</header>
+								<p>
+									The Half Board plan is great for those groups looking to eat at the restaurants ashore. The plan reduces the price $150 off per person.
+									Half Board includes 7 - Breakfasts, 4 - Lunches, 3 - Dinners onboard, and the other 3 - Lunches, 4 - Dinners would be ashore at the client's expense.
+									<br />***Does not combine with children discounts***
+								</p>
+							</section>
+							<section>
+								<header>
+									<h3>Child Discount</h3>
+								</header>
+								<p>
+									Island Hoppin' is family friendly, and that's why we are currently offering a $250 discount per child under 15 years old. 
+									<br />***Based on the Charter Sailing date, not booking the date.***
+								</p>
+							</section>
+							<section>
+								<header>
+									<h3>Less than 6 Night Charter</h3>
+								</header>
+								<p>
+									Want to sail for less than 6 nights? We offer a rate that. All you have to do is divide the rate by 6: (Rate / 6). This is your daily rate, and it is muiltpled by the number of nights planned instead. 
+									<br />***Example: ($24,000/6) = $4,000 * 5 Nights = $20,000 for a 5 Night, 8-Passenger Charter.***
+								</p>
+							</section>
+							<p style="text-align: center;">***Halfboard and / or children's discounts do not apply when using special discounted rates***</p>
+							
+										
 						</article>
-						<hr />
-						<div class="row" id="experience">
+						<hr id="specials" />
+						<header style="text-align:center;">
+							<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; margin-bottom: 30px;">Charter Specials</h2>
+						</header>
+						<div class="row" id="specials">
 							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+								<a  class="image featured"><img src="images/Christmas-special.jpeg" alt="Christmas Special" /></a>
 								<header>
-									<h3><a href="#">Gravida aliquam penatibus</a></h3>
+									<h3>Christmas Special</h3>
 								</header>
 								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+									Rates are currently set to $30,000 for the 2017 Christmas charter.
 								</p>
 							</article>
 							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+								<a  class="image featured"><img src="images/New-Year.jpg" alt="New Years Special" /></a>
 								<header>
-									<h3><a href="#">Sed quis rhoncus placerat</a></h3>
+									<h3>New Years Special</h3>
 								</header>
 								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-								</p>
-							</article>
-							<article class="4u 12u(mobile) special">
-								<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">Magna laoreet et aliquam</a></h3>
-								</header>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-									porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+									Rates are currently set to $33,000 for the 2017/18 New Years charter.
 								</p>
 							</article>
 						</div>
+						<hr />
+						<article id="main" class="special">
+							<header>
+								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Availability</h2>
+								<p>
+									We are currently working on setting an availability calendar on the site.  
+									In the meantime, please <a href="https://www.viewyacht.com/islandhoppin/index.php/4" target=_blank>click here to visit</a> 
+									our prefered broker and view availability.
+								</p>
+							</header>
+						</article>
+						<hr />
+						<article id="main" class="special">
+							<header>
+								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Contact Us</h2>
+								<p>
+									Island Hoppin' management can be reached at <a href="mailto:IslandHoppinCharters@gmail.com" target="_blank">IslandHoppinCharters@gmail.com</a>. 
+									For booking requests, please <a href="http://www.chartercaribe.com/contact/" target="_blank">click here</a>. 
+								</p>
+							</header>
+						</article>
+						
+						<div>
+							<br />
+							<br />
+							<p style="text-align: center;">***All rates are for the entire yacht and are subject to change without notice prior to actual reservation. An additional premium maybe applied for Holiday Periods such as Christmas and New Year.***</p>
+						</div>
 					</div>
-				-->
+				
 				</div>
 
 			<!-- Footer -->
