@@ -261,8 +261,10 @@
 							<header>
 								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Contact Us</h2>
 								<p>
-									Island Hoppin' management can be reached at <a href="mailto:IslandHoppinCharters@gmail.com" target="_blank">IslandHoppinCharters@gmail.com</a>. 
-									For booking requests, please <a href="http://www.chartercaribe.com/contact/" target="_blank">click here</a>. 
+									If you would like to plan your vacation on Island Hoppin, please contact your charter broker. 
+									If you don’t have one, feel free to reach out to us and we will connect you with a professional charter broker.
+									Our prefered contact email: <a href="mailto:IslandHoppinCharters@gmail.com" target="_blank">IslandHoppinCharters@gmail.com</a>. 
+									
 								</p>
 							</header>
 						</article>

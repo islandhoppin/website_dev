@@ -163,14 +163,6 @@
 						</article>
 
 						<article>
-							<a href="http://www.chartercaribe.com/contact/"  target="_blank" class="image featured"><img src="images/charter-caribe.jpg" alt="Book Island Hoppin' now!" /></a>
-							<header>
-								<h3>Book Now!</h3>
-							</header>
-							<p>Click here to book with the best prices on Charter Caribe!</p>
-						</article>
-
-						<article>
 							<a href="https://youtu.be/PStvnNB12rw"  target="_blank" class="image featured"><img src="images/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
 							<header>
 								<h3>Starring: Island Hoppin'</h3>
