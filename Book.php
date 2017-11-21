@@ -101,7 +101,7 @@
 								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Weekly Rates</h2>
 								<p>
 									The table reflects the base rates of a weekly charter in the designated season. 
-									Rates are <b>All Inclusive</b>. <br />Taxes, re-location fees, and permits maybe extra and is encouraged to verify with the clearing house.
+									Rates are <b>All Inclusive</b>. <br />Taxes, re-location fees, and permits may be extra and we encourage you to verify these with the broker/clearing house.
 								</p>
 							</header>
 							<section>
@@ -149,7 +149,7 @@
 								</header>
 								<p>
 									We know flights can be hard to arrange, so to make sure you don't miss out on anytime on the water, we offer a sleep aboard on the night before your charter. 
-									The current rate is $1200 for the entire group and allows you can board the vessel an entire day early! 
+									The current rate is $1200 for the entire group and allows you the ability to board the vessel an entire day early!
 									<br />***Based on availability and boat readiness*** 
 								</p>
 								
@@ -250,9 +250,8 @@
 							<header>
 								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Availability</h2>
 								<p>
-									We are currently working on setting an availability calendar on the site.  
-									In the meantime, please <a href="https://www.viewyacht.com/islandhoppin/index.php/4" target=_blank>click here to visit</a> 
-									our prefered broker and view availability.
+									We are currently working on setting up an availability calendar on the site. 
+									Please contact your broker for current availability. 
 								</p>
 							</header>
 						</article>
@@ -263,7 +262,7 @@
 								<p>
 									If you would like to plan your vacation on Island Hoppin, please contact your charter broker. 
 									If you don’t have one, feel free to reach out to us and we will connect you with a professional charter broker.
-									Our prefered contact email: <a href="mailto:IslandHoppinCharters@gmail.com" target="_blank">IslandHoppinCharters@gmail.com</a>. 
+									Our preferred contact email: <a href="mailto:IslandHoppinCharters@gmail.com" target="_blank">IslandHoppinCharters@gmail.com</a>. 
 									
 								</p>
 							</header>
