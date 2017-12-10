@@ -2118,7 +2118,7 @@
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
-		background-image: url("../../images/header.jpg");
+		background-image: url('http://dzx3g8o0zzxkn.cloudfront.net/General/header.jpg');
 		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
@@ -2208,10 +2208,10 @@
 			-webkit-transition: opacity 2.5s ease-in-out;
 			-ms-transition: opacity 2.5s ease-in-out;
 			transition: opacity 2.5s ease-in-out;
-			-moz-transition-delay: 0.5s;
-			-webkit-transition-delay: 0.5s;
-			-ms-transition-delay: 0.5s;
-			transition-delay: 0.5s;
+			-moz-transition-delay: 0.1s;
+			-webkit-transition-delay: 0.1s;
+			-ms-transition-delay: 0.1s;
+			transition-delay: 0.1s;
 		}
 
 	body.homepage.is-loading #header:after {
