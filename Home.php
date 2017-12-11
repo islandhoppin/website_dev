@@ -125,7 +125,7 @@
 						</article>
 
 						<article>
-							<a href="Crew.html#meet" class="image featured"><img src="images/Crew/Jamie&Susannah-tall.jpg" alt="Island Hoppin Crew" /></a>
+							<a href="Crew.html#meet" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Crew/Jamie&Susannah-tall.jpg" alt="Island Hoppin Crew" /></a>
 							<header>
 								<h3><a href="Crew.html#meet">Meet the Crew</a></h3>
 							</header>
