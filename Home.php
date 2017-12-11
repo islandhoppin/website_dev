@@ -117,7 +117,7 @@
 					
 						
 						<article>
-							<a href="Boat.html" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Boat/lagoon52-cover.jpg" alt="" /></a>
+							<a href="Boat.html" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/General/lagoon52-cover.jpg" alt="" /></a>
 							<header>
 								<h3><a href="Boat.html">Lagoon 52 Catamaran</a></h3>
 							</header>
