@@ -258,7 +258,7 @@
 								</p>
 							</header>
 						</article>
-						<hr class="FAQ"/>
+						<hr id="FAQ"/>
 						<div>
 							<article id="main" class="special">
 								<header>
