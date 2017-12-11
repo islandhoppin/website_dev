@@ -63,8 +63,6 @@
 									<section>
 									<header><h2>Add FAQ</h2></header>
                                     <form action = "submitFaq.php" method = "post">
-        		                        <header><h3>Season</h3></header>
-                                        <input type="text" name="season">
                                         <header style="margin-top:25px;"><h3>FAQ Question</h3></header>
                                         <input type="text" name="question">
                                         <header style="margin-top:25px;"><h3>FAQ Answer</h3></header>
