@@ -12,7 +12,7 @@
 */
 
 	button.accordion {
-	    background-color: #0e5eb1;
+	    background-color: #2DB4B4;
 	    color: white;
 	    cursor: pointer;
 	    padding: 16px;
@@ -22,17 +22,17 @@
 	    outline: none;
 	    font-size: 20px;
 	    transition: 0.4s;
-	    font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;
 	}
 	
 	button.accordion.active, button.accordion:hover {
-	    background-color: #0e5eb1;
+	    background-color: #2DB4B4;
 	}
 	
 	div.panel {
 	    padding: 0 18px;
 	    background-color: white;
 	    max-height: 0;
+	    padding-top:9px;
 	    overflow: hidden;
 	    transition: max-height 0.2s ease-out;
 	    

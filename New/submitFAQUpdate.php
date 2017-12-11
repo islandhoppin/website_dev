@@ -11,6 +11,8 @@ if ($verifyCode == $onPage){
     $today1 = $_POST["blank_1"];
     require 'connection.inc.php'; 
     $query = "UPDATE faqList SET question = '$question', answer = '$answer', faqorder = '$faqorder', show = '$show', blank_1 = '' WHERE faq_id = $faq_id";
+    $dbconn->query($query);
+    
 }
 header( 'Location: /Admin.html') ;
 
