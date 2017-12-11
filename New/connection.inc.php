@@ -1,6 +1,5 @@
 <?php
-//$dbopts = parse_url(getenv('DATABASE_URL'));
-$dbopts = parse_url('postgres://medrtoocimryhp:9c078debf3bfcc0103f8b9cd7f053dccfda5902fb05315edbd2b9a6a71446809@ec2-23-23-228-115.compute-1.amazonaws.com:5432/d55rf3q3mqghto');
+$dbopts = parse_url(getenv('DATABASE_URL'));
 $driver = 'pgsql';
 $user = $dbopts["user"];
 $password = $dbopts["pass"];
