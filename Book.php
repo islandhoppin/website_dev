@@ -5,6 +5,7 @@
 	$sqlfaq = $dbconn->prepare("Select question, answer, faqorder, show From faqList Where show = 'Yes' ORDER BY faqorder ASC") ;
       // Execute the query, if there were variables, they could be bound within the brackets
     $sqlprice->execute() ;
+    $sqlfaq->execute() ;
 ?>
 <!DOCTYPE HTML>
 <!--
