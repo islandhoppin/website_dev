@@ -85,6 +85,7 @@
 										<li><a href="#rates">Rates</a></li>
 										<li><a href="#specials">Specials</a></li>
 										<li><a href="#availability">Availability</a></li>
+										<li><a href="#FAQ">FAQ</a></li>
 										<li><a href="#contact">Contact Us</a></li>
 									</ul>
 								</li>
@@ -261,7 +262,7 @@
 						<div>
 							<article id="main" class="special">
 								<header>
-									<h2>Frequently Asked Questions</h2>
+									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Frequently Asked Questions</h2>
 									<h3 style="text-align:center;">Click to expand the answer.</h3>
 								</header>
 							<?php while( $row2 = $sqlfaq->fetch()) : ?>
