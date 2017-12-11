@@ -27,7 +27,17 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="apple-touch-icon" href="images/favicon.png" />
 		<link rel="shortcut icon" href="images/favicon.png" />
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		<script src="src/js/jquery.swipebox.js"></script>
+		<link rel="stylesheet" href="src/css/swipebox.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script type="text/javascript">
+			;( function( $ ) {
+			
+				$( '.swipebox' ).swipebox();
+			
+			} )( jQuery );
+		</script>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -107,7 +117,7 @@
 					
 						
 						<article>
-							<a href="Boat.html" class="image featured"><img src="images/Boat/lagoon52-cover.jpg" alt="" /></a>
+							<a href="Boat.html" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Boat/lagoon52-cover.jpg" alt="" /></a>
 							<header>
 								<h3><a href="Boat.html">Lagoon 52 Catamaran</a></h3>
 							</header>
@@ -123,7 +133,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#menu" class="image featured"><img src="images/Experience/Lunch.jpg" alt="Island Hoppin' Grill" /></a>
+							<a href="Experience.php#menu" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Lunch.jpg" alt="Island Hoppin' Grill" /></a>
 							<header>
 								<h3><a href="Experience.html#menu">Whats Cookin...</a></h3>
 							</header>
@@ -131,7 +141,7 @@
 						</article>
 
 						<article>
-							<a href="Boat.html#dive" class="image featured"><img src="images/Experience/RMS-Rhone.jpg" alt="Diving on Island Hoppin" /></a>
+							<a href="Boat.html#dive" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/RMS-Rhone.jpg" alt="Diving on Island Hoppin" /></a>
 							<header>
 								<h3><a href="Boat.html#dive">Experience Below</a></h3>
 							</header>
@@ -139,7 +149,7 @@
 						</article>
 
 						<article>
-							<a href="Book.php#availability" class="image featured"><img src="images/IHop Gray logo.png" style ="max-width:200px; margin-left:65px; margin-top:5px;" alt="Island Hoppin' Availability" /></a>
+							<a href="Book.php#availability" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/General/island-time.jpg" alt="Island Hoppin' Availability" /></a>
 							<header>
 								<h3>Check the Booking Availability</h3>
 							</header>
@@ -147,7 +157,7 @@
 						</article>
 
 						<article>
-							<a href="Boat.html#floor" class="image featured"><img src="images/Boat/floor-plan.jpg" alt="Island Hoppin' Floor Plan" /></a>
+							<a href="Boat.html#floor" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Boat/floor-plan.jpg" alt="Island Hoppin' Floor Plan" /></a>
 							<header>
 								<h3>Check the Deck...</h3>
 							</header>
@@ -155,7 +165,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#explore" class="image featured"><img src="images/Experience/anegada-flamingo.jpg" alt="Explore on Island Hoppin'" /></a>
+							<a href="Experience.php#explore" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/anegada-flamingo.jpg" alt="Explore on Island Hoppin'" /></a>
 							<header>
 								<h3>Explore the Caribbean</h3>
 							</header>
@@ -163,7 +173,7 @@
 						</article>
 
 						<article>
-							<a href="https://youtu.be/PStvnNB12rw"  target="_blank" class="image featured"><img src="images/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
+							<a href="https://youtu.be/PStvnNB12rw"  target="_blank" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/General/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
 							<header>
 								<h3>Starring: Island Hoppin'</h3>
 							</header>
@@ -171,7 +181,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#itinerary" class="image featured"><img src="images/Experience/map.png" alt="Island Hoppin Travel Guide" /></a>
+							<a href="Experience.php#itinerary" class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/map.png" alt="Island Hoppin Travel Guide" /></a>
 							<header>
 								<h3>Sample Itinerary</h3>
 							</header>
@@ -195,7 +205,9 @@
 								$i++; 
 								if($i % 3 == 1){echo '<div class="row">';}?>
 								<article class="4u 12u(mobile) special">
-									<a href="<?php echo $row['image']; ?>" target="_blank" class="image featured"><img src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" /></a>
+									<a href="<?php echo $row['image']; ?>" class="image featured swipebox" title="<?php echo $row['header']; ?>  ---  <?php echo $row['update']; ?>">
+										<img class="image featured" src="<?php echo $row['image']; ?>" alt="<?php echo $row['update']; ?>" />
+									</a>
 									<header>
 										<h3><?php echo $row['header']; ?></h3>
 										<h3><i><?php echo $row['blank_1']; ?></i></h3>
@@ -222,7 +234,7 @@
 										
 										<div class="row">
 											<article class="3u 12u(mobile) special">
-												<a href="#" class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="images/logo.png" alt="" /></a>
+												<a class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="images/logo.png" alt="" /></a>
 											</article>
 											<article class="6u 12u(mobile) special">
 											<header>
@@ -236,7 +248,7 @@
 											</ul>
 											</article>
 											<article class="3u 12u(mobile) special fadeshow1">
-												<a href="#" class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="images/logo.png" alt="" /></a>
+												<a class="image featured" style="margin-top:-30px; width: 15em; margin-left: auto; margin-right: auto;"><img src="images/logo.png" alt="" /></a>
 											</article>
 										</div>
 									</section>

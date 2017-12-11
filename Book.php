@@ -227,7 +227,7 @@
 						</header>
 						<div class="row" id="specials">
 							<article class="4u 12u(mobile) special">
-								<a  class="image featured"><img src="images/Christmas-special.jpeg" alt="Christmas Special" /></a>
+								<a  class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Booking/Christmas-special.jpeg" alt="Christmas Special" /></a>
 								<header>
 									<h3>Christmas Special</h3>
 								</header>
@@ -236,7 +236,7 @@
 								</p>
 							</article>
 							<article class="4u 12u(mobile) special">
-								<a  class="image featured"><img src="images/New-Year.jpg" alt="New Years Special" /></a>
+								<a  class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Booking/New-Year.jpg" alt="New Years Special" /></a>
 								<header>
 									<h3>New Years Special</h3>
 								</header>
