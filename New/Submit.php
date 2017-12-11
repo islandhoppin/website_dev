@@ -91,6 +91,10 @@
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Change Price Schedule</button>
                                         </form>
+                                        <form action="/New/FAQ.php" method="post" style="text-align: center;">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                  <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit FAQ</button>
+                                        </form>
 										<hr />
 										<h3>Learn how to submit Customer Testimonials</h3>
 									</header>

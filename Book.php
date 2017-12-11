@@ -2,6 +2,7 @@
 	require 'New/connection.inc.php'; 
       // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
 	$sqlprice = $dbconn->prepare("Select price_id, season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show From priceSchedule Where show = 'Yes' ORDER BY price_id ASC") ;
+	$sqlfaq = $dbconn->prepare("Select question, answer, faqorder, show From faqList Where show = 'Yes' ORDER BY faqorder ASC") ;
       // Execute the query, if there were variables, they could be bound within the brackets
     $sqlprice->execute() ;
 ?>
@@ -255,6 +256,21 @@
 								</p>
 							</header>
 						</article>
+						<hr class="FAQ"/>
+						<div>
+							<article id="main" class="special">
+								<header>
+									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Frequently Asked Questions</h2>
+									<h3 style="text-align:center;">Click to expand the answer.</h3>
+								</header>
+							<?php while( $row2 = $sqlfaq->fetch()) : ?>
+								<br />
+								<button class="accordion"><?php echo $row2['question']; ?></button>
+								<div class="panel">
+								  <p><?php echo $row2['answer']; ?></p>
+								</div>
+							<?php endwhile ?>
+						</div>
 						<hr id="contact"/>
 						<article id="main" class="special">
 							<header>
@@ -273,8 +289,8 @@
 							<br />
 							<p style="text-align: center;">***All rates are for the entire yacht and are subject to change without notice prior to actual reservation. An additional premium maybe applied for Holiday Periods such as Christmas and New Year.***</p>
 						</div>
+						
 					</div>
-				
 				</div>
 
 			<!-- Footer -->
@@ -331,6 +347,22 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+					var acc = document.getElementsByClassName("accordion");
+					var i;
+					
+					for (i = 0; i < acc.length; i++) {
+					  acc[i].onclick = function() {
+					    this.classList.toggle("active");
+					    var panel = this.nextElementSibling;
+					    if (panel.style.maxHeight){
+					      panel.style.maxHeight = null;
+					    } else {
+					      panel.style.maxHeight = panel.scrollHeight + "px";
+					    } 
+					  }
+					}
+					</script>
 
 	</body>
 </html>
