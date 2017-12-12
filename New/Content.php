@@ -1,7 +1,7 @@
 <?php
     $passphrase = getenv('SET_PASSPHRASE');
     $compare = $_POST["passphrase"];
-    $onPage = $_POST["INTERNAL"];
+    $onPage = $_GET["INTERNAL"];
     $verifyCode = getenv('SET_VERIFY');
     if ($compare == $passphrase || $onPage == $verifyCode){
 	        echo "Correct Passphrase";
