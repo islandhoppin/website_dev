@@ -5,11 +5,11 @@
         header( 'Location: /Admin.html') ;
     }
     if ($onPage == $verifyCode){
-        require 'connection.inc.php'; 
+        require '/New/connection.inc.php'; 
         // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
-        $sqlprice = $dbconn->prepare("Select price_id, season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show From priceSchedule ORDER BY price_id ASC") ; 
+        $faqList = $dbconn->prepare("Select faq_id, question, answer, faqorder, show, blank_1 From faqList ORDER BY faqorder ASC") ; 
         // Execute the query, if there were variables, they could be bound within the brackets
-        $sqlprice->execute() ;
+        $faqList->execute() ;
     }
     
     // First connect to the database via your connection insert file
@@ -61,31 +61,22 @@
 							<div class="8u 12u(mobile)" id="content" style="margin-top:-50px;">
 								<article id="main">
 									<section>
-									<header><h2>Add Pricing Schedule</h2></header>
-                                    <form action = "submitPrice.php" method = "post">
-        		                        <header><h3>Season</h3></header>
-                                        <input type="text" name="season">
-                                        <header style="margin-top:25px;"><h3>2 Passengers</h3></header>
-                                        <input type="text" name="twopax">
-                                        <header style="margin-top:25px;"><h3>3 Passengers</h3></header>
-                                        <input type="text" name="threepax">
-                                        <header style="margin-top:25px;"><h3>4 Passengers</h3></header>
-                                        <input type="text" name="fourpax">
-                                        <header style="margin-top:25px;"><h3>5 Passengers</h3></header>
-                                        <input type="text" name="fivepax">
-                                        <header style="margin-top:25px;"><h3>6 Passengers</h3></header>
-                                        <input type="text" name="sixpax">
-                                        <header style="margin-top:25px;"><h3>7 Passengers</h3></header>
-                                        <input type="text" name="sevenpax">
-                                        <header style="margin-top:25px;"><h3>8 Passengers</h3></header>
-                                        <input type="text" name="eightpax">
+									<header><h2>Add FAQ</h2></header>
+                                    <form action = "/New/Alter/submit.php" method = "post">
+                                        <header style="margin-top:25px;"><h3>FAQ Question</h3></header>
+                                        <textarea type="text" name="question"  rows="6" cols="30"></textarea>
+                                        <header style="margin-top:25px;"><h3>FAQ Answer</h3></header>
+                                        <textarea type="text" name="answer"  rows="6" cols="30"></textarea>
+                                        <header style="margin-top:25px;"><h3>FAQ Order</h3></header>
+                                        <input type="text" name="faqorder">
                                         <header style="margin-top:25px;"><h3>Show</h3></header>
                                         <select name="show">
                                           <option value="Yes">Yes</option>
                                           <option value="No">No</option>
                                         </select>
                                         <br />
-                                        <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                        <input type="hidden" name="INTERNAL" value="<?php echo $onPage;?>">
+                                        <input type="hidden" name="table" value="faqList">
                                         <input type="submit" value="Submit">
                                     </form>
 									</section>
@@ -98,11 +89,12 @@
 									
 									<header>
 										<hr />
-										<h3>Learn how to submit new Price Schedule</h3>
+										<h3>Learn how to add a new FAQ</h3>
 									</header>
 									<p>
-										<b>Season:</b> The season.<br />
-										<b>## Pax:</b> Each Row indicates the price per additional passenger. <br />
+										<b>Question:</b> The question that will appear.<br />
+										<b>Answer:</b> The answer to the FAQ. <br />
+										<b>FAQ Order:</b> The order they will appear in. The lower number will appear first.
 										<b>Show:</b> This Yes/No indicates whether the price schedule is visible on the page.
 
 									</p>
@@ -113,58 +105,47 @@
 						<div class="row 200%">
 				        <div class="11u 12u(mobile) important(mobile)" id="content">
 				                <article id="main">
-				                    <h2 style="text-align: center;">Price Schedule</h2>
+				                    <h2 style="text-align: center;">FAQ</h2>
 				                    <table cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
                                     <thead>
                                         <tr cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
-                                            <th border=1 style='border: 1px solid #000000;'>Price ID</th>
-                                            <th border=1 style='border: 1px solid #000000;'>Season</th>
-                                            <th border=1 style='border: 1px solid #000000;'>2 pax</th>
-                                            <th border=1 style='border: 1px solid #000000;'>3 pax</th>
-                                            <th border=1 style='border: 1px solid #000000;'>4 pax</th>
-                                            <th border=1 style='border: 1px solid #000000;'>5 pax</th>
-                                            <th border=1 style='border: 1px solid #000000;'>6 pax</th>
-                                            <th border=1 style='border: 1px solid #000000;'>7 pax</th>
-                                            <th border=1 style='border: 1px solid #000000;'>8 pax</th>
+                                            <th border=1 style='border: 1px solid #000000;'>FAQ ID</th>
+                                            <th border=1 style='border: 1px solid #000000;'>Question</th>
+                                            <th border=1 style='border: 1px solid #000000;'>Answer</th>
+                                            <th border=1 style='border: 1px solid #000000;'>FAQ Order</th>
                                             <th border=1 style='border: 1px solid #000000;'>Show</th>
+                                            <th border=1 style='border: 1px solid #000000;'>Date</th>
                                             <th border=1 style='border: 1px solid #000000;'>Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <!--Use a while loop to make a table row for every DB row-->
-                                        <?php while( $row1 = $sqlprice->fetch()) : ?>
+                                        <?php while( $row1 = $faqList->fetch()) : ?>
                                         <tr cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
                                             <!--Each table column is echoed in to a td cell-->
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['price_id']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['season']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['twopax']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['threepax']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['fourpax']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['fivepax']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['sixpax']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['sevenpax']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['eightpax']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['faq_id']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['question']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['answer']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['faqorder']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['show']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/New/UpdatePrice.php" method="post">
-                                                    <input type="hidden" name="price_id" value=<?php echo $row1['price_id'];?>>
-                                                    <input type="hidden" name="season" value="<?php echo $row1['season']; ?>">
-                                                    <input type="hidden" name="twopax" value="<?php echo $row1['twopax']; ?>">
-                                                    <input type="hidden" name="threepax" value="<?php echo $row1['threepax']; ?>">
-                                                    <input type="hidden" name="fourpax" value="<?php echo $row1['fourpax']; ?>">
-                                                    <input type="hidden" name="fivepax" value="<?php echo $row1['fivepax']; ?>">
-                                                    <input type="hidden" name="sixpax" value="<?php echo $row1['sixpax']; ?>">
-                                                    <input type="hidden" name="sevenpax" value="<?php echo $row1['sevenpax']; ?>">
-                                                    <input type="hidden" name="eightpax" value="<?php echo $row1['eightpax']; ?>">
+                                            	<form action="/New/Show/UpdateFAQ.php" method="post">
+                                                    <input type="hidden" name="faq_id" value=<?php echo $row1['faq_id'];?>>
+                                                    <input type="hidden" name="question" value="<?php echo $row1['question']; ?>">
+                                                    <input type="hidden" name="answer" value="<?php echo $row1['answer']; ?>">
+                                                    <input type="hidden" name="faqorder" value="<?php echo $row1['faqorder']; ?>">
                                                     <input type="hidden" name="show" value="<?php echo $row1['show']; ?>">
-                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                    <input type="hidden" name="blank_1" value="<?php echo $row1['blank_1']; ?>">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $onPage;?>">
+                                                    <input type="hidden" name="table" value="faqList">
                                                   <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
                                                 </form>
-                                            	<form action="/New/delete.php" method="post">
-                                                    <input type="hidden" name="id" value="price_id">
-                                                    <input type="hidden" name="idnum" value="<?php echo $row1['price_id']; ?>">
-                                                    <input type="hidden" name="table" value="priceSchedule">
-                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                            	<form action="/New/Alter/delete.php" method="post">
+                                                    <input type="hidden" name="id" value="faq_id">
+                                                    <input type="hidden" name="idnum" value="<?php echo $row1['faq_id']; ?>">
+                                                    <input type="hidden" name="table" value="faqList">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $onPage;?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px; margin-bottom:5px; color:red;">Delete</button>
                                                 </form>
                                                 </td>

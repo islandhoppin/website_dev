@@ -4,14 +4,20 @@
     if ($onPage == ""){
         header( 'Location: /Admin.html') ;
     }
+    if ($onPage != $verifyCode){
+        echo "Incorrect Passphrase";
+        header( 'Location: /Admin.html') ;
+    }
     if ($onPage == $verifyCode){
-	    $faq_id = $_POST["faq_id"];
-	    $question = $_POST["question"];
-	    $answer = $_POST["answer"];
-	    $faqorder = $_POST["faqorder"];
-	    $show = $_POST["show"];
-	    $blank_1 = $_POST["blank_1"];
-
+	    $season = $_POST["season"];
+	    $twopax = $_POST["twopax"];
+	    $threepax = $_POST["threepax"];
+	    $fourpax = $_POST["fourpax"];
+	    $fivepax = $_POST["fivepax"];
+	    $sixpax = $_POST["sixpax"];
+	    $sevenpax = $_POST["sevenpax"];
+	    $eightpax = $_POST["eightpax"];
+	    $price_id = $_POST["price_id"];
         
     }
 ?>
@@ -59,24 +65,33 @@
 							<div class="8u 12u(mobile)" id="content" style="margin-top:-50px;">
 								<article id="main">
 									<section>
-									<header><h2>Edit FAQ</h2></header>
-									<form action = "submitFAQUpdate.php" method = "post">
-        		                        <header><h3>Question</h3></header>
-                                        <input type="text" name="question"  value = "<?php echo $question;?>">
-                                        <header style="margin-top:25px;"><h3>Answer</h3></header>
-                                        <input type="text" name="answer" value = "<?php echo $answer;?>">
-                                        <header style="margin-top:25px;"><h3>FAQ Order</h3></header>
-                                        <input type="text" name="faqorder" value = "<?php echo $faqorder;?>">
-                                        <header style="margin-top:25px;"><h3>Date</h3></header>
-                                        <input type="text" name="blank_1" value = "<?php echo $blank_1;?>">
+									<header><h2>Edit Data Fields</h2></header>
+									<form action = "/New/Alter/Update.php" method = "post">
+        		                        <header><h3>Season</h3></header>
+                                        <input type="text" name="season"  value = "<?php echo $season;?>">
+                                        <header style="margin-top:25px;"><h3>2 Passengers</h3></header>
+                                        <input type="text" name="twopax" value = "<?php echo $twopax;?>">
+                                        <header style="margin-top:25px;"><h3>3 Passengers</h3></header>
+                                        <input type="text" name="threepax" value = "<?php echo $threepax;?>">
+                                        <header style="margin-top:25px;"><h3>4 Passengers</h3></header>
+                                        <input type="text" name="fourpax" value = "<?php echo $fourpax;?>">
+                                        <header style="margin-top:25px;"><h3>5 Passengers</h3></header>
+                                        <input type="text" name="fivepax" value = "<?php echo $fivepax;?>">
+                                        <header style="margin-top:25px;"><h3>6 Passengers</h3></header>
+                                        <input type="text" name="sixpax" value = "<?php echo $sixpax;?>">
+                                        <header style="margin-top:25px;"><h3>7 Passengers</h3></header>
+                                        <input type="text" name="sevenpax" value = "<?php echo $sevenpax;?>">
+                                        <header style="margin-top:25px;"><h3>8 Passengers</h3></header>
+                                        <input type="text" name="eightpax" value = "<?php echo $eightpax;?>">
                                         <header style="margin-top:25px;"><h3>Show</h3></header>
                                         <select name="show">
                                           <option value="Yes">Yes</option>
                                           <option value="No">No</option>
                                         </select>
                                         <br />
-                                        <input type="hidden" name="faq_id" value = "<?php echo $faq_id;?>">
+                                        <input type="hidden" name="price_id" value = "<?php echo $price_id;?>">
                                         <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                        <input type="hidden" name="table" value = "priceSchedule">
                                         <input type="submit" value="Submit">
                                     </form>
 									</section>

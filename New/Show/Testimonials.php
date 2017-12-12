@@ -4,18 +4,18 @@
     if ($onPage == ""){
         header( 'Location: /Admin.html') ;
     }
+    if ($onPage != $verifyCode){
+        echo "Incorrect Passphrase";
+        header( 'Location: /Admin.html') ;
+    }
     if ($onPage == $verifyCode){
-        require 'connection.inc.php'; 
+        require '/New/connection.inc.php'; 
         // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
-        $faqList = $dbconn->prepare("Select faq_id, question, answer, faqorder, show, blank_1 From faqList ORDER BY faqorder ASC") ; 
-        // Execute the query, if there were variables, they could be bound within the brackets
-        $faqList->execute() ;
+    	$sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut ORDER BY news_id ASC") ; 
+    	// Execute the query, if there were variables, they could be bound within the brackets
+    	$sqltut->execute() ;
     }
     
-    // First connect to the database via your connection insert file
-
-    
-
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -61,21 +61,17 @@
 							<div class="8u 12u(mobile)" id="content" style="margin-top:-50px;">
 								<article id="main">
 									<section>
-									<header><h2>Add FAQ</h2></header>
-                                    <form action = "submitFaq.php" method = "post">
-                                        <header style="margin-top:25px;"><h3>FAQ Question</h3></header>
-                                        <input type="text" name="question">
-                                        <header style="margin-top:25px;"><h3>FAQ Answer</h3></header>
-                                        <input type="text" name="answer">
-                                        <header style="margin-top:25px;"><h3>FAQ Order</h3></header>
-                                        <input type="text" name="faqorder">
-                                        <header style="margin-top:25px;"><h3>Show</h3></header>
-                                        <select name="show">
-                                          <option value="Yes">Yes</option>
-                                          <option value="No">No</option>
-                                        </select>
+									<header><h2>Add Customer Testimonial</h2></header>
+                                    <form action = "New/Alter/submit.php" method = "post">
+        		                        <header><h3>Header</h3></header>
+                                        <input type="text" name="Header">
+                                        <header style="margin-top:25px;"><h3>Update Text</h3></header>
+                                        <textarea type="text" name="update"  rows="6" cols="30"></textarea>
+                                        <header style="margin-top:25px;"><h3>Url</h3></header>
+                                        <input type="text" name="url">
                                         <br />
                                         <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                        <input type="hidden" name="table" value="customertut">
                                         <input type="submit" value="Submit">
                                     </form>
 									</section>
@@ -87,16 +83,16 @@
 								<section>
 									
 									<header>
-										<hr />
-										<h3>Learn how to add a new FAQ</h3>
+										<h3>Learn how to submit Customer Testimonials</h3>
 									</header>
 									<p>
-										<b>Question:</b> The question that will appear.<br />
-										<b>Answer:</b> The answer to the FAQ. <br />
-										<b>FAQ Order:</b> The order they will appear in. The lower number will appear first.
-										<b>Show:</b> This Yes/No indicates whether the price schedule is visible on the page.
-
-									</p>
+										<b>Header:</b> This will display on the top bar of the photo once clicked.<br />
+										<b>Update Text:</b> This will the text of the actual testominal. It will not be displayed as it will be in the image.
+										The text will instead be used in the Alt tag (for an increase in search results from google)<br />
+										<b>URL:</b> This process is shown in the video button below. No additional alteration of the url is need for content delivery.
+										<br /><b>All testimonials will be shown in the photo carousel, the order will favor the most recent first.</b>
+									</p> 
+									
 								</section>
 							</div>
 						</div>				
@@ -104,45 +100,43 @@
 						<div class="row 200%">
 				        <div class="11u 12u(mobile) important(mobile)" id="content">
 				                <article id="main">
-				                    <h2 style="text-align: center;">FAQ</h2>
+				                    <h2 style="text-align: center;">Customer Testimonials</h2>
 				                    <table cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
                                     <thead>
                                         <tr cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
-                                            <th border=1 style='border: 1px solid #000000;'>FAQ ID</th>
-                                            <th border=1 style='border: 1px solid #000000;'>Question</th>
-                                            <th border=1 style='border: 1px solid #000000;'>Answer</th>
-                                            <th border=1 style='border: 1px solid #000000;'>FAQ Order</th>
-                                            <th border=1 style='border: 1px solid #000000;'>Show</th>
+                                            <th border=1 style='border: 1px solid #000000;'>News ID</th>
+                                            <th border=1 style='border: 1px solid #000000;'>Header</th>
+                                            <th border=1 style='border: 1px solid #000000;'>Update</th>
+                                            <th border=1 style='border: 1px solid #000000;'>Url</th>
                                             <th border=1 style='border: 1px solid #000000;'>Date</th>
-                                            <th border=1 style='border: 1px solid #000000;'>Actions</th>
+                                            <th border=1 style='border: 1px solid #000000;'>Delete</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <!--Use a while loop to make a table row for every DB row-->
-                                        <?php while( $row1 = $faqList->fetch()) : ?>
+                                        <?php while( $row1 = $sqltut->fetch()) : ?>
                                         <tr cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
                                             <!--Each table column is echoed in to a td cell-->
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['faq_id']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['question']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['answer']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['faqorder']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['show']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['news_id']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['header']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['update']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['image']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/New/UpdateFAQ.php" method="post">
-                                                    <input type="hidden" name="faq_id" value=<?php echo $row1['faq_id'];?>>
-                                                    <input type="hidden" name="question" value="<?php echo $row1['question']; ?>">
-                                                    <input type="hidden" name="answer" value="<?php echo $row1['answer']; ?>">
-                                                    <input type="hidden" name="faqorder" value="<?php echo $row1['faqorder']; ?>">
-                                                    <input type="hidden" name="show" value="<?php echo $row1['show']; ?>">
-                                                    <input type="hidden" name="blank_1" value="<?php echo $row1['blank_1']; ?>">
+                                            	<form action="/New/Show/UpdateNewTut.php" method="post">
+                                                    <input type="hidden" name="news_id" value=<?php echo $row1['news_id'];?>>
+                                                    <input type="hidden" name="table" value="customertut">
+                                                    <input type="hidden" name="Header" value="<?php echo $row1['header']; ?>">
+                                                    <input type="hidden" name="Update" value="<?php echo $row1['update']; ?>">
+                                                    <input type="hidden" name="Image" value="<?php echo $row1['image']; ?>">
+                                                    <input type="hidden" name="date" value="<?php echo $row1['blank_1']; ?>">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
                                                 </form>
-                                            	<form action="/New/delete.php" method="post">
-                                                    <input type="hidden" name="id" value="faq_id">
-                                                    <input type="hidden" name="idnum" value="<?php echo $row1['faq_id']; ?>">
-                                                    <input type="hidden" name="table" value="faqList">
+                                            	<form action="/New/Alter/delete.php" method="post">
+                                                    <input type="hidden" name="id" value="news_id">
+                                                    <input type="hidden" name="idnum" value="<?php echo $row1['news_id']; ?>">
+                                                    <input type="hidden" name="table" value="customertut">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px; margin-bottom:5px; color:red;">Delete</button>
                                                 </form>
@@ -152,10 +146,8 @@
                                     </tbody>
                                     </table>
 				                </article>
-				            </div>
-				            </div>
-						<hr />
-
+				        </div>
+				    	</div>
 					</div>
 				</div>
 
@@ -201,7 +193,6 @@
 						</div>
 					</div>
 				</div>
-
 		</div>
 
 		<!-- Scripts -->

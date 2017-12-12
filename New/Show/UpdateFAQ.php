@@ -4,13 +4,18 @@
     if ($onPage == ""){
         header( 'Location: /Admin.html') ;
     }
+    if ($onPage != $verifyCode){
+        echo "Incorrect Passphrase";
+        header( 'Location: /Admin.html') ;
+    }
     if ($onPage == $verifyCode){
-        $id = $_POST["news_id"];
-        $table = $_POST["Table"];
-        $Header = $_POST["Header"];
-        $Update = $_POST["Update"];
-        $Image = $_POST["Image"];
-        $Date = $_POST["date"];
+	    $faq_id = $_POST["faq_id"];
+	    $question = $_POST["question"];
+	    $answer = $_POST["answer"];
+	    $faqorder = $_POST["faqorder"];
+	    $show = $_POST["show"];
+	    $blank_1 = $_POST["blank_1"];
+
         
     }
 ?>
@@ -58,37 +63,30 @@
 							<div class="8u 12u(mobile)" id="content" style="margin-top:-50px;">
 								<article id="main">
 									<section>
-									<header><h2>Edit Data Fields</h2></header>
-                                    <form action = "submitUpdate.php" method = "post">
-        		                        <header><h3>Header</h3></header>
-                                        <input type="text" name="Header" value = "<?php echo $Header;?>">
-                                        <header style="margin-top:25px;"><h3>Update Text</h3></header>
-                                        <textarea type="text" name="update"  rows="6" cols="30"><?php echo $Update;?></textarea>
-                                        <header style="margin-top:25px;"><h3>Google Url</h3></header> 
-                                        <input type="text" name="url" value = "<?php echo $Image;?>">
+									<header><h2>Edit FAQ</h2></header>
+									<form action = "/New/Alter/Update.php" method = "post">
+        		                        <header><h3>Question</h3></header>
+                                        <input type="text" name="question"  value = "<?php echo $question;?>">
+                                        <header style="margin-top:25px;"><h3>Answer</h3></header>
+                                        <input type="text" name="answer" value = "<?php echo $answer;?>">
+                                        <header style="margin-top:25px;"><h3>FAQ Order</h3></header>
+                                        <input type="text" name="faqorder" value = "<?php echo $faqorder;?>">
                                         <header style="margin-top:25px;"><h3>Date</h3></header>
-                                        <input type="text" name="date" value = "<?php echo $Date;?>">
+                                        <input type="text" name="blank_1" value = "<?php echo $blank_1;?>">
+                                        <header style="margin-top:25px;"><h3>Show</h3></header>
+                                        <select name="show">
+                                          <option value="Yes">Yes</option>
+                                          <option value="No">No</option>
+                                        </select>
                                         <br />
-                                        <input type="hidden" name="id" value = "<?php echo $id;?>">
-                                        <input type="hidden" name="table" value = "<?php echo $table;?>">
-                                        <input type="hidden" name="INTERNAL" value = "<?php echo $verifyCode;?>">
+                                        <input type="hidden" name="faq_id" value = "<?php echo $faq_id;?>">
+                                        <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                        <input type="hidden" name="table" value = "faqList">
                                         <input type="submit" value="Submit">
                                     </form>
 									</section>
 									
 								</article>
-							</div>
-							<div class="4u 12u(mobile)" id="sidebar">
-								<hr class="first" />
-								<section>
-									
-									<header>
-									
-										<h3>Edit data</h3>
-										<hr />
-									</header>
-									
-								</section>
 							</div>
 						</div>				
 						<hr />

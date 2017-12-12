@@ -1,21 +1,18 @@
 <?php
-    $verifyCode = getenv('SET_VERIFY');
-    $onPage = $_POST["INTERNAL"];
-    if ($onPage == ""){
+    $passphrase = getenv('SET_PASSPHRASE');
+    $compare = $_POST["passphrase"];
+    if ($compare == ""){
         header( 'Location: /Admin.html') ;
     }
-    if ($onPage == $verifyCode){
-	    $season = $_POST["season"];
-	    $twopax = $_POST["twopax"];
-	    $threepax = $_POST["threepax"];
-	    $fourpax = $_POST["fourpax"];
-	    $fivepax = $_POST["fivepax"];
-	    $sixpax = $_POST["sixpax"];
-	    $sevenpax = $_POST["sevenpax"];
-	    $eightpax = $_POST["eightpax"];
-	    $price_id = $_POST["price_id"];
-        
+    if ($compare != $passphrase){
+        echo "Incorrect Passphrase";
+        header( 'Location: /Admin.html') ;
     }
+    if ($compare == $passphrase){
+        $verifyCode = getenv('SET_VERIFY');
+    }
+    
+    
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -51,50 +48,44 @@
 			
 				<div class="wrapper style1">
 					<div class="container">
-						<div class="row 200%">
+						
 						    <header style="text-align:center;">
 								<h2>Admin Content Manager - Island Hoppin'</h2>
 								<p>
 									<a href="http://islandhoppincharters.com">Go to the Home Screen</a>
 								</p>
 							</header>
-							<div class="8u 12u(mobile)" id="content" style="margin-top:-50px;">
-								<article id="main">
-									<section>
-									<header><h2>Edit Data Fields</h2></header>
-									<form action = "submitPriceUpdate.php" method = "post">
-        		                        <header><h3>Season</h3></header>
-                                        <input type="text" name="season"  value = "<?php echo $season;?>">
-                                        <header style="margin-top:25px;"><h3>2 Passengers</h3></header>
-                                        <input type="text" name="twopax" value = "<?php echo $twopax;?>">
-                                        <header style="margin-top:25px;"><h3>3 Passengers</h3></header>
-                                        <input type="text" name="threepax" value = "<?php echo $threepax;?>">
-                                        <header style="margin-top:25px;"><h3>4 Passengers</h3></header>
-                                        <input type="text" name="fourpax" value = "<?php echo $fourpax;?>">
-                                        <header style="margin-top:25px;"><h3>5 Passengers</h3></header>
-                                        <input type="text" name="fivepax" value = "<?php echo $fivepax;?>">
-                                        <header style="margin-top:25px;"><h3>6 Passengers</h3></header>
-                                        <input type="text" name="sixpax" value = "<?php echo $sixpax;?>">
-                                        <header style="margin-top:25px;"><h3>7 Passengers</h3></header>
-                                        <input type="text" name="sevenpax" value = "<?php echo $sevenpax;?>">
-                                        <header style="margin-top:25px;"><h3>8 Passengers</h3></header>
-                                        <input type="text" name="eightpax" value = "<?php echo $eightpax;?>">
-                                        <header style="margin-top:25px;"><h3>Show</h3></header>
-                                        <select name="show">
-                                          <option value="Yes">Yes</option>
-                                          <option value="No">No</option>
-                                        </select>
-                                        <br />
-                                        <input type="hidden" name="price_id" value = "<?php echo $price_id;?>">
-                                        <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
-                                        <input type="submit" value="Submit">
-                                    </form>
-									</section>
+							
+							<div>
+								
+								<section>
 									
-								</article>
-							</div>
-						</div>				
-						<hr />
+									<header>
+										<h3 style="text-align:center;"><a href="https://drive.google.com/open?id=1guFdmenk0EPc_-d9Da0rgYvmzXTiimy83XimO3hkJI8">Change Request Form</a></h3>
+										<hr />
+                                        <form action="/New/Show/News.php" method="post" style="text-align: center;">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                  <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit News</button>
+                                        </form>
+                                        <hr />
+                                        <form action="/New/Show/Testimonials.php" method="post" style="text-align: center;">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                  <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit Testimonials</button>
+                                        </form>
+                                        <hr />
+                                        <form action="/New/Show/FAQ.php" method="post" style="text-align: center;">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                  <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit FAQs</button>
+                                        </form>
+                                        <hr />
+                                        <form action="/New/Show/price.php" method="post" style="text-align: center;">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                  <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit Price Schedule</button>
+                                        </form>
+										<hr />						
+									</header>	
+								</section>
+							</div>				
 					</div>
 				</div>
 
