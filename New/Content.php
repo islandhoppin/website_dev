@@ -3,9 +3,11 @@
     $compare = $_POST["passphrase"];
     $onPage = $_POST["INTERNAL"];
     $verifyCode = getenv('SET_VERIFY');
-    if ($compare != $passphrase || $onPage != $verifyCode){
-	        echo "Incorrect Passphrase";
-	        header( 'Location: /Admin.html') ;
+    if ($compare == $passphrase || $onPage == $verifyCode){
+	        echo "Correct Passphrase";
+	    } else {
+	    	echo "Incorrect Passphrase";
+        	header( 'Location: /Admin.html') ;
 	    }
     
     
