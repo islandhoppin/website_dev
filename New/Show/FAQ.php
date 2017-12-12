@@ -130,7 +130,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['show']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/UpdateFAQ.php" method="post">
+                                            	<form action="/New/Show/UpdateFAQ.php" method="post">
                                                     <input type="hidden" name="faq_id" value=<?php echo $row1['faq_id'];?>>
                                                     <input type="hidden" name="question" value="<?php echo $row1['question']; ?>">
                                                     <input type="hidden" name="answer" value="<?php echo $row1['answer']; ?>">
