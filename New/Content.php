@@ -65,22 +65,22 @@
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit News</button>
                                         </form>
-                                        <hr />
+                                        <br />
                                         <form action="/New/Show/Testimonials.php" method="post" style="text-align: center;">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit Testimonials</button>
                                         </form>
-                                        <hr />
+                                        <br />
                                         <form action="/New/Show/FAQ.php" method="post" style="text-align: center;">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit FAQs</button>
                                         </form>
-                                        <hr />
+                                        <br />
                                         <form action="/New/Show/price.php" method="post" style="text-align: center;">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit Price Schedule</button>
                                         </form>
-										<hr />						
+										<br />						
 									</header>	
 								</section>
 							</div>				
