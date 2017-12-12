@@ -63,7 +63,7 @@
 									<header>
 										<h3 style="text-align:center;"><a href="https://drive.google.com/open?id=1guFdmenk0EPc_-d9Da0rgYvmzXTiimy83XimO3hkJI8">Change Request Form</a></h3>
 										<hr />
-                                        <form action="/Show/News.php" method="post" style="text-align: center;">
+                                        <form action="New/Show/News.php" method="post" style="text-align: center;">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit News</button>
                                         </form>
