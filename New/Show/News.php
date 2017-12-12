@@ -122,7 +122,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['image']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/UpdateNewTut.php" method="post">
+                                            	<form action="/New/Show/UpdateNewTut.php" method="post">
                                                     <input type="hidden" name="news_id" value="<?php echo $row2['news_id']; ?>">
                                                     <input type="hidden" name="table" value="newsupdates">
                                                     <input type="hidden" name="Header" value="<?php echo $row2['header']; ?>">
@@ -132,7 +132,7 @@
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
                                                 </form>
-                                            	<form action="../Alter/delete.php" method="post">
+                                            	<form action="/New/Alter/delete.php" method="post">
                                                     <input type="hidden" name="id" value="news_id">
                                                     <input type="hidden" name="idnum" value=<?php echo $row2['news_id']; ?>>
                                                     <input type="hidden" name="table" value="newsupdates">
