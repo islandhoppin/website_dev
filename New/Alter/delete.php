@@ -6,10 +6,10 @@ if ($verifyCode == $onPage){
     $table = $_POST["table"];
     $id = $_POST["id"];
     $idnum = $_POST["idnum"];
-    require '/New/connection.inc.php'; 
+    require '../connection.inc.php'; 
     $query = "Delete from $table where $id = $idnum";
     $dbconn->query($query);
 }
-header( 'Location: ../Content.php?INTERNAL=$onPage');
+header('Location: ../Content.php?INTERNAL='.$onPage);
 
 ?>

@@ -42,6 +42,6 @@ if ($verifyCode == $onPage){
     
     $dbconn->query($query);
 }
-header( 'Location: ../Content.php?INTERNAL=$onPage');
+header('Location: ../Content.php?INTERNAL='.$onPage);
 
 ?>
