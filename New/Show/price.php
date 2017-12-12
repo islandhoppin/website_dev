@@ -9,7 +9,7 @@
         header( 'Location: /Admin.html') ;
     }
     if ($onPage == $verifyCode){
-        require '/New/connection.inc.php'; 
+        require '../connection.inc.php'; 
         // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
         $sqlprice = $dbconn->prepare("Select price_id, season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show From priceSchedule ORDER BY price_id ASC") ; 
         // Execute the query, if there were variables, they could be bound within the brackets
@@ -66,7 +66,7 @@
 								<article id="main">
 									<section>
 									<header><h2>Add Pricing Schedule</h2></header>
-                                    <form action = "New/Alter/submit.php" method = "post">
+                                    <form action = "../Alter/submit.php" method = "post">
         		                        <header><h3>Season</h3></header>
                                         <input type="text" name="season">
                                         <header style="margin-top:25px;"><h3>2 Passengers</h3></header>
@@ -151,7 +151,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['eightpax']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['show']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/New/Show/UpdatePrice.php" method="post">
+                                            	<form action="/UpdatePrice.php" method="post">
                                                     <input type="hidden" name="price_id" value=<?php echo $row1['price_id'];?>>
                                                     <input type="hidden" name="season" value="<?php echo $row1['season']; ?>">
                                                     <input type="hidden" name="twopax" value="<?php echo $row1['twopax']; ?>">
@@ -166,7 +166,7 @@
                                                     <input type="hidden" name="table" value="priceSchedule">
                                                   <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
                                                 </form>
-                                            	<form action="/New/Alter/delete.php" method="post">
+                                            	<form action="../Alter/delete.php" method="post">
                                                     <input type="hidden" name="id" value="price_id">
                                                     <input type="hidden" name="idnum" value="<?php echo $row1['price_id']; ?>">
                                                     <input type="hidden" name="table" value="priceSchedule">

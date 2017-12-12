@@ -9,7 +9,7 @@
         header( 'Location: /Admin.html') ;
     }
     if ($onPage == $verifyCode){
-        require '/New/connection.inc.php'; 
+        require '../connection.inc.php'; 
         // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
     	$sqlnew = $dbconn->prepare("Select news_id, header, update, image, blank_1 From newsupdates ORDER BY news_id ASC") ; 
     	// Execute the query, if there were variables, they could be bound within the brackets
@@ -63,7 +63,7 @@
 								<article id="main">
 									<section>
 									<header><h2>Add News Event</h2></header>
-                                    <form action = "/New/Alter/submit.php" method = "post">
+                                    <form action = "../Alter/submit.php" method = "post">
         		                        <header><h3>Header</h3></header>
                                         <input type="text" name="Header">
                                         <header style="margin-top:25px;"><h3>Update Text</h3></header>
@@ -122,7 +122,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['image']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/New/Show/UpdateNewTut.php" method="post">
+                                            	<form action="/UpdateNewTut.php" method="post">
                                                     <input type="hidden" name="news_id" value="<?php echo $row2['news_id']; ?>">
                                                     <input type="hidden" name="table" value="newsupdates">
                                                     <input type="hidden" name="Header" value="<?php echo $row2['header']; ?>">
@@ -132,7 +132,7 @@
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
                                                 </form>
-                                            	<form action="/New/Alter/delete.php" method="post">
+                                            	<form action="../Alter/delete.php" method="post">
                                                     <input type="hidden" name="id" value="news_id">
                                                     <input type="hidden" name="idnum" value=<?php echo $row2['news_id']; ?>>
                                                     <input type="hidden" name="table" value="newsupdates">

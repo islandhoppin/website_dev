@@ -10,6 +10,6 @@ if ($verifyCode == $onPage){
     $query = "Delete from $table where $id = $idnum";
     $dbconn->query($query);
 }
-header( 'Location: /New/Content.php?INTERNAL=$onPage');
+header( 'Location: ../Content.php?INTERNAL=$onPage');
 
 ?>

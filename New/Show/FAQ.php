@@ -5,7 +5,7 @@
         header( 'Location: /Admin.html') ;
     }
     if ($onPage == $verifyCode){
-        require '/New/connection.inc.php'; 
+        require '../connection.inc.php'; 
         // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
         $faqList = $dbconn->prepare("Select faq_id, question, answer, faqorder, show, blank_1 From faqList ORDER BY faqorder ASC") ; 
         // Execute the query, if there were variables, they could be bound within the brackets
@@ -62,7 +62,7 @@
 								<article id="main">
 									<section>
 									<header><h2>Add FAQ</h2></header>
-                                    <form action = "/New/Alter/submit.php" method = "post">
+                                    <form action = "../Alter/submit.php" method = "post">
                                         <header style="margin-top:25px;"><h3>FAQ Question</h3></header>
                                         <textarea type="text" name="question"  rows="6" cols="30"></textarea>
                                         <header style="margin-top:25px;"><h3>FAQ Answer</h3></header>
@@ -130,7 +130,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['show']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/New/Show/UpdateFAQ.php" method="post">
+                                            	<form action="/UpdateFAQ.php" method="post">
                                                     <input type="hidden" name="faq_id" value=<?php echo $row1['faq_id'];?>>
                                                     <input type="hidden" name="question" value="<?php echo $row1['question']; ?>">
                                                     <input type="hidden" name="answer" value="<?php echo $row1['answer']; ?>">
@@ -141,7 +141,7 @@
                                                     <input type="hidden" name="table" value="faqList">
                                                   <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
                                                 </form>
-                                            	<form action="/New/Alter/delete.php" method="post">
+                                            	<form action="../Alter/delete.php" method="post">
                                                     <input type="hidden" name="id" value="faq_id">
                                                     <input type="hidden" name="idnum" value="<?php echo $row1['faq_id']; ?>">
                                                     <input type="hidden" name="table" value="faqList">

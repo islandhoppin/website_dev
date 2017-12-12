@@ -4,7 +4,7 @@ $onPage = $_POST["INTERNAL"];
 
 if ($verifyCode == $onPage){
     $table = $_POST["table"];
-    require '/New/connection.inc.php';
+    require '../connection.inc.php';
     	if ($table == "newsupdates"){
     		$key = $_POST["id"];
     		$header = pg_escape_string($_POST["Header"]);
@@ -45,6 +45,6 @@ if ($verifyCode == $onPage){
     	}
     $dbconn->query($query);
 }
-header( 'Location: /New/Content.php?INTERNAL=$onPage');
+header( 'Location: ../Content.php?INTERNAL=$onPage');
 
 ?>
