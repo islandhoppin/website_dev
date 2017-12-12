@@ -64,7 +64,7 @@
 								<article id="main">
 									<section>
 									<header><h2>Edit FAQ</h2></header>
-									<form action = "../Alter/Update.php" method = "post">
+									<form action = "../Alter/update.php" method = "post">
         		                        <header><h3>Question</h3></header>
                                         <input type="text" name="question"  value = "<?php echo $question;?>">
                                         <header style="margin-top:25px;"><h3>Answer</h3></header>

@@ -66,7 +66,7 @@
 								<article id="main">
 									<section>
 									<header><h2>Edit Data Fields</h2></header>
-									<form action = "../Alter/Update.php" method = "post">
+									<form action = "../Alter/update.php" method = "post">
         		                        <header><h3>Season</h3></header>
                                         <input type="text" name="season"  value = "<?php echo $season;?>">
                                         <header style="margin-top:25px;"><h3>2 Passengers</h3></header>

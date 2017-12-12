@@ -123,7 +123,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['image']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/UpdateNewTut.php" method="post">
+                                            	<form action="/New/Show/UpdateNewTut.php" method="post">
                                                     <input type="hidden" name="news_id" value=<?php echo $row1['news_id'];?>>
                                                     <input type="hidden" name="table" value="customertut">
                                                     <input type="hidden" name="Header" value="<?php echo $row1['header']; ?>">

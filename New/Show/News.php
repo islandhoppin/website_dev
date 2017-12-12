@@ -132,7 +132,7 @@
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
                                                 </form>
-                                            	<form action="/New/Alter/delete.php" method="post">
+                                            	<form action="../Alter/delete.php" method="post">
                                                     <input type="hidden" name="id" value="news_id">
                                                     <input type="hidden" name="idnum" value=<?php echo $row2['news_id']; ?>>
                                                     <input type="hidden" name="table" value="newsupdates">

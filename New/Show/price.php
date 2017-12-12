@@ -151,7 +151,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['eightpax']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['show']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
-                                            	<form action="/UpdatePrice.php" method="post">
+                                            	<form action="/New/Show/UpdatePrice.php" method="post">
                                                     <input type="hidden" name="price_id" value=<?php echo $row1['price_id'];?>>
                                                     <input type="hidden" name="season" value="<?php echo $row1['season']; ?>">
                                                     <input type="hidden" name="twopax" value="<?php echo $row1['twopax']; ?>">
