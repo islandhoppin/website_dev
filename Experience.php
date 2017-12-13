@@ -114,7 +114,7 @@
 											The world is your playground, enjoy it aboard Island Hoppin'!
 										</p>
 									</header>
-									<img class="image featured" src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/map.png" alt="BVI Map" />
+									<img class="image featured" src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/map.png" alt="BVI Map" />
 									<p>
 										This is your special trip, and you should be able to pick where you want to go. So our crew will work with you to 
 										design your itinerary to fit all the wonderful places to see
@@ -270,7 +270,7 @@
 									</p>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/The_Baths" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/The-Baths.png" alt="The Baths" /></a>
+											<a href="https://en.wikipedia.org/wiki/The_Baths" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/The-Baths.png" alt="The Baths" /></a>
 										</div>
 										<div class="8u">
 											<h4>The Baths</h4>
@@ -283,7 +283,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Tortola" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/cane-garden-bay.jpg" alt="Cane Garden Bay" /></a>
+											<a href="https://en.wikipedia.org/wiki/Tortola" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/cane-garden-bay.jpg" alt="Cane Garden Bay" /></a>
 										</div>
 										<div class="8u">
 											<h4>Cane Garden Bay</h4>
@@ -294,7 +294,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Anegada" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/anegada-flamingo.jpg" alt="Anegada Island" /></a>
+											<a href="https://en.wikipedia.org/wiki/Anegada" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/anegada-flamingo.jpg" alt="Anegada Island" /></a>
 										</div>
 										<div class="8u">
 											<h4>Anegada Island</h4>
@@ -306,7 +306,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="http://www.soggydollar.com/" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Soggy-Dollar-Bar.jpg" alt="Soggy Dollar Bar" /></a>
+											<a href="http://www.soggydollar.com/" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Soggy-Dollar-Bar.jpg" alt="Soggy Dollar Bar" /></a>
 										</div>
 										<div class="8u">
 											<h4>The Soggy Dollar Bar</h4>
@@ -317,7 +317,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://travel.usnews.com/British_Virgin_Islands/Things_To_Do/Smugglers_Cove_Tortola_61148/" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Smugglers-cove.jpg" alt="Smuggler's Cove" /></a>
+											<a href="https://travel.usnews.com/British_Virgin_Islands/Things_To_Do/Smugglers_Cove_Tortola_61148/" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Smugglers-cove.jpg" alt="Smuggler's Cove" /></a>
 										</div>
 										<div class="8u">
 											<h4>Smuggler's Cove</h4>
@@ -328,7 +328,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/RMS_Rhone" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/RMS-Rhone.jpg" alt="Wreck of the RMS Rhone" /></a>
+											<a href="https://en.wikipedia.org/wiki/RMS_Rhone" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/RMS-Rhone.jpg" alt="Wreck of the RMS Rhone" /></a>
 										</div>
 										<div class="8u">
 											<h4>The Wreck of the RMS Rhone</h4>
@@ -339,7 +339,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Cooper_Island_(British_Virgin_Islands)" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/cooper-island.jpg" alt="Cooper Island" /></a>
+											<a href="https://en.wikipedia.org/wiki/Cooper_Island_(British_Virgin_Islands)" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/cooper-island.jpg" alt="Cooper Island" /></a>
 										</div>
 										<div class="8u">
 											<h4>Cooper Island</h4>
@@ -350,7 +350,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Norman_Island" target="_blank"class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Norman-Island.jpg" alt="Normal Island" /></a>
+											<a href="https://en.wikipedia.org/wiki/Norman_Island" target="_blank"class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Norman-Island.jpg" alt="Normal Island" /></a>
 										</div>
 										<div class="8u">
 											<h4>Norman Island</h4>
@@ -362,7 +362,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Peter_Island" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Peter-Island.jpeg" alt="Peter Island" /></a>
+											<a href="https://en.wikipedia.org/wiki/Peter_Island" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Peter-Island.jpeg" alt="Peter Island" /></a>
 										</div>
 										<div class="8u">
 											<h4>Peter Island</h4>
@@ -374,7 +374,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Sandy_Cay" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/sandy-cay.jpg" alt="Sandy Cay" /></a>
+											<a href="https://en.wikipedia.org/wiki/Sandy_Cay" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/sandy-cay.jpg" alt="Sandy Cay" /></a>
 										</div>
 										<div class="8u">
 											<h4>Sandy Cay</h4>
@@ -385,7 +385,7 @@
 									</div>
 									<div class="row 50%">
 										<div class="4u">
-											<a href="https://en.wikipedia.org/wiki/Cruz_Bay,_U.S._Virgin_Islands" target="_blank" class="image fit"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Cruz-Bay.jpg" alt="Cruz Bay" /></a>
+											<a href="https://en.wikipedia.org/wiki/Cruz_Bay,_U.S._Virgin_Islands" target="_blank" class="image fit"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Cruz-Bay.jpg" alt="Cruz Bay" /></a>
 										</div>
 										<div class="8u">
 											<h4>Cruz Bay</h4>
@@ -406,7 +406,7 @@
 						</header>
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Break.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Break.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Breakfast</h3>
 								</header>
@@ -421,7 +421,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Lunch.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Lunch.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Lunch</h3>
 								</header>
@@ -439,7 +439,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Lunch.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Lunch.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Dinner</h3>
 								</header>
@@ -454,7 +454,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Appetizer.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Appetizer.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Appetizers</h3>
 								</header>
@@ -472,7 +472,7 @@
 							<hr />
 							<div class="row">
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Dessert.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Dessert.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Desserts</h3>
 								</header>
@@ -487,7 +487,7 @@
 								</ul>
 							</article>
 							<article class="6u 12u(mobile) special">
-								<a class="image featured"><img src="http://dzx3g8o0zzxkn.cloudfront.net/Experience/Drinks.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
+								<a class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Drinks.jpg" style="max-height:420px; text-align:center; overflow: hidden;" alt="" /></a>
 								<header>
 									<h3>Drinks</h3>
 								</header>
