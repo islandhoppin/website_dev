@@ -64,13 +64,21 @@
 								<article id="main">
 									<section>
 									<header><h2>Edit Data Fields</h2></header>
-                                    <form action = "../Alter/update.php" method = "post">
+                                    <form action = "../Alter/update.php" method = "post" enctype="multipart/form-data">
         		                        <header><h3>Header</h3></header>
                                         <input type="text" name="Header" value = "<?php echo $Header;?>">
                                         <header style="margin-top:25px;"><h3>Update Text</h3></header>
                                         <textarea type="text" name="update"  rows="6" cols="30"><?php echo $Update;?></textarea>
-                                        <header style="margin-top:25px;"><h3>Google Url</h3></header> 
-                                        <input type="text" name="url" value = "<?php echo $Image;?>">
+                                        <header style="margin-top:25px;"><h3>Url</h3></header> 
+                                        <input type="text" name="IMAGE" value = "<?php echo $Image;?>">
+                                        <header style="margin-top:25px;"><h3>File Upload</h3></header>
+                                        <input type="file" name="photo" id="fileSelect">
+                                        <p><strong>Note:</strong> Only .jpg, .jpeg, .gif, .png formats allowed to a max size of 5 MB.</p>
+                                        <header style="margin-top:25px;"><h3>Was a New File Upload?</h3></header>
+                                        <select name="UPDATE">
+                                          <option value="No">No</option>
+                                          <option value="Yes">Yes</option>
+                                        </select>
                                         <header style="margin-top:25px;"><h3>Date</h3></header>
                                         <input type="text" name="date" value = "<?php echo $Date;?>">
                                         <br />

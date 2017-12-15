@@ -1,14 +1,83 @@
 <?php 
+require __DIR__ . '/../../vendor/autoload.php';
+use Aws\S3\S3Client;
+
 $verifyCode = getenv('SET_VERIFY');
 $onPage = $_POST["INTERNAL"];
+$Update = $_POST["UPDATE"];
 
 if ($verifyCode == $onPage){
     $table = $_POST["table"];
     require '../connection.inc.php';
+        if ($Update == "Yes"){
+            if ($table =="newsupdates"){
+                $bucket = "OnDeckNews";
+            } elseif ($table =="customertut"){
+                $bucket = "Testimonials";
+            }
+        } elseif ($Update == "No"){
+            $image = $_POST["IMAGE"];
+        }  
+        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials"){
+            // Check if file was uploaded without errors
+            if(isset($_FILES["photo"]) && $_FILES["photo"]["error"] == 0){
+                $allowed = array("jpg" => "image/jpg", "jpeg" => "image/jpeg", "gif" => "image/gif", "png" => "image/png");
+                $filename = $_FILES["photo"]["name"];
+                $filetype = $_FILES["photo"]["type"];
+                $filesize = $_FILES["photo"]["size"];
+                    
+                // Verify file extension
+                $ext = pathinfo($filename, PATHINFO_EXTENSION);
+                if(!array_key_exists($ext, $allowed)) die("Error: Please select a valid file format.");
+                    
+                // Verify file size - 5MB maximum
+                $maxsize = 5 * 1024 * 1024;
+                if($filesize > $maxsize) die("Error: File size is larger than the allowed limit.");
+                
+                // Verify MYME type of the file
+                if(in_array($filetype, $allowed)){
+                    // Check whether file exists before uploading it
+                    if(file_exists("upload/" . $_FILES["photo"]["name"])){
+                        echo $_FILES["photo"]["name"] . " is already exists.";
+                    } else{
+                        move_uploaded_file($_FILES["photo"]["tmp_name"], "upload/" . $_FILES["photo"]["name"]);
+                        echo "Your file was uploaded successfully.";
+                        
+                        //delete old record
+                        $secretKey = getenv('IAM_SECRET');
+                        $key = getenv('IAM_KEY');
+
+                        $s3 = S3Client::factory([
+                            'version' => 'latest',
+                            'region'  => 'us-east-2',
+                            'credentials' => array(
+                                'key' => "$key",
+                                'secret'  => "$secretKey"
+                            )]);
+                    
+                        
+                        $oldBUCKET = "islandhoppin";
+                        $oldIMAGE = $_POST["IMAGE"];
+                        $keyname = substr($oldIMAGE, 37);
+                        $result = $s3->deleteObject(array(
+                            'Bucket' => $oldBUCKET,
+                            'Key'    => $keyname
+                        ));
+                        
+                        //set new url of record
+                        $image = "https://dzx3g8o0zzxkn.cloudfront.net/$bucket/$filename";
+                    } 
+                } else{
+                    echo "Error: There was a problem uploading your file. Please try again."; 
+                }
+            } else{
+                die("Error: " . $_FILES["photo"]["error"]);
+            }
+                
+        }
     	if ($table == "newsupdates"){
     		$key = $_POST["id"];
     		$header = pg_escape_string($_POST["Header"]);
-    		$image = $_POST["url"];
     		$today = pg_escape_string($_POST["date"]);
     		$update = pg_escape_string($_POST["update"]);
     		$query = "UPDATE newsupdates SET header = '$header', update = '$update', image = '$image', blank_1 = '$today' WHERE news_id = $key";
@@ -16,7 +85,6 @@ if ($verifyCode == $onPage){
     	if ($table == "customertut"){
     		$key = $_POST["id"];
     		$header = pg_escape_string($_POST["Header"]);
-    		$image = $_POST["url"];
     		$today = pg_escape_string($_POST["date"]);
     		$update = pg_escape_string($_POST["update"]);
     		$query = "UPDATE customertut SET header = '$header', update = '$update', image = '$image', blank_1 = '$today' WHERE news_id = $key";
@@ -45,6 +113,15 @@ if ($verifyCode == $onPage){
     	}
     $dbconn->query($query);
 }
-header('Location: ../Content.php?INTERNAL='.$onPage);
+if ($bucket == "OnDeckNews" Or $bucket == "Testimonials"){
+    $subids = Array
+    (
+        'BUCKET' => $bucket,
+        'FILENAME' => $filename,
+        'CONTENT' => $filetype,
+        'INTERNAL' => $onPage
+    );
+            header("Location: /New/Alter/uploadPhoto.php?".http_build_query($subids));
+} else header('Location: ../Content.php?INTERNAL='.$onPage);
 
 ?>

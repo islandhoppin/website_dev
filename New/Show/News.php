@@ -63,15 +63,17 @@
 								<article id="main">
 									<section>
 									<header><h2>Add News Event</h2></header>
-                                    <form action = "../Alter/submit.php" method = "post">
+                                    <form action = "../Alter/submit.php" method = "post" enctype="multipart/form-data">
         		                        <header><h3>Header</h3></header>
                                         <input type="text" name="Header">
                                         <header style="margin-top:25px;"><h3>Update Text</h3></header>
                                         <textarea type="text" name="update"  rows="6" cols="30"></textarea>
-                                        <header style="margin-top:25px;"><h3>Url</h3></header>
-                                        <input type="text" name="url">
+                                        <header style="margin-top:25px;"><h3>File Upload</h3></header>
+                                        <input type="file" name="photo" id="fileSelect">
+                                        <p><strong>Note:</strong> Only .jpg, .jpeg, .gif, .png formats allowed to a max size of 5 MB.</p>
                                         <br />
                                         <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                        <input type="hidden" name="BUCKET" value="OnDeckNews">
                                         <input type="hidden" name="table" value="newsupdates">
                                         <input type="submit" value="Submit">
                                     </form>
@@ -137,6 +139,8 @@
                                                     <input type="hidden" name="idnum" value=<?php echo $row2['news_id']; ?>>
                                                     <input type="hidden" name="table" value="newsupdates">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                    <input type="hidden" name="BUCKET" value="OnDeckNews">
+                                                    <input type="hidden" name="IMAGE" value="<?php echo $row2['image']; ?>">
                                                   <button type="submit" value="Submit" Style="margin-top:5px; margin-bottom:5px; color:red;">Delete</button>
                                                 </form></td>
                                         </tr>
