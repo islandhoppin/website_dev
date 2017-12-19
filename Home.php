@@ -138,7 +138,7 @@
 							<header>
 								<h3>Check out our video...</h3>
 							</header>
-							<p>Island Hoppin' in style.</p>
+							<p>Introducing Island Hoppin' in style. Now available on YouTube.</p>
 						</article>
 
 						<article>
