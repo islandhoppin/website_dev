@@ -132,6 +132,14 @@
 							</header>
 							<p>Meet Captain Jamie & Chef Susannah, The Best of the Virgin Islands</p>
 						</article>
+						
+						<article>
+							<a href="https://www.youtube.com/watch?v=ihZzK_QAKPc&feature=youtu.be" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/IHOP_video.png" alt="Island Hoppin' Promo Video" /></a>
+							<header>
+								<h3>Check out our video...</h3>
+							</header>
+							<p>Island Hoppin' in style.</p>
+						</article>
 
 						<article>
 							<a href="Experience.php#menu" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Lunch.jpg" alt="Island Hoppin' Grill" /></a>
