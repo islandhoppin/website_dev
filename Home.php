@@ -182,7 +182,7 @@
 						</article>
 
 						<article>
-							<a href="https://youtu.be/PStvnNB12rw"  target="_blank" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/youtube-preview.png" alt="Island Hoppin YouTube" /></a>
+							<a href="https://youtu.be/PStvnNB12rw"  target="_blank" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/youtube-preview.jpg" alt="Island Hoppin YouTube" /></a>
 							<header>
 								<h3>Starring: Island Hoppin'</h3>
 							</header>
@@ -190,7 +190,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#itinerary" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/map.png" alt="Island Hoppin Travel Guide" /></a>
+							<a href="Experience.php#itinerary" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/map.jpg" alt="Island Hoppin Travel Guide" /></a>
 							<header>
 								<h3>Sample Itinerary</h3>
 							</header>
