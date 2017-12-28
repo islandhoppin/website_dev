@@ -126,7 +126,7 @@
 						</article>
 
 						<article>
-							<a href="Crew.html#meet" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Crew/Jamie&Susannah-tall.jpg" alt="Island Hoppin Crew" /></a>
+							<a href="Crew.html#meet" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/Jamie&Susannah-tall.jpg" alt="Island Hoppin Crew" /></a>
 							<header>
 								<h3><a href="Crew.html#meet">Meet the Crew</a></h3>
 							</header>
@@ -142,7 +142,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#menu" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/Lunch.jpg" alt="Island Hoppin' Grill" /></a>
+							<a href="Experience.php#menu" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/Food.jpg" alt="Island Hoppin' Grill" /></a>
 							<header>
 								<h3><a href="Experience.html#menu">Whats Cookin...</a></h3>
 							</header>
@@ -150,7 +150,7 @@
 						</article>
 
 						<article>
-							<a href="Boat.html#dive" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/RMS-Rhone.jpg" alt="Diving on Island Hoppin" /></a>
+							<a href="Boat.html#dive" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/RMS-Rhone.jpg" alt="Diving on Island Hoppin" /></a>
 							<header>
 								<h3><a href="Boat.html#dive">Experience Below</a></h3>
 							</header>
@@ -166,7 +166,7 @@
 						</article>
 
 						<article>
-							<a href="Boat.html#floor" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Boat/floor-plan.jpg" alt="Island Hoppin' Floor Plan" /></a>
+							<a href="Boat.html#floor" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/floor-plan.jpg" alt="Island Hoppin' Floor Plan" /></a>
 							<header>
 								<h3>Check the Deck...</h3>
 							</header>
@@ -174,7 +174,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#explore" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/anegada-flamingo.jpg" alt="Explore on Island Hoppin'" /></a>
+							<a href="Experience.php#explore" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/anegada-flamingo.jpg" alt="Explore on Island Hoppin'" /></a>
 							<header>
 								<h3>Explore the Caribbean</h3>
 							</header>
@@ -190,7 +190,7 @@
 						</article>
 
 						<article>
-							<a href="Experience.php#itinerary" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/map.png" alt="Island Hoppin Travel Guide" /></a>
+							<a href="Experience.php#itinerary" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/map.png" alt="Island Hoppin Travel Guide" /></a>
 							<header>
 								<h3>Sample Itinerary</h3>
 							</header>
