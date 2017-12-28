@@ -170,7 +170,7 @@
 							<header>
 								<h3>Check the Deck...</h3>
 							</header>
-							<p>Island Hoppin' offers 4 luxurious staterooms with bathrooms and much more.</p>
+							<p>Island Hoppin' offers 4 luxurious staterooms and much more.</p>
 						</article>
 
 						<article>
