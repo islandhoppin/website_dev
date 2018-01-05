@@ -78,9 +78,8 @@ if ($verifyCode == $onPage){
     		$today = date("F j, Y");
     		$specialorder = $_POST["special_order"];
     		$show = pg_escape_string($_POST["show"]);
-    		$query = "INSERT INTO specials (special_title, offer, specialorder, show, image, blank_1) VALUES ('$specialTitle', '$offer', '$specialorder', '$show', '$image', '$today')";
+    		$query = "INSERT INTO specials (special_title, offer, special_order, show, image, blank_1) VALUES ('$specialTitle', '$offer', '$specialorder', '$show', '$image', '$today')";
     	}
-    echo $query;
     $dbconn->query($query);
         
     
@@ -95,7 +94,7 @@ if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials
         'CONTENT' => $filetype,
         'INTERNAL' => $onPage
     );
-            header("Location: /New/Alter/uploadPhoto.php?".http_build_query($subids));
+    header("Location: /New/Alter/uploadPhoto.php?".http_build_query($subids));
 } else header('Location: ../Content.php?INTERNAL='.$onPage);
 
 ?>
