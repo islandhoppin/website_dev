@@ -3,9 +3,12 @@
       // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
 	$sqlprice = $dbconn->prepare("Select price_id, season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show From priceSchedule Where show = 'Yes' ORDER BY price_id ASC") ;
 	$sqlfaq = $dbconn->prepare("Select question, answer, faqorder, show From faqList Where show = 'Yes' ORDER BY faqorder ASC") ;
+	$specialnew = $dbconn->prepare("Select special_title, offer, special_order, show, image From specials Where show = 'Yes' ORDER BY special_order ASC LIMIT 3") ; 
       // Execute the query, if there were variables, they could be bound within the brackets
     $sqlprice->execute() ;
     $sqlfaq->execute() ;
+    $specialnew->execute() ;
+    $errorDisplay = '<article id="main" class="special"><header><p>***No Specials are currently offered, please check back soon for new upcoming offers!***</p></header></article>';
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -229,24 +232,20 @@
 							<h2  style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif; margin-bottom: 30px;">Charter Specials</h2>
 						</header>
 						<div class="row" id="specials">
-							<article class="4u 12u(mobile) special">
-								<a  class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Booking/Christmas-special.jpeg" alt="Christmas Special" /></a>
-								<header>
-									<h3>Christmas Special</h3>
-								</header>
-								<p>
-									Rates are currently set to $30,000 for the 2017 Christmas charter.
-								</p>
-							</article>
-							<article class="4u 12u(mobile) special">
-								<a  class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Booking/New-Year.jpg" alt="New Years Special" /></a>
-								<header>
-									<h3>New Years Special</h3>
-								</header>
-								<p>
-									Rates are currently set to $33,000 for the 2017/18 New Years charter.
-								</p>
-							</article>
+							
+							<?php while( $row3 = $specialnew->fetch()) : ?>
+									<article class="4u 12u(mobile) special">
+										<a  class="image featured"> <img src="<?php echo $row3['image']; ?>" alt="<?php echo $row3['special_title']; ?>"/></a>
+										<header>
+											<h3><?php echo $row3['special_title']; ?></h3>
+										</header>
+										<p>
+											<?php echo $row3['offer']; ?>
+										</p>	
+									</article>
+							<?php endwhile ?>
+							<?php if (empty($row3)) { echo $errorDisplay; }?>
+							
 						</div>
 						<hr id="availability"/>
 						<article id="main" class="special">

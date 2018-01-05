@@ -14,11 +14,13 @@ if ($verifyCode == $onPage){
                 $bucket = "OnDeckNews";
             } elseif ($table =="customertut"){
                 $bucket = "Testimonials";
+            } elseif ($table =="specials"){
+                $bucket = "Specials";
             }
         } elseif ($Update == "No"){
             $image = $_POST["IMAGE"];
         }  
-        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials"){
+        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
             // Check if file was uploaded without errors
             if(isset($_FILES["photo"]) && $_FILES["photo"]["error"] == 0){
                 $allowed = array("jpg" => "image/jpg", "jpeg" => "image/jpeg", "gif" => "image/gif", "png" => "image/png");
@@ -111,9 +113,18 @@ if ($verifyCode == $onPage){
     		$show = $_POST["show"];
     		$query = "UPDATE priceSchedule SET season = '$season', twopax = '$twopax', threepax = '$threepax', fourpax = '$fourpax', fivepax = '$fivepax', sixpax = '$sixpax', sevenpax = '$sevenpax', eightpax = '$eightpax', show = '$show' WHERE price_id = $price_id";
     	}
+    	if ($table == "specials"){
+    		$key = $_POST["id"];
+    		$specialTitle = pg_escape_string($_POST["specialTitle"]);
+    		$offer = pg_escape_string($_POST["offer"]);
+    		$today = pg_escape_string($_POST["date"]);
+    		$specialorder = $_POST["specialorder"];
+    		$show = pg_escape_string($_POST["show"]);
+    		$query = "UPDATE specials SET special_title = '$specialTitle', offer = '$offer', special_order = '$specialorder', show = '$show', image = '$image', blank_1 = '$today' WHERE special_id = $key";
+    	}
     $dbconn->query($query);
 }
-if ($bucket == "OnDeckNews" Or $bucket == "Testimonials"){
+if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
     $subids = Array
     (
         'BUCKET' => $bucket,

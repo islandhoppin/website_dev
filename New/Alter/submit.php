@@ -6,7 +6,7 @@ $bucket = $_POST["BUCKET"];
 if ($verifyCode == $onPage){
     $table = $_POST["table"];
     require '../connection.inc.php'; 
-        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials"){
+        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
             // Check if file was uploaded without errors
             if(isset($_FILES["photo"]) && $_FILES["photo"]["error"] == 0){
                 $allowed = array("jpg" => "image/jpg", "jpeg" => "image/jpeg", "gif" => "image/gif", "png" => "image/png");
@@ -72,6 +72,14 @@ if ($verifyCode == $onPage){
     		$show = $_POST["show"];
     		$query = "INSERT INTO priceSchedule (season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show) VALUES ('$season', '$twopax', '$threepax', '$fourpax', '$fivepax', '$sixpax', '$sevenpax', '$eightpax', '$show')";
     	}
+    	if ($table == "specials"){
+    		$specialTitle = pg_escape_string($_POST["specialTitle"]);
+    		$offer = pg_escape_string($_POST["offer"]);
+    		$today = date("F j, Y");
+    		$specialorder = $_POST["specialorder"];
+    		$show = pg_escape_string($_POST["show"]);
+    		$query = "INSERT INTO specials (special_title, offer, specialorder, show, image, blank_1) VALUES ('$specialTitle', '$offer', '$specialorder', '$show', '$image', '$today')";
+    	}
     
     $dbconn->query($query);
         
@@ -79,7 +87,7 @@ if ($verifyCode == $onPage){
 }
 
 
-if ($bucket == "OnDeckNews" Or $bucket == "Testimonials"){
+if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
     $subids = Array
     (
         'BUCKET' => $bucket,

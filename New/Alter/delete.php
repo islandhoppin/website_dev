@@ -15,7 +15,7 @@ if ($verifyCode == $onPage){
     $dbconn->query($query);
 }
 
-if ($bucket == "OnDeckNews" Or $bucket == "Testimonials"){
+if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
     $secretKey = getenv('IAM_SECRET');
     $key = getenv('IAM_KEY');
     
