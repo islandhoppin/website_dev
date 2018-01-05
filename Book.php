@@ -4,10 +4,12 @@
 	$sqlprice = $dbconn->prepare("Select price_id, season, twopax, threepax, fourpax, fivepax, sixpax, sevenpax, eightpax, show From priceSchedule Where show = 'Yes' ORDER BY price_id ASC") ;
 	$sqlfaq = $dbconn->prepare("Select question, answer, faqorder, show From faqList Where show = 'Yes' ORDER BY faqorder ASC") ;
 	$specialnew = $dbconn->prepare("Select special_title, offer, special_order, show, image From specials Where show = 'Yes' ORDER BY special_order ASC LIMIT 3") ; 
+	$specialcount = $dbconn->prepare("Select COUNT(special_id) From specials Where show = 'Yes'") ; 
       // Execute the query, if there were variables, they could be bound within the brackets
     $sqlprice->execute() ;
     $sqlfaq->execute() ;
     $specialnew->execute() ;
+    $specialcount->execute() ;
     $errorDisplay = '<article id="main" class="special"><header><p>***No Specials are currently offered, please check back soon for new upcoming offers!***</p></header></article>';
 ?>
 <!DOCTYPE HTML>
@@ -244,7 +246,10 @@
 										</p>	
 									</article>
 							<?php endwhile ?>
-							<?php if (pg_num_rows($row3) == 0) { echo $errorDisplay; }?>
+							<?php $row4 = $specialcount->fetch() ?>
+							<?php if ($row4[0] == 0) { echo $errorDisplay; }?>
+							
+							
 							
 						</div>
 						<hr id="availability"/>
