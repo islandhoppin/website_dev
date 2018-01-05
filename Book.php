@@ -244,7 +244,7 @@
 										</p>	
 									</article>
 							<?php endwhile ?>
-							<?php if (empty($row3)) { echo $errorDisplay; }?>
+							<?php if (empty($row3 = $specialnew->fetch())) { echo $errorDisplay; }?>
 							
 						</div>
 						<hr id="availability"/>
