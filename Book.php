@@ -244,7 +244,7 @@
 										</p>	
 									</article>
 							<?php endwhile ?>
-							<?php if (empty($row3[0])) { echo $errorDisplay; }?>
+							<?php if (pg_num_rows($row3) == 0) { echo $errorDisplay; }?>
 							
 						</div>
 						<hr id="availability"/>
