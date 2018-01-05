@@ -80,6 +80,10 @@
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
                                                   <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit Price Schedule</button>
                                         </form>
+                                        <form action="/New/Show/Specials.php" method="post" style="text-align: center;">
+                                                    <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
+                                                  <button type="submit" value="Submit" class="button" Style="margin-top:5px; margin-bottom:5px;">Edit Specials</button>
+                                        </form>
 										<br />						
 									</header>	
 								</section>
