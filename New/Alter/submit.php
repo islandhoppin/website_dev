@@ -78,7 +78,7 @@ if ($verifyCode == $onPage){
     		$today = date("F j, Y");
     		$specialorder = $_POST["special_order"];
     		$show = pg_escape_string($_POST["show"]);
-    		$query = "INSERT INTO specials (special_title, offer, special_order, show, image, blank_1) VALUES ('$specialTitle', '$offer', '$specialorder', '$show', '$filename', '$today')";
+    		$query = "INSERT INTO specials (special_title, offer, special_order, show, image, blank_1) VALUES ('$specialTitle', '$offer', '$specialorder', '$show', '$bucket', '$today')";
     	}
     $dbconn->query($query);
         
