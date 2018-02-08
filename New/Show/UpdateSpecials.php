@@ -72,7 +72,7 @@
                                         <header><h3>Offer</h3></header>
                                         <textarea type="text" name="offer"  rows="6" cols="30"><?php echo $offer;?></textarea>
                                         <header style="margin-top:25px;"><h3>Url</h3></header> 
-                                        <input type="text" name="IMAGE" value = "<?php echo $Image;?>">
+                                        <input type="text" name="IMAGE" value = "<?php echo $image;?>">
                                         <header style="margin-top:25px;"><h3>File Upload</h3></header>
                                         <input type="file" name="photo" id="fileSelect">
                                         <p><strong>Note:</strong> Only .jpg, .jpeg, .gif, .png formats allowed to a max size of 5 MB.</p>
