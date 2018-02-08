@@ -132,7 +132,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['offer']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['special_order']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['show']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row2['image']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><a href="<?php echo $row2['image']; ?>" target="_blank"><?php echo $row2['image']; ?></a></a></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row2['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
                                             	<form action="/New/Show/UpdateSpecials.php" method="post">
