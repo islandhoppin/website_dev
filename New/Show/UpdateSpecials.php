@@ -89,7 +89,7 @@
                                           <option value="Yes">Yes</option>
                                         </select>
                                         <header style="margin-top:25px;"><h3>Date</h3></header>
-                                        <input type="text" name="date" value = "<?php echo $date;?>">
+                                        <input type="text" name="date" value = "<?php echo $blank_1;?>">
                                         
                                         <br />
                                         <input type="hidden" name="id" value = "<?php echo $special_id;?>">

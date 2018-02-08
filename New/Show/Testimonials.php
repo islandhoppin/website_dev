@@ -122,7 +122,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['news_id']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['header']; ?></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['update']; ?></td>
-                                            <td border=1 style='border: 1px solid #000000;'><?php echo $row1['image']; ?></td>
+                                            <td border=1 style='border: 1px solid #000000;'><a href="<?php echo $row1['image']; ?>" target="_blank">Click to Preview</a></td>
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
                                             	<form action="/New/Show/UpdateNewTut.php" method="post">
