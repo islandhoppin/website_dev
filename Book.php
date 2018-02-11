@@ -37,7 +37,7 @@
 		<link rel="apple-touch-icon" href="images/favicon.png" />
 		<link rel="shortcut icon" href="images/favicon.png" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	
+
 	</head>
 	<body class="no-sidebar">
 		<div id="page-wrapper">
@@ -82,6 +82,7 @@
 										<li><a href="Experience.php#explore">Points of Interest</a></li>
 										<li><a href="Experience.php#menu">Sample Menu</a></li>
 										<li><a href="Experience.php#testimonials">Testimonials</a></li>
+										<li><a href="Experience.php#customerVideos">Sailor Content</a></li>
 									</ul>
 								</li>
 								<li>

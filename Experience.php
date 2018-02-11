@@ -84,6 +84,7 @@
 										<li><a href="#explore">Points of Interest</a></li>
 										<li><a href="#menu">Sample Menu</a></li>
 										<li><a href="#testimonials">Testimonials</a></li>
+										<li><a href="#customerVideos">Sailor Content</a></li>
 									</ul>
 								</li>
 								<li>
@@ -531,9 +532,9 @@
 								<section  class="carousel">
 									<div class="reel">
 										<article>
-											<a href="https://www.youtube.com/watch?v=oAdEJoYhRUM" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/UserContent/Cathcart-dec-2018.png" alt="Youtube - Cathcart" /></a>
+											<a href="https://www.youtube.com/watch?v=oAdEJoYhRUM" target="_blank" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/UserContent/Cathcart-dec-2018.png" alt="Youtube - Cathcart" /></a>
 											<header>
-												<h3><a href="https://www.youtube.com/watch?v=oAdEJoYhRUM">Cathcart - December, 2017</a></h3>
+												<h3><a href="https://www.youtube.com/watch?v=oAdEJoYhRUM" target="_blank">Cathcart - December, 2017</a></h3>
 											</header>
 											<p>Check out the Cartcart's family trip on Island Hoppin'!</p>
 										</article>
