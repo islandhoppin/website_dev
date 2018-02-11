@@ -520,6 +520,26 @@
 									<?php endwhile ?>
 								</section>
 							</div>
+							<hr />
+							
+							<div>
+								<div id="customerVideos">
+								<!-- Motion Photos -->
+								<header style="text-align:center;">
+									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Posted Content</h2>
+								</header>
+								<section  class="carousel">
+									<div class="reel">
+										<article>
+											<a href="https://www.youtube.com/watch?v=oAdEJoYhRUM" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/UserContent/Cathcart-dec-2018.png" alt="Youtube - Cathcart" /></a>
+											<header>
+												<h3><a href="https://www.youtube.com/watch?v=oAdEJoYhRUM">Cathcart - December, 2017</a></h3>
+											</header>
+											<p>Check out the Cartcart's family trip on Island Hoppin'!</p>
+										</article>
+								</section>
+								</div>
+							</div>
 					</div>
 
 				</div>
