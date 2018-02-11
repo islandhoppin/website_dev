@@ -25,13 +25,9 @@ if ($verifyCode == $onPage){
                 // Verify MYME type of the file
                 if(in_array($filetype, $allowed)){
                     // Check whether file exists before uploading it
-                    if(file_exists("upload/" . $_FILES["photo"]["name"])){
-                        echo $_FILES["photo"]["name"] . " is already exists.";
-                    } else{
                         move_uploaded_file($_FILES["photo"]["tmp_name"], "upload/" . $_FILES["photo"]["name"]);
                         echo "Your file was uploaded successfully.";
                         $image = "https://dzx3g8o0zzxkn.cloudfront.net/$bucket/$filename";
-                    } 
                 } else{
                     echo "Error: There was a problem uploading your file. Please try again."; 
                 }
