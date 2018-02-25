@@ -133,14 +133,14 @@ if ($verifyCode == $onPage){
     		$foodTitle = pg_escape_string($_POST["foodTitle"]);
     		$today = pg_escape_string($_POST["date"]);
     		$show = pg_escape_string($_POST["show"]);
-    		$query = "UPDATE food SET food_title = '$foodTitle', show = '$show', image = '$image', blank_1 = '$today' WHERE special_id = $key";
+    		$query = "UPDATE food SET food_title = '$foodTitle', show = '$show', image = '$image', blank_1 = '$today' WHERE food_id = $key";
     	}
     	if ($table == "customerpic"){
     		$key = $_POST["id"];
     		$picTitle = pg_escape_string($_POST["picTitle"]);
     		$today = pg_escape_string($_POST["date"]);
     		$show = pg_escape_string($_POST["show"]);
-    		$query = "UPDATE customerpic SET pic_title = '$picTitle', show = '$show', image = '$image', blank_1 = '$today' WHERE special_id = $key";
+    		$query = "UPDATE customerpic SET pic_title = '$picTitle', show = '$show', image = '$image', blank_1 = '$today' WHERE pic_id = $key";
     	}
     	if ($table == "customervid"){
     		$key = $_POST["id"];
@@ -148,7 +148,7 @@ if ($verifyCode == $onPage){
     		$vidTitle = pg_escape_string($_POST["vidTitle"]);
     		$today = pg_escape_string($_POST["date"]);
     		$show = pg_escape_string($_POST["show"]);
-    		$query = "UPDATE customervid SET vid_title = '$vidTitle', show = '$show', video_link = '$video_link', image = '$image', blank_1 = '$today' WHERE special_id = $key";
+    		$query = "UPDATE customervid SET vid_title = '$vidTitle', show = '$show', video_link = '$video_link', image = '$image', blank_1 = '$today' WHERE vid_id = $key";
     	}
     $dbconn->query($query);
 }
