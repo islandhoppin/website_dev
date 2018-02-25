@@ -10,7 +10,7 @@
     }
     
     if ($onPage == $verifyCode){
-	    $food_id = $_POST["id"];
+	    $id = $_POST["id"];
 	    $table = $_POST["table"];
 	    $food_title = $_POST["Title"];
 	    $show = $_POST["show"];
