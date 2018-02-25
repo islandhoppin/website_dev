@@ -6,7 +6,7 @@ $bucket = $_POST["BUCKET"];
 if ($verifyCode == $onPage){
     $table = $_POST["table"];
     require '../connection.inc.php'; 
-        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
+        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials" Or $bucket == "Food" Or $bucket == "CustomerPics" Or $bucket == "CustomerVids"){
             // Check if file was uploaded without errors
             if(isset($_FILES["photo"]) && $_FILES["photo"]["error"] == 0){
                 $allowed = array("jpg" => "image/jpg", "jpeg" => "image/jpeg", "gif" => "image/gif", "png" => "image/png");
@@ -76,13 +76,32 @@ if ($verifyCode == $onPage){
     		$show = pg_escape_string($_POST["show"]);
     		$query = "INSERT INTO specials (special_title, offer, special_order, show, image, blank_1) VALUES ('$specialTitle', '$offer', '$specialorder', '$show', '$image', '$today')";
     	}
+    	if ($table == "food"){
+    		$foodTitle = pg_escape_string($_POST["foodTitle"]);
+    		$today = date("F j, Y");
+    		$show = pg_escape_string($_POST["show"]);
+    		$query = "INSERT INTO food (food_title, show, image, blank_1) VALUES ('$foodTitle', '$show', '$image', '$today')";
+    	}
+    	if ($table == "customerpic"){
+    		$picTitle = pg_escape_string($_POST["picTitle"]);
+    		$today = date("F j, Y");
+    		$show = pg_escape_string($_POST["show"]);
+    		$query = "INSERT INTO customerpic (pic_title, show, image, blank_1) VALUES ('$picTitle', '$show', '$image', '$today')";
+    	}
+    	if ($table == "customervid"){
+    	    $video_link = $_POST["videoLink"];
+    		$vidTitle = pg_escape_string($_POST["vidTitle"]);
+    		$today = date("F j, Y");
+    		$show = pg_escape_string($_POST["show"]);
+    		$query = "INSERT INTO customervid (vid_title, show, vid_link, image, blank_1) VALUES ('$vidTitle', '$show', '$video_link', '$image', '$today')";
+    	}
     $dbconn->query($query);
         
     
 }
 
 
-if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
+if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials" Or $bucket == "Food" Or $bucket == "CustomerPics" Or $bucket == "CustomerVids"){
     $subids = Array
     (
         'BUCKET' => $bucket,

@@ -258,8 +258,7 @@
 							<header>
 								<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif;">Availability</h2>
 								<p>
-									We are currently working on setting up an availability calendar on the site. 
-									Please contact your broker for current availability. 
+									To view the current booking availability, please click <a href="https://www.cyabrochure.com/eb/205/pyaX/5323/4//" target="_blank">Here</a>
 								</p>
 							</header>
 						</article>

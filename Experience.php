@@ -2,8 +2,14 @@
 	require 'New/connection.inc.php'; 
       // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
 	$sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut ORDER BY news_id DESC") ; 
+	$sqlfood = $dbconn->prepare("Select food_title, show, image, blank_1 From food WHERE show = 'YES' ORDER BY blank_1 DESC") ; 
+	$sqlcustpics = $dbconn->prepare("Select pic_title, show, image, blank_1 From customerpic WHERE show = 'YES' ORDER BY blank_1 DESC") ; 
+	$sqlcustvids = $dbconn->prepare("Select vid_title, show, video_link, image, blank_1 From customervid show = 'YES' ORDER BY blank_1 DESC") ; 
       // Execute the query, if there were variables, they could be bound within the brackets
     $sqltut->execute() ;
+    $sqlfood->execute() ;
+    $sqlcustpics->execute() ;
+    $sqlcustvids->execute() ;
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -37,6 +43,20 @@
 			;( function( $ ) {
 			
 				$( '.swipebox' ).swipebox();
+			
+			} )( jQuery );
+		</script>
+		<script type="text/javascript">
+			;( function( $ ) {
+			
+				$( '.swipebox1' ).swipebox();
+			
+			} )( jQuery );
+		</script>
+		<script type="text/javascript">
+			;( function( $ ) {
+			
+				$( '.swipebox2' ).swipebox();
 			
 			} )( jQuery );
 		</script>
@@ -504,6 +524,16 @@
 								</ul>
 							</article>
 							</div>
+							<section  class="carousel">
+									<div class="reel">
+									<?php while( $row2 = $sqlfood->fetch()) : ?>
+										<article>
+											<a href="<?php echo $row2['image']; ?>" class="swipebox1" title="<?php echo $row2['food_title']; ?> - Date: <?php echo $row2['blank_1']; ?>">
+												<img class="image featured" style="width:290px; height:auto; margin-top:30px" src="<?php echo $row2['image']; ?>" alt="<?php echo $row2['food_title']; ?>">
+											</a>
+										</article>
+									<?php endwhile ?>
+							</section>
 							<hr />
 							<div id="testimonials">
 								<!-- Motion Photos -->
@@ -531,13 +561,25 @@
 								</header>
 								<section  class="carousel">
 									<div class="reel">
+									<?php while( $row3 = $sqlcustpics->fetch()) : ?>
 										<article>
-											<a href="https://www.youtube.com/watch?v=oAdEJoYhRUM" target="_blank" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/UserContent/Cathcart-dec-2018.png" alt="Youtube - Cathcart" /></a>
-											<header>
-												<h3><a href="https://www.youtube.com/watch?v=oAdEJoYhRUM" target="_blank">Cathcart - December, 2017</a></h3>
-											</header>
-											<p>Check out the Cartcart's family trip on Island Hoppin'!</p>
+											<a href="<?php echo $row3['image']; ?>" class="swipebox2" title="<?php echo $row3['pic_title']; ?> - Date: <?php echo $row3['blank_1']; ?>">
+												<img class="image featured" style="width:290px; height:auto; margin-top:30px" src="<?php echo $row3['image']; ?>" alt="<?php echo $row3['pic_title']; ?>">
+											</a>
 										</article>
+									<?php endwhile ?>
+								</section>
+								<section  class="carousel">
+									<div class="reel">
+									<?php while( $row4 = $sqlcustvids->fetch()) : ?>
+										<article>
+											<a href="<?php echo $row4['video_link']; ?>" target="_blank" class="image featured"><img src="<?php echo $row4['image']; ?>" alt="<?php echo $row4['vid_title']; ?>" /></a>
+											<header>
+												<h3><a href="<?php echo $row4['video_link']; ?>" target="_blank"><?php echo $row4['vid_title']; ?> - Date: <?php echo $row4['blank_1']; ?></a></h3>
+											</header>
+											</a>
+										</article>
+									<?php endwhile ?>
 								</section>
 								</div>
 							</div>

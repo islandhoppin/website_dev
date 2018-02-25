@@ -20,7 +20,7 @@ if ($verifyCode == $onPage){
         } elseif ($Update == "No"){
             $image = $_POST["IMAGE"];
         }  
-        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
+        if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials" Or $bucket == "Food" Or $bucket == "CustomerPics" Or $bucket == "CustomerVids"){
             // Check if file was uploaded without errors
             if(isset($_FILES["photo"]) && $_FILES["photo"]["error"] == 0){
                 $allowed = array("jpg" => "image/jpg", "jpeg" => "image/jpeg", "gif" => "image/gif", "png" => "image/png");
@@ -122,9 +122,31 @@ if ($verifyCode == $onPage){
     		$show = pg_escape_string($_POST["show"]);
     		$query = "UPDATE specials SET special_title = '$specialTitle', offer = '$offer', special_order = '$specialorder', show = '$show', image = '$image', blank_1 = '$today' WHERE special_id = $key";
     	}
+    	if ($table == "food"){
+    		$key = $_POST["id"];
+    		$foodTitle = pg_escape_string($_POST["foodTitle"]);
+    		$today = pg_escape_string($_POST["date"]);
+    		$show = pg_escape_string($_POST["show"]);
+    		$query = "UPDATE food SET food_title = '$foodTitle', show = '$show', image = '$image', blank_1 = '$today' WHERE special_id = $key";
+    	}
+    	if ($table == "customerpic"){
+    		$key = $_POST["id"];
+    		$picTitle = pg_escape_string($_POST["picTitle"]);
+    		$today = pg_escape_string($_POST["date"]);
+    		$show = pg_escape_string($_POST["show"]);
+    		$query = "UPDATE customerpic SET pic_title = '$picTitle', show = '$show', image = '$image', blank_1 = '$today' WHERE special_id = $key";
+    	}
+    	if ($table == "customervid"){
+    		$key = $_POST["id"];
+    		$video_link = $_POST["videoLink"];
+    		$vidTitle = pg_escape_string($_POST["vidTitle"]);
+    		$today = pg_escape_string($_POST["date"]);
+    		$show = pg_escape_string($_POST["show"]);
+    		$query = "UPDATE customervid SET vid_title = '$vidTitle', show = '$show', video_link = '$video_link', image = '$image', blank_1 = '$today' WHERE special_id = $key";
+    	}
     $dbconn->query($query);
 }
-if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials"){
+if ($bucket == "OnDeckNews" Or $bucket == "Testimonials" Or $bucket == "Specials" Or $bucket == "Food" Or $bucket == "CustomerPics" Or $bucket == "CustomerVids"){
     $subids = Array
     (
         'BUCKET' => $bucket,
