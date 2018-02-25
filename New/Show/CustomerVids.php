@@ -109,7 +109,7 @@
 				                    <table cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
                                     <thead>
                                         <tr cellpadding='3' border=1 style='border-collapse:collapse;width:100%;border: 1px solid #000000;'>
-                                            <th border=1 style='border: 1px solid #000000;'>Pic ID</th>
+                                            <th border=1 style='border: 1px solid #000000;'>Vid ID</th>
                                             <th border=1 style='border: 1px solid #000000;'>Title</th>
                                             <th border=1 style='border: 1px solid #000000;'>Url</th>
                                             <th border=1 style='border: 1px solid #000000;'>Youtube Url</th>

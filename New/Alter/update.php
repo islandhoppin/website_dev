@@ -144,7 +144,7 @@ if ($verifyCode == $onPage){
     	}
     	if ($table == "customervid"){
     		$key = $_POST["id"];
-    		$video_link = $_POST["videoLink"];
+    		$video_link = $_POST["video_link"];
     		$vidTitle = pg_escape_string($_POST["vidTitle"]);
     		$today = pg_escape_string($_POST["date"]);
     		$show = pg_escape_string($_POST["show"]);
