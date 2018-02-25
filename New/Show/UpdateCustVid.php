@@ -69,7 +69,7 @@
         		                        <header><h3>Video Title</h3></header>
                                         <input type="text" name="vidTitle" value = "<?php echo $vid_title;?>">
                                         <header style="margin-top:25px;"><h3>Youtube Link</h3></header> 
-                                        <input type="text" name="$video_link" value = "<?php echo $video_link;?>">
+                                        <input type="text" name="video_link" value = "<?php echo $video_link;?>">
                                         <header style="margin-top:25px;"><h3>Url</h3></header> 
                                         <input type="text" name="IMAGE" value = "<?php echo $image;?>">
                                         <header style="margin-top:25px;"><h3>File Upload</h3></header>
