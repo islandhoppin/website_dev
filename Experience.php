@@ -4,7 +4,7 @@
 	$sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut ORDER BY news_id DESC") ; 
 	$sqlfood = $dbconn->prepare("Select food_title, show, image, blank_1 From food WHERE show = 'YES' ORDER BY blank_1 DESC") ; 
 	$sqlcustpics = $dbconn->prepare("Select pic_title, show, image, blank_1 From customerpic WHERE show = 'YES' ORDER BY blank_1 DESC") ; 
-	$sqlcustvids = $dbconn->prepare("Select vid_title, show, video_link, image, blank_1 From customervid show = 'YES' ORDER BY blank_1 DESC") ; 
+	$sqlcustvids = $dbconn->prepare("Select vid_title, show, vid_link, image, blank_1 From customervid show = 'YES' ORDER BY blank_1 DESC") ; 
       // Execute the query, if there were variables, they could be bound within the brackets
     $sqltut->execute() ;
     $sqlfood->execute() ;
