@@ -127,7 +127,7 @@
                                             <td border=1 style='border: 1px solid #000000;'><?php echo $row1['blank_1']; ?></td>
                                             <td border=1 style='border: 1px solid #000000; text-align:center;'>
                                             	<form action="/New/Show/UpdateFood.php" method="post">
-                                                    <input type="hidden" name="id" value=<?php echo $row1['food_id'];?>>
+                                                    <input type="hidden" name="id" value="<?php echo $row1['food_id'];?>">
                                                     <input type="hidden" name="table" value="food">
                                                     <input type="hidden" name="Title" value="<?php echo $row1['food_title']; ?>">
                                                     <input type="hidden" name="Image" value="<?php echo $row1['image']; ?>">
