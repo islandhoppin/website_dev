@@ -540,7 +540,6 @@
 								<header style="text-align:center;">
 									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Testimonials</h2>
 								</header>
-								<hr />
 								<section  class="carousel">
 									<div class="reel">
 									<?php while( $row1 = $sqltut->fetch()) : ?>
