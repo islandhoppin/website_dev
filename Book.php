@@ -238,7 +238,7 @@
 							
 							<?php while( $row3 = $specialnew->fetch()) : ?>
 									<article class="4u 12u(mobile) special">
-										<a  class="image featured" style="width:250px;"> <img src="<?php echo $row3['image']; ?>" alt="<?php echo $row3['special_title']; ?>"/></a>
+										<a  class="image featured" style="width:350px;"> <img src="<?php echo $row3['image']; ?>" alt="<?php echo $row3['special_title']; ?>"/></a>
 										<header>
 											<h3><?php echo $row3['special_title']; ?></h3>
 										</header>
