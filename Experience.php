@@ -332,7 +332,7 @@
 										<div class="8u">
 											<h4>The Soggy Dollar Bar</h4>
 											<p>
-												Located on Jost Van Dyke, B.V.I (White Bay); The Soggy Dollar Bars offers a unique experience of 
+												Located on Jost Van Dyke, B.V.I (White Bay); The Soggy Dollar Bars offers a unique beach bar experience.
 											</p>
 										</div>
 									</div>
@@ -540,6 +540,7 @@
 								<header style="text-align:center;">
 									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Testimonials</h2>
 								</header>
+								<hr />
 								<section  class="carousel">
 									<div class="reel">
 									<?php while( $row1 = $sqltut->fetch()) : ?>
@@ -550,6 +551,7 @@
 										</article>
 									<?php endwhile ?>
 								</section>
+								<h3 style="text-align:center;">Click to enlarge photos.</h3>
 							</div>
 							<hr />
 							

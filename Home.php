@@ -149,7 +149,7 @@
 							</header>
 							<p>Check out the fine culinary skills aboard.</p>
 						</article>
-
+						
 						<article>
 							<a href="Boat.html#dive" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/RMS-Rhone.jpg" alt="Diving on Island Hoppin" /></a>
 							<header>
@@ -180,6 +180,14 @@
 								<h3>Explore the Caribbean</h3>
 							</header>
 							<p>Explore what the world has to offer aboard Island Hoppin'.</p>
+						</article>
+						
+						<article>
+							<a href="Experience.php#menu" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/water_bottle.png" alt="Island Hoppin' Bottle" /></a>
+							<header>
+								<h3><a href="Experience.html#menu">Hoppin' Swag</a></h3>
+							</header>
+							<p>Guests receive our limited edition water bottle.</p>
 						</article>
 
 						<article>
