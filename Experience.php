@@ -557,9 +557,8 @@
 								<div id="customerVideos">
 								<!-- Motion Photos -->
 								<header style="text-align:center;">
-									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Posted Content</h2>
+									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Posted Photos</h2>
 								</header>
-								<h3>Sailor Photos</h3>
 								<section  class="carousel">
 									<div class="reel">
 									<?php while( $row3 = $sqlcustpics->fetch()) : ?>
@@ -572,7 +571,9 @@
 								</section>
 								<h3 style="text-align:center;">Click to enlarge photos.</h3>
 								<hr />
-								<h3>Sailor Videos</h3>
+								<header style="text-align:center;">
+									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Posted Videos</h2>
+								</header>
 								<section  class="carousel">
 									<div class="reel">
 									<?php while( $row4 = $sqlcustvids->fetch()) : ?>
