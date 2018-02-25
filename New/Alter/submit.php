@@ -93,7 +93,7 @@ if ($verifyCode == $onPage){
     		$vidTitle = pg_escape_string($_POST["vidTitle"]);
     		$today = date("F j, Y");
     		$show = pg_escape_string($_POST["show"]);
-    		$query = "INSERT INTO customervid (vid_title, show, vid_link, image, blank_1) VALUES ('$vidTitle', '$show', '$video_link', '$image', '$today')";
+    		$query = "INSERT INTO customervid (vid_title, show, video_link, image, blank_1) VALUES ('$vidTitle', '$show', '$video_link', '$image', '$today')";
     	}
     $dbconn->query($query);
         
