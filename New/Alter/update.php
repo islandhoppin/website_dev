@@ -16,6 +16,12 @@ if ($verifyCode == $onPage){
                 $bucket = "Testimonials";
             } elseif ($table =="specials"){
                 $bucket = "Specials";
+            } elseif ($table =="food"){
+                $bucket = "Food";
+            } elseif ($table =="customerpic"){
+                $bucket = "CustomerPics";
+            } elseif ($table =="customervid"){
+                $bucket = "CustomerVids";
             }
         } elseif ($Update == "No"){
             $image = $_POST["IMAGE"];

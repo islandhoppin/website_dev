@@ -559,7 +559,7 @@
 								<header style="text-align:center;">
 									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Posted Content</h2>
 								</header>
-								<h2>Sailor Photos</h2>
+								<h3>Sailor Photos</h3>
 								<section  class="carousel">
 									<div class="reel">
 									<?php while( $row3 = $sqlcustpics->fetch()) : ?>
@@ -570,8 +570,9 @@
 										</article>
 									<?php endwhile ?>
 								</section>
+								<h3 style="text-align:center;">Click to enlarge photos.</h3>
 								<hr />
-								<h2>Sailor Videos</h2>
+								<h3>Sailor Videos</h3>
 								<section  class="carousel">
 									<div class="reel">
 									<?php while( $row4 = $sqlcustvids->fetch()) : ?>
