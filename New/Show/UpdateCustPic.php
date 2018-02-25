@@ -86,7 +86,7 @@
                                         <input type="text" name="date" value = "<?php echo $blank_1;?>">
                                         
                                         <br />
-                                        <input type="hidden" name="id" value = "<?php echo $id;?>">
+                                        <input type="hidden" name="id" value = "<?php echo $pic_id;?>">
                                         <input type="hidden" name="table" value = "<?php echo $table;?>">
                                         <input type="hidden" name="INTERNAL" value = "<?php echo $verifyCode;?>">
                                         <input type="submit" value="Submit">

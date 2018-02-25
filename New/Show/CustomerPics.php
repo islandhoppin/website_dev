@@ -137,7 +137,7 @@
                                                   <button type="submit" value="Submit" Style="margin-top:5px;">Edit</button>
                                                 </form>
                                             	<form action="../Alter/delete.php" method="post">
-                                                    <input type="hidden" name="id" value="pic_id">
+                                                    <input type="hidden" name="pic_id" value="pic_id">
                                                     <input type="hidden" name="idnum" value="<?php echo $row1['pic_id']; ?>">
                                                     <input type="hidden" name="table" value="customerpic">
                                                     <input type="hidden" name="INTERNAL" value="<?php echo $verifyCode;?>">
