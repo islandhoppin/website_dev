@@ -2,9 +2,9 @@
 	require 'New/connection.inc.php'; 
       // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
 	$sqltut = $dbconn->prepare("Select news_id, header, update, image, blank_1 From customertut ORDER BY news_id DESC") ; 
-	$sqlfood = $dbconn->prepare("Select food_title, show, image, blank_1 From food WHERE show = 'YES' ORDER BY blank_1 DESC") ; 
-	$sqlcustpics = $dbconn->prepare("Select pic_title, show, image, blank_1 From customerpic WHERE show = 'YES' ORDER BY blank_1 DESC") ; 
-	$sqlcustvids = $dbconn->prepare("Select vid_title, show, vid_link, image, blank_1 From customervid show = 'YES' ORDER BY blank_1 DESC") ; 
+	$sqlfood = $dbconn->prepare("Select food_title, show, image, blank_1 From food WHERE show = 'Yes' ORDER BY blank_1 DESC") ; 
+	$sqlcustpics = $dbconn->prepare("Select pic_title, show, image, blank_1 From customerpic WHERE show = 'Yes' ORDER BY blank_1 DESC") ; 
+	$sqlcustvids = $dbconn->prepare("Select vid_title, show, vid_link, image, blank_1 From customervid WHERE show = 'Yes' ORDER BY blank_1 DESC") ; 
       // Execute the query, if there were variables, they could be bound within the brackets
     $sqltut->execute() ;
     $sqlfood->execute() ;
@@ -559,6 +559,7 @@
 								<header style="text-align:center;">
 									<h2 style="font-family:'Shadows Into Light', 'Source Sans Pro', sans-serif">Sailor Posted Content</h2>
 								</header>
+								<h2>Sailor Photos</h2>
 								<section  class="carousel">
 									<div class="reel">
 									<?php while( $row3 = $sqlcustpics->fetch()) : ?>
@@ -569,6 +570,8 @@
 										</article>
 									<?php endwhile ?>
 								</section>
+								<hr />
+								<h2>Sailor Videos</h2>
 								<section  class="carousel">
 									<div class="reel">
 									<?php while( $row4 = $sqlcustvids->fetch()) : ?>
