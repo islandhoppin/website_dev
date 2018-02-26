@@ -11,7 +11,7 @@
     if ($onPage == $verifyCode){
         require '../connection.inc.php'; 
         // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
-    	$sqlcustpics = $dbconn->prepare("Select pic_id, pic_title, show, image, blank_1 From customerpic ORDER BY blank_1 ASC") ; 
+    	$sqlcustpics = $dbconn->prepare("Select pic_id, pic_title, show, image, blank_1 From customerpic ORDER BY pic_id ASC") ; 
     	// Execute the query, if there were variables, they could be bound within the brackets
     	$sqlcustpics->execute() ;
     }
