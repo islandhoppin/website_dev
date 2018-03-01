@@ -178,8 +178,9 @@
 								</header>
 								<p>
 									<b>Fees - </b>All fees are included in the price table above. (except Captain Only Charters) 
-									<br /><b>Commissions - </b>The Travel Agency charges a standard 15% commission.
-									<br /><b>Tips - </b>A standard 15-20% for crewed charters is not included, but strongly recommended! (They work for you!)
+									<br /><b>Commissions - </b>The Travel Agency charges a standard 15% commission. This is already included in the posted rates.
+									<br /><b>Tips - </b>A standard 15-20% for crewed charters is not included, but strongly recommended! (They work for you - 24 hours a day!) 
+
 								</p>
 							</section>
 							<hr style="margin-top:-50px; margin-bottom:100px" />
