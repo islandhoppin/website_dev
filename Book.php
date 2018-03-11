@@ -37,7 +37,9 @@
 		<link rel="apple-touch-icon" href="images/favicon.png" />
 		<link rel="shortcut icon" href="images/favicon.png" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-
+		<meta name="description" content="Learn how to book your charter aboard ISLAND HOPPIN'. We offer special rates for children, holidays, and different packages to suit all your need while you experience the best the Virgin Islands has to offer!" />
+		<meta name="robots" content="Learn how to book your charter aboard ISLAND HOPPIN'. We offer special rates for children, holidays, and different packages to suit all your need while you experience the best the Virgin Islands has to offer!" />
+		<meta name="googlebot" content="Learn how to book your charter aboard ISLAND HOPPIN'. We offer special rates for children, holidays, and different packages to suit all your need while you experience the best the Virgin Islands has to offer!" />
 	</head>
 	<body class="no-sidebar">
 		<div id="page-wrapper">

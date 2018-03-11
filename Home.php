@@ -38,6 +38,9 @@
 			
 			} )( jQuery );
 		</script>
+		<meta name="description" content="ISLAND HOPPIN' is 2018 Lagoon 520 offered as a crewed charter service. Join us in sailing around the beautiful British Virgin Islands in luxury!" />
+		<meta name="robots" content="ISLAND HOPPIN' is 2018 Lagoon 520 offered as a crewed charter service. Join us in sailing around the beautiful British Virgin Islands in luxury!" />
+		<meta name="googlebot" content="ISLAND HOPPIN' is 2018 Lagoon 520 offered as a crewed charter service. Join us in sailing around the beautiful British Virgin Islands in luxury!" />
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
