@@ -147,7 +147,7 @@
                                         <?php endwhile ?>
                                     </tbody>
                                     </table>
-									<p style="text-align: center;">***All prices are in USD***</p>
+									<p style="text-align: center;">Rates are subject to change, please contact your broker/clearing house for the most current rates.<br /> ***All prices are in USD***</p>
 							</section>
 							<hr style="margin-top:-50px; margin-bottom:100px" />
 							<header>
@@ -336,7 +336,7 @@
 								<!-- Copyright -->
 									<div class="copyright">
 										<ul class="menu">
-											<li>&copy; Island Hoppin' 2017. All rights reserved.</li>
+											<li>&copy; Island Hoppin' 2018. All rights reserved.</li>
 										</ul>
 									</div>
 							</div>

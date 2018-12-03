@@ -141,7 +141,7 @@
 									<img class="image featured" src="https://dzx3g8o0zzxkn.cloudfront.net/Experience/map.png" alt="BVI Map" />
 									<p>
 										This is your special trip, and you should be able to pick where you want to go. So our crew will work with you to 
-										design your itinerary to fit all the wonderful places to see
+										design your itinerary to fit all the wonderful places to see!
 									</p>
 									<section>
 										<header>
@@ -630,7 +630,7 @@
 								<!-- Copyright -->
 									<div class="copyright">
 										<ul class="menu">
-											<li>&copy; Island Hoppin' 2017. All rights reserved.</li>
+											<li>&copy; Island Hoppin' 2018. All rights reserved.</li>
 										</ul>
 									</div>
 							</div>
