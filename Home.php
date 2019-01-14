@@ -138,11 +138,11 @@
 						</article>
 						
 						<article>
-							<a href="https://www.youtube.com/watch?v=ihZzK_QAKPc&feature=youtu.be" target="_blank" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/IHOP_video.jpg" alt="Island Hoppin' Promo Video" /></a>
+							<a href="https://www.youtube.com/watch?v=3otdFTyUaQM" target="_blank" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/rsz_best_in_class_promo.png" alt="Island Hoppin' Wins" /></a>
 							<header>
-								<h3>Check out our video...</h3>
+								<h3>Best In Class...</h3>
 							</header>
-							<p>Introducing Island Hoppin' in style. Now available on YouTube.</p>
+							<p>Island Hoppin was awarded Best In Class Yacht - 2018 BVI Boat Show.</p>
 						</article>
 
 						<article>
@@ -183,6 +183,14 @@
 								<h3>Explore the Caribbean</h3>
 							</header>
 							<p>Explore what the world has to offer aboard Island Hoppin'.</p>
+						</article>
+						
+						<article>
+							<a href="https://www.youtube.com/watch?v=ihZzK_QAKPc&feature=youtu.be" target="_blank" class="image featured"><img src="https://dzx3g8o0zzxkn.cloudfront.net/General/IHOP_video.jpg" alt="Island Hoppin' Promo Video" /></a>
+							<header>
+								<h3>Check out our video...</h3>
+							</header>
+							<p>Introducing Island Hoppin' in style. Now available on YouTube.</p>
 						</article>
 						
 						<article>
